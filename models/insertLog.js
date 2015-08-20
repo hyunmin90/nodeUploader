@@ -129,7 +129,7 @@ var testRecursive = function(path)
   
   var uuid = (path[counter].split("-"))[0];
 
-  LogHistory.findOne({uuid:uuid,fileName: path[counter],logInserted:false}, function(err,obj) { console.log(obj); });
+  //LogHistory.findOne({uuid:uuid,fileName: path[counter],logInserted:false}, function(err,obj) { console.log(obj); });
   
 
   lr = new LineByLineReader("./public/uploadedLog/"+path[counter]);
