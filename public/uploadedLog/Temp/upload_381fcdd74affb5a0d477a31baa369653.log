@@ -1,0 +1,1891 @@
+2015-08-20 00:07:24(pid=16840,tid=27571) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 00:07:24(pid=16840,tid=27571) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 12:07
+2015-08-20 00:07:24(pid=16840,tid=27571) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 00:07:24(pid=16840,tid=27571) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 12:07
+2015-08-20 00:07:24(pid=16840,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.session.connect (D) : [connect] current channel. Channel.isConnected() = Channel is null
+2015-08-20 00:07:25(pid=16840,tid=27581) : Legy (D) : lookUpFromOS address=ga2k-rc2.line.naver.jp/203.104.131.22 elapsed=8
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 200000, isWifi=true
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.heartbeat (D) : change pingInterval{cachedValue=200000(msec), cachedTime00:07.25)
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.heartbeat (D) : change pingFaileCount{cachedValue=3(msec), cachedTime00:07.25)
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy (D) : setReadTimeoutHandler(pingTimeout). timeout=240
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.session.connect (D) : [connect info] ChannelFutureListener#operationComplete. done=true, success=true, time=133, canceled=false
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.session.connect (D) : [connect(result = true)]LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.session.connect (D) : [connect start]spdy://ga2k-rc2.line.naver.jp:443obj-@190e5eb1 : currentThread = 27577
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.session (D) : setSessionStatusChanged oldSessionStatus = Init, sessionStatus = Connected
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.heartbeat (D) : #### checkConnection - checkList=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1], LegyConnectionType [protocol:spdy] [host:ga2x-rc2.line.naver.jp] [port:443] [ssl:false] [priority:2][secureType:Enc][connectivityScore:1]]
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.encryption (D) : expired secretKey
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.profile (D) : id='/NP5(970878870)' time='1439996845652' elapsedTime='182' 'onStart'
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.request.spdyReqMgr (D) : addRequest. streamId=1
+spdy://ga2k-rc2.line.naver.jp:443obj-@190e5eb1
+    reqeustMap. size=0
+
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.encryption (D) : #### legySessionEncryptionKey = {0x8f, 0x56, 0x0b, 0x33, 0x2e, 0xcc, 0xab, 0xde, 0x88, 0xb6, 0xe3, 0xef, 0xb8, 0x41, 0x65, 0x61}
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDM5OTk2ODQ1NDQwCg==..GTr6E8/dLKYu/Z8SeoLaCy/pVG0= 
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDM5OTk2ODQ1NDQwCg==..GTr6E8/dLKYu/Z8SeoLaCy/pVG0= 
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.encryption (D) : #### encrypt header=X-Line-Access value=u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDM5OTk2ODQ1NDQwCg==..GTr6E8/dLKYu/Z8SeoLaCy/pVG0=
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] LegySpdySynStreamFrame [
+ * spdySynStreamFrame=lby(last: false; unidirectional: false; deflateEnd: true)
+--> Stream-ID = 1
+--> Priority = 0
+--> Headers:
+    version: HTTP/1.1
+    method: POST
+    scheme: http
+    host: ga2k-rc2.line.naver.jp
+    url: /NP5
+    x-le: 7
+    x-la: ANDROID_RC	5.3.1	Android OS	5.1.1
+    x-lcs: 0004hk4U3zVXKaDebdNy7z+jGW7Hp2loo3piD1lbv6IJOEtrZKQsGZu5R2LuFNtwa4vnOOMFf1p7x45YODMJiLL7AN6Ub2Xwb8W6fTF/D4Ww00qjkQhrnCy/Pgo9evU1Py7YbQb7mdHR2WrXqPy+J7ee6gpuHjjamQKfYI707iWw+KbKF48vg5QkJh1qBIzf/K1nAPasi6AgUDYwKqrn5ZVBQI1T2vSbmyukwr2s885V+UPYrPZwzCGot6X8Ov4EYG8wW21UY+RZycuyRqABQ/JLUGDB2T0zKHmdtpv2X7Kq8QYR7Xul1sjUq+omOZXD1Ix0acjyh7Umfi97qcAgXQBS6A==
+    content-type: application/x-thrift
+    x-lal: ko_KR
+    x-lap: 1
+    x-lpv: 1
+    user-agent: Line/5.3.1
+    accept: application/x-thrift
+    x-lhm: POST
+    content-length: 26
+ * spdyDataFrame=lbo(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 148]
+2015-08-20 00:07:25(pid=16840,tid=27577) : Legy.request (D) : ### SpdyFrameEncoder - resetDeflate
+2015-08-20 00:07:29(pid=16840,tid=27597) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbv
+--> 4:70 (persist value: true; persisted: false)
+--> 10001:30 (persist value: true; persisted: false)
+--> 10002:3 (persist value: true; persisted: false)
+--> 10003:3600 (persist value: true; persisted: false)
+--> 10005:1439996846 (persist value: true; persisted: false)
+--> 10006:452 (persist value: true; persisted: false)
+2015-08-20 00:07:29(pid=16840,tid=27597) : Legy.response.stream (D) : receive SynReplyFrame. [streamId=1, last=false]
+2015-08-20 00:07:29(pid=16840,tid=27597) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbx(last: false; deflateEnd: false)
+--> Stream-ID = 1
+--> Headers:
+    content-length: 0
+    status: 200
+    version: HTTP/1.1
+    x-lc: 204
+    x-lcr: 193
+    x-le: 7
+2015-08-20 00:07:29(pid=16840,tid=27597) : Legy.request.spdyReqMgr (D) : receiveSynReply streamId=1 responseCode=200 status=OK headerFields={x-le=7, content-length=0, x-lcr=193, status=200, x-lc=204, version=HTTP/1.1}
+2015-08-20 00:07:29(pid=16840,tid=27597) : Legy.response.stream (D) : receive DataFrame.     [streamId=1, last=true]
+2015-08-20 00:07:29(pid=16840,tid=27597) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbo(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 36
+2015-08-20 00:07:29(pid=16840,tid=27597) : Legy.request.spdyReqMgr (D) : receiveDataFrame. streamId=1, last=true, size=36
+2015-08-20 00:07:29(pid=16840,tid=27597) : Legy.request.spdyReqMgr (D) : isFirstDataFrame=true
+2015-08-20 00:07:29(pid=16840,tid=27597) : Legy (D) : receiveDataFrame : sessionKey=Gt+33Q
+2015-08-20 00:07:29(pid=16840,tid=27597) : Legy.request.spdyReqMgr (D) : fireComplete. streamId=1, requestMap = {1=dls@2a4d9f70}
+spdy://ga2k-rc2.line.naver.jp:443obj-@190e5eb1
+    reqeustMap. size=1
+        [streamId=1, status=200, uri=/NP5]
+
+2015-08-20 00:07:29(pid=16840,tid=27597) : Legy.request.spdyReqMgr (D) : streamId=1 responseCode=200 status=OK isFirstDataFrame=true
+2015-08-20 00:07:29(pid=16840,tid=27597) : Legy.profile (D) : id='/NP5(970878870)' time='1439996849652' elapsedTime='4182' 'onReceiveComplete'
+2015-08-20 00:07:30(pid=16840,tid=27584) : Legy.session.connect (D) : LegySpdyPortScanner : start scan
+2015-08-20 00:07:30(pid=16840,tid=27581) : Legy (D) : lookUpFromOS address=ga2k-rc2.line.naver.jp/203.104.131.22 elapsed=1
+2015-08-20 00:07:30(pid=16840,tid=27584) : Legy.session.connect (D) : LegySpdyPortScanner : port connected : true LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 00:07:30(pid=16840,tid=27584) : Legy.session.connect (D) : LegySpdyPortScanner : end scan scannedConnectionType : LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 00:11:32(pid=16840,tid=27596) : Legy (D) : #### readTimeout timoutMillis = 240000, currentTime = 1439997092056, lastReadTime = 1439996849638
+2015-08-20 00:11:32(pid=16840,tid=27596) : Legy.exception (D) : LegyLoggingHandler.exceptionCaught
+lds
+	at ldt.<clinit>(SourceFile:86)
+	at dmb.a(SourceFile:447)
+	at kyi.a(SourceFile:207)
+	at dhx.a(SourceFile:186)
+	at dhu.f(SourceFile:325)
+	at dhy.a(SourceFile:183)
+	at die.b(SourceFile:177)
+	at jp.naver.line.android.util.ag.run(SourceFile:314)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at jp.naver.line.android.util.ad.run(SourceFile:229)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at jp.naver.line.android.util.ad.run(SourceFile:229)
+	at java.lang.Thread.run(Thread.java:818)
+
+2015-08-20 00:11:32(pid=16840,tid=27596) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-rc2.line.naver.jp:443obj-@190e5eb1
+    reqeustMap. size=0
+
+2015-08-20 00:11:32(pid=16840,tid=27596) : Legy.session.close (D) : [close start]spdy://ga2k-rc2.line.naver.jp:443obj-@190e5eb1
+2015-08-20 00:11:32(pid=16840,tid=27596) : Legy.session (D) : setSessionStatusChanged oldSessionStatus = Connected, sessionStatus = Closed
+2015-08-20 00:11:32(pid=16840,tid=27596) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-rc2.line.naver.jp:443obj-@190e5eb1
+    reqeustMap. size=0
+
+2015-08-20 00:11:32(pid=16840,tid=27596) : Legy.session.close (D) : [close info] start close channel. spdy://ga2k-rc2.line.naver.jp:443obj-@190e5eb1
+2015-08-20 00:11:32(pid=16840,tid=27597) : Legy (D) : LegySpdyChannelHandler#channelDisconnected(ctx=org.jboss.netty.channel.al@1d0e407a, e=[id: 0x13e810ca, /192.168.219.105:44183 :> ga2k-rc2.line.naver.jp/203.104.131.22:443] DISCONNECTED)
+2015-08-20 00:11:32(pid=16840,tid=27597) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-rc2.line.naver.jp:443obj-@190e5eb1
+    reqeustMap. size=0
+
+2015-08-20 00:11:32(pid=16840,tid=27596) : Legy.session.close (D) : [close end]spdy://ga2k-rc2.line.naver.jp:443obj-@190e5eb1
+2015-08-20 00:11:32(pid=16840,tid=27596) : Legy.session.close (D) : [connected sessions count] 0
+2015-08-20 00:34:25(pid=20915,tid=27696) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 00:34:25(pid=20915,tid=27696) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 12:34
+2015-08-20 00:34:25(pid=20915,tid=27696) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 00:34:25(pid=20915,tid=27696) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 12:34
+2015-08-20 00:34:25(pid=20915,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 00:34:32(pid=21689,tid=27806) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 00:34:32(pid=21689,tid=27806) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 12:34
+2015-08-20 00:34:32(pid=21689,tid=27806) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 00:34:32(pid=21689,tid=27806) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 12:34
+2015-08-20 00:34:32(pid=21689,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 00:44:23(pid=23488,tid=27941) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 00:44:23(pid=23488,tid=27941) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 12:44
+2015-08-20 00:44:23(pid=23488,tid=27941) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 00:44:23(pid=23488,tid=27941) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 12:44
+2015-08-20 00:44:23(pid=23488,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 00:44:33(pid=24410,tid=28056) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 00:44:33(pid=24410,tid=28056) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 12:44
+2015-08-20 00:44:33(pid=24410,tid=28056) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 00:44:33(pid=24410,tid=28056) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 12:44
+2015-08-20 00:44:34(pid=24410,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 00:54:17(pid=26302,tid=28176) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 00:54:17(pid=26302,tid=28176) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 12:54
+2015-08-20 00:54:17(pid=26302,tid=28176) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 00:54:17(pid=26302,tid=28176) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 12:54
+2015-08-20 00:54:17(pid=26302,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 00:54:22(pid=27065,tid=28286) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 00:54:22(pid=27065,tid=28286) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 12:54
+2015-08-20 00:54:22(pid=27065,tid=28286) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 00:54:22(pid=27065,tid=28286) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 12:54
+2015-08-20 00:54:22(pid=27065,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 01:04:23(pid=28990,tid=28406) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 01:04:23(pid=28990,tid=28406) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 1:04
+2015-08-20 01:04:23(pid=28990,tid=28406) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 01:04:23(pid=28990,tid=28406) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 1:04
+2015-08-20 01:04:23(pid=28990,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 01:04:30(pid=29775,tid=28516) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 01:04:30(pid=29775,tid=28516) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 1:04
+2015-08-20 01:04:30(pid=29775,tid=28516) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 01:04:30(pid=29775,tid=28516) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 1:04
+2015-08-20 01:04:30(pid=29775,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 01:14:17(pid=31393,tid=28621) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 01:14:17(pid=31393,tid=28621) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 1:14
+2015-08-20 01:14:17(pid=31393,tid=28621) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 01:14:17(pid=31393,tid=28621) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 1:14
+2015-08-20 01:14:17(pid=31393,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 01:14:22(pid=32172,tid=28731) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 01:14:22(pid=32172,tid=28731) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 1:14
+2015-08-20 01:14:22(pid=32172,tid=28731) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 01:14:22(pid=32172,tid=28731) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 1:14
+2015-08-20 01:14:23(pid=32172,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 01:24:22(pid=1646,tid=28841) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 01:24:22(pid=1646,tid=28841) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 1:24
+2015-08-20 01:24:22(pid=1646,tid=28841) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 01:24:22(pid=1646,tid=28841) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 1:24
+2015-08-20 01:24:22(pid=1646,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 01:24:27(pid=2527,tid=28946) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 01:24:27(pid=2527,tid=28946) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 1:24
+2015-08-20 01:24:27(pid=2527,tid=28946) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 01:24:27(pid=2527,tid=28946) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 1:24
+2015-08-20 01:24:27(pid=2527,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 01:34:22(pid=4107,tid=29061) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 01:34:22(pid=4107,tid=29061) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 1:34
+2015-08-20 01:34:22(pid=4107,tid=29061) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 01:34:22(pid=4107,tid=29061) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 1:34
+2015-08-20 01:34:22(pid=4107,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 01:34:27(pid=4880,tid=29171) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 01:34:27(pid=4880,tid=29171) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 1:34
+2015-08-20 01:34:27(pid=4880,tid=29171) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 01:34:27(pid=4880,tid=29171) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 1:34
+2015-08-20 01:34:28(pid=4880,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 02:04:23(pid=9511,tid=29286) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 02:04:23(pid=9511,tid=29286) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 2:04
+2015-08-20 02:04:23(pid=9511,tid=29286) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 02:04:23(pid=9511,tid=29286) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 2:04
+2015-08-20 02:04:23(pid=9511,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.session.connect (D) : [connect] current channel. Channel.isConnected() = Channel is null
+2015-08-20 02:04:23(pid=9511,tid=29297) : Legy (D) : lookUpFromOS address=ga2k-rc2.line.naver.jp/203.104.131.22 elapsed=18
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 200000, isWifi=true
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.heartbeat (D) : change pingInterval{cachedValue=200000(msec), cachedTime02:04.23)
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.heartbeat (D) : change pingFaileCount{cachedValue=3(msec), cachedTime02:04.23)
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy (D) : setReadTimeoutHandler(pingTimeout). timeout=240
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.session.connect (D) : [connect info] ChannelFutureListener#operationComplete. done=true, success=true, time=149, canceled=false
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.session.connect (D) : [connect(result = true)]LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.session.connect (D) : [connect start]spdy://ga2k-rc2.line.naver.jp:443obj-@28241704 : currentThread = 29303
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.session (D) : setSessionStatusChanged oldSessionStatus = Init, sessionStatus = Connected
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.heartbeat (D) : #### checkConnection - checkList=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1], LegyConnectionType [protocol:spdy] [host:ga2x-rc2.line.naver.jp] [port:443] [ssl:false] [priority:2][secureType:Enc][connectivityScore:1]]
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.encryption (D) : expired secretKey
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.profile (D) : id='/NP5(662254829)' time='1440003863738' elapsedTime='193' 'onStart'
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.request.spdyReqMgr (D) : addRequest. streamId=1
+spdy://ga2k-rc2.line.naver.jp:443obj-@28241704
+    reqeustMap. size=0
+
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.encryption (D) : #### legySessionEncryptionKey = {0xee, 0x3a, 0x84, 0x73, 0xf5, 0xe4, 0xfa, 0xa0, 0x50, 0xd9, 0xc1, 0xd3, 0x6a, 0x69, 0x91, 0x3d}
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDAzODYzNTIxCg==..YKboHgHZcwJZrJgjWxElSby4Hx4= 
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDAzODYzNTIxCg==..YKboHgHZcwJZrJgjWxElSby4Hx4= 
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.encryption (D) : #### encrypt header=X-Line-Access value=u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDAzODYzNTIxCg==..YKboHgHZcwJZrJgjWxElSby4Hx4=
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] LegySpdySynStreamFrame [
+ * spdySynStreamFrame=lby(last: false; unidirectional: false; deflateEnd: true)
+--> Stream-ID = 1
+--> Priority = 0
+--> Headers:
+    version: HTTP/1.1
+    method: POST
+    scheme: http
+    host: ga2k-rc2.line.naver.jp
+    url: /NP5
+    x-le: 7
+    x-la: ANDROID_RC	5.3.1	Android OS	5.1.1
+    x-lcs: 0004XaUYrxWe70TJTRAVkqPRE07CULW2FnU65qppwacZ3aXn4mgnmobGCwp6w4vc9v6P9vrnGNo1UONO3b5bwR5HpjJX4ofBElodQwsxGax4sDkKZVFApiDswA92idv+5jlPEZcdDdYcGAuIaUeefLbImpVc7jBlv4fahIWjWlVQjCpKEFDt+uvo9hXUBOEv7VM7pOkh8Jyc6AlE+FGx5KivINbHQ5gJaQ1osos99H9zywiHmgInOBwtFPsfdLk+bX4H+jIvuH+s5QE5j8fUD/g8g8HvUjgXmPMFrUP2Hl29KUI8dOXZEAwpVLxTFs8xXeSlGiCLcE3dIpw2kKY7krXTCg==
+    content-type: application/x-thrift
+    x-lal: ko_KR
+    x-lap: 1
+    x-lpv: 1
+    user-agent: Line/5.3.1
+    accept: application/x-thrift
+    x-lhm: POST
+    content-length: 26
+ * spdyDataFrame=lbo(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 148]
+2015-08-20 02:04:23(pid=9511,tid=29303) : Legy.request (D) : ### SpdyFrameEncoder - resetDeflate
+2015-08-20 02:04:23(pid=9511,tid=29320) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbv
+--> 4:70 (persist value: true; persisted: false)
+--> 10001:30 (persist value: true; persisted: false)
+--> 10002:3 (persist value: true; persisted: false)
+--> 10003:3600 (persist value: true; persisted: false)
+--> 10005:1440003864 (persist value: true; persisted: false)
+--> 10006:422 (persist value: true; persisted: false)
+2015-08-20 02:04:24(pid=9511,tid=29320) : Legy.response.stream (D) : receive SynReplyFrame. [streamId=1, last=false]
+2015-08-20 02:04:24(pid=9511,tid=29320) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbx(last: false; deflateEnd: false)
+--> Stream-ID = 1
+--> Headers:
+    content-length: 0
+    status: 200
+    version: HTTP/1.1
+    x-lc: 204
+    x-lcr: 193
+    x-le: 7
+2015-08-20 02:04:24(pid=9511,tid=29320) : Legy.request.spdyReqMgr (D) : receiveSynReply streamId=1 responseCode=200 status=OK headerFields={x-le=7, content-length=0, x-lcr=193, status=200, x-lc=204, version=HTTP/1.1}
+2015-08-20 02:04:24(pid=9511,tid=29320) : Legy.response.stream (D) : receive DataFrame.     [streamId=1, last=true]
+2015-08-20 02:04:24(pid=9511,tid=29320) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbo(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 36
+2015-08-20 02:04:24(pid=9511,tid=29320) : Legy.request.spdyReqMgr (D) : receiveDataFrame. streamId=1, last=true, size=36
+2015-08-20 02:04:24(pid=9511,tid=29320) : Legy.request.spdyReqMgr (D) : isFirstDataFrame=true
+2015-08-20 02:04:24(pid=9511,tid=29320) : Legy (D) : receiveDataFrame : sessionKey=MnxB1A
+2015-08-20 02:04:24(pid=9511,tid=29320) : Legy.request.spdyReqMgr (D) : fireComplete. streamId=1, requestMap = {1=dls@2a4d9f70}
+spdy://ga2k-rc2.line.naver.jp:443obj-@28241704
+    reqeustMap. size=1
+        [streamId=1, status=200, uri=/NP5]
+
+2015-08-20 02:04:24(pid=9511,tid=29320) : Legy.request.spdyReqMgr (D) : streamId=1 responseCode=200 status=OK isFirstDataFrame=true
+2015-08-20 02:04:24(pid=9511,tid=29320) : Legy.profile (D) : id='/NP5(662254829)' time='1440003864057' elapsedTime='512' 'onReceiveComplete'
+2015-08-20 02:04:34(pid=9511,tid=29299) : Legy.session.connect (D) : LegySpdyPortScanner : start scan
+2015-08-20 02:04:34(pid=9511,tid=29303) : Legy (D) : lookUpFromOS address=ga2k-rc2.line.naver.jp/203.104.131.22 elapsed=3
+2015-08-20 02:04:34(pid=9511,tid=29299) : Legy.session.connect (D) : LegySpdyPortScanner : port connected : true LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 02:04:34(pid=9511,tid=29299) : Legy.session.connect (D) : LegySpdyPortScanner : end scan scannedConnectionType : LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 02:34:11(pid=15019,tid=29351) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 02:34:11(pid=15019,tid=29351) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 2:34
+2015-08-20 02:34:11(pid=15019,tid=29351) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 02:34:11(pid=15019,tid=29351) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 2:34
+2015-08-20 02:34:12(pid=15019,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 02:34:19(pid=15847,tid=29461) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 02:34:19(pid=15847,tid=29461) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 2:34
+2015-08-20 02:34:19(pid=15847,tid=29461) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 02:34:19(pid=15847,tid=29461) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 2:34
+2015-08-20 02:34:19(pid=15847,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 02:44:24(pid=18175,tid=29596) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 02:44:24(pid=18175,tid=29596) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 2:44
+2015-08-20 02:44:24(pid=18175,tid=29596) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 02:44:24(pid=18175,tid=29596) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 2:44
+2015-08-20 02:44:24(pid=18175,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 02:44:31(pid=18892,tid=29696) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 02:44:31(pid=18892,tid=29696) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 2:44
+2015-08-20 02:44:31(pid=18892,tid=29696) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 02:44:31(pid=18892,tid=29696) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 2:44
+2015-08-20 02:44:31(pid=18892,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 02:54:23(pid=20944,tid=29821) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 02:54:23(pid=20944,tid=29821) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 2:54
+2015-08-20 02:54:23(pid=20944,tid=29821) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 02:54:23(pid=20944,tid=29821) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 2:54
+2015-08-20 02:54:23(pid=20944,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 02:54:28(pid=21759,tid=29931) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 02:54:28(pid=21759,tid=29931) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 2:54
+2015-08-20 02:54:28(pid=21759,tid=29931) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 02:54:28(pid=21759,tid=29931) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 2:54
+2015-08-20 02:54:29(pid=21759,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 03:04:22(pid=23879,tid=30056) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 03:04:22(pid=23879,tid=30056) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 3:04
+2015-08-20 03:04:22(pid=23879,tid=30056) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 03:04:22(pid=23879,tid=30056) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 3:04
+2015-08-20 03:04:22(pid=23879,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 03:04:30(pid=24688,tid=30161) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 03:04:30(pid=24688,tid=30161) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 3:04
+2015-08-20 03:04:30(pid=24688,tid=30161) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 03:04:30(pid=24688,tid=30161) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 3:04
+2015-08-20 03:04:31(pid=24688,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 03:14:23(pid=26207,tid=30271) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 03:14:23(pid=26207,tid=30271) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 3:14
+2015-08-20 03:14:23(pid=26207,tid=30271) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 03:14:23(pid=26207,tid=30271) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 3:14
+2015-08-20 03:14:23(pid=26207,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 03:14:28(pid=26942,tid=30381) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 03:14:28(pid=26942,tid=30381) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 3:14
+2015-08-20 03:14:28(pid=26942,tid=30381) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 03:14:28(pid=26942,tid=30381) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 3:14
+2015-08-20 03:14:28(pid=26942,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 03:24:23(pid=28447,tid=30486) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 03:24:23(pid=28447,tid=30486) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 3:24
+2015-08-20 03:24:23(pid=28447,tid=30486) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 03:24:23(pid=28447,tid=30486) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 3:24
+2015-08-20 03:24:23(pid=28447,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 03:24:30(pid=29226,tid=30596) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 03:24:30(pid=29226,tid=30596) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 3:24
+2015-08-20 03:24:30(pid=29226,tid=30596) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 03:24:30(pid=29226,tid=30596) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 3:24
+2015-08-20 03:24:30(pid=29226,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 03:34:20(pid=30883,tid=30711) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 03:34:20(pid=30883,tid=30711) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 3:34
+2015-08-20 03:34:20(pid=30883,tid=30711) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 03:34:20(pid=30883,tid=30711) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 3:34
+2015-08-20 03:34:20(pid=30883,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 03:34:26(pid=31635,tid=30821) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 03:34:26(pid=31635,tid=30821) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 3:34
+2015-08-20 03:34:26(pid=31635,tid=30821) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 03:34:26(pid=31635,tid=30821) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 3:34
+2015-08-20 03:34:26(pid=31635,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 04:08:26(pid=4075,tid=30926) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 04:08:26(pid=4075,tid=30926) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 4:08
+2015-08-20 04:08:26(pid=4075,tid=30926) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 04:08:26(pid=4075,tid=30926) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 4:08
+2015-08-20 04:08:26(pid=4075,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 04:08:27(pid=4075,tid=30935) : Legy.session.connect (D) : [connect] current channel. Channel.isConnected() = Channel is null
+2015-08-20 04:08:32(pid=4075,tid=30934) : Legy (D) : lookUpFromOS address=ga2k-rc2.line.naver.jp/203.104.131.22 elapsed=5025
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 200000, isWifi=true
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.heartbeat (D) : change pingInterval{cachedValue=200000(msec), cachedTime04:08.32)
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.heartbeat (D) : change pingFaileCount{cachedValue=3(msec), cachedTime04:08.32)
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy (D) : setReadTimeoutHandler(pingTimeout). timeout=240
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.session.connect (D) : [connect info] ChannelFutureListener#operationComplete. done=true, success=true, time=78, canceled=false
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.session.connect (D) : [connect(result = true)]LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.session.connect (D) : [connect start]spdy://ga2k-rc2.line.naver.jp:443obj-@2a4d9f70 : currentThread = 30935
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.session (D) : setSessionStatusChanged oldSessionStatus = Init, sessionStatus = Connected
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.heartbeat (D) : #### checkConnection - checkList=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1], LegyConnectionType [protocol:spdy] [host:ga2x-rc2.line.naver.jp] [port:443] [ssl:false] [priority:2][secureType:Enc][connectivityScore:1]]
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.encryption (D) : expired secretKey
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.profile (D) : id='/NP5(708915945)' time='1440011312454' elapsedTime='5135' 'onStart'
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.request.spdyReqMgr (D) : addRequest. streamId=1
+spdy://ga2k-rc2.line.naver.jp:443obj-@2a4d9f70
+    reqeustMap. size=0
+
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.encryption (D) : #### legySessionEncryptionKey = {0x78, 0x7d, 0xff, 0xa2, 0xa2, 0x2d, 0x2a, 0xf7, 0xc0, 0xad, 0x32, 0xf7, 0xd7, 0xae, 0xe8, 0x81}
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDExMzA3MzAxCg==..5DJ+ffUDJVPkPg+V7S1epHv+MNU= 
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDExMzA3MzAxCg==..5DJ+ffUDJVPkPg+V7S1epHv+MNU= 
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.encryption (D) : #### encrypt header=X-Line-Access value=u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDExMzA3MzAxCg==..5DJ+ffUDJVPkPg+V7S1epHv+MNU=
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] LegySpdySynStreamFrame [
+ * spdySynStreamFrame=lby(last: false; unidirectional: false; deflateEnd: true)
+--> Stream-ID = 1
+--> Priority = 0
+--> Headers:
+    version: HTTP/1.1
+    method: POST
+    scheme: http
+    host: ga2k-rc2.line.naver.jp
+    url: /NP5
+    x-le: 7
+    x-la: ANDROID_RC	5.3.1	Android OS	5.1.1
+    x-lcs: 0004mokCDJpVwIF3EoIrwxiQGQ+xQgWt8ixAJx8iOm38salTyu7MQ3kj2D9ywxn0rK3bUYYV1wOxjSpvKT6Cdxs32wjxPGiu5XOl4t0/K5DdElxLRPfjO7jc0uG6mUuac2pIUj8TvtdTnvFfh6y8cOulBy6BqjKklXFnuF0XzyD1yhzjSkTpt1yrlNlBTrxKNNqyKNv043HFWNEW2/2GYrVLsbzIO2wv7CXcIBQ3iom5S7OeFNg9vTp6Q5oo32E7gmwpCFXzSJ6eTCedXVp6JQYzGo0E0p4BbOZ+LucR8DvQ8nXC0glTS35ad6vMYU9qnPkDAiEBE3ThxN2zchGyMzEhfw==
+    content-type: application/x-thrift
+    x-lal: ko_KR
+    x-lap: 1
+    x-lpv: 1
+    user-agent: Line/5.3.1
+    accept: application/x-thrift
+    x-lhm: POST
+    content-length: 26
+ * spdyDataFrame=lbo(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 148]
+2015-08-20 04:08:32(pid=4075,tid=30935) : Legy.request (D) : ### SpdyFrameEncoder - resetDeflate
+2015-08-20 04:08:32(pid=4075,tid=30958) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbv
+--> 4:70 (persist value: true; persisted: false)
+--> 10001:30 (persist value: true; persisted: false)
+--> 10002:3 (persist value: true; persisted: false)
+--> 10003:3600 (persist value: true; persisted: false)
+--> 10005:1440011313 (persist value: true; persisted: false)
+--> 10006:947 (persist value: true; persisted: false)
+2015-08-20 04:08:32(pid=4075,tid=30958) : Legy.response.stream (D) : receive SynReplyFrame. [streamId=1, last=false]
+2015-08-20 04:08:32(pid=4075,tid=30958) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbx(last: false; deflateEnd: false)
+--> Stream-ID = 1
+--> Headers:
+    content-length: 0
+    status: 200
+    version: HTTP/1.1
+    x-lc: 204
+    x-lcr: 193
+    x-le: 7
+2015-08-20 04:08:32(pid=4075,tid=30958) : Legy.request.spdyReqMgr (D) : receiveSynReply streamId=1 responseCode=200 status=OK headerFields={x-le=7, content-length=0, x-lcr=193, status=200, x-lc=204, version=HTTP/1.1}
+2015-08-20 04:08:32(pid=4075,tid=30958) : Legy.response.stream (D) : receive DataFrame.     [streamId=1, last=true]
+2015-08-20 04:08:32(pid=4075,tid=30958) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbo(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 36
+2015-08-20 04:08:32(pid=4075,tid=30958) : Legy.request.spdyReqMgr (D) : receiveDataFrame. streamId=1, last=true, size=36
+2015-08-20 04:08:32(pid=4075,tid=30958) : Legy.request.spdyReqMgr (D) : isFirstDataFrame=true
+2015-08-20 04:08:32(pid=4075,tid=30958) : Legy (D) : receiveDataFrame : sessionKey=LOfJxg
+2015-08-20 04:08:32(pid=4075,tid=30958) : Legy.request.spdyReqMgr (D) : fireComplete. streamId=1, requestMap = {1=dls@445429c}
+spdy://ga2k-rc2.line.naver.jp:443obj-@2a4d9f70
+    reqeustMap. size=1
+        [streamId=1, status=200, uri=/NP5]
+
+2015-08-20 04:08:32(pid=4075,tid=30958) : Legy.request.spdyReqMgr (D) : streamId=1 responseCode=200 status=OK isFirstDataFrame=true
+2015-08-20 04:08:32(pid=4075,tid=30958) : Legy.profile (D) : id='/NP5(708915945)' time='1440011312674' elapsedTime='5355' 'onReceiveComplete'
+2015-08-20 04:44:13(pid=9952,tid=31006) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 04:44:13(pid=9952,tid=31006) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 4:44
+2015-08-20 04:44:13(pid=9952,tid=31006) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 04:44:13(pid=9952,tid=31006) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 4:44
+2015-08-20 04:44:13(pid=9952,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 04:44:20(pid=10716,tid=31106) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 04:44:20(pid=10716,tid=31106) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 4:44
+2015-08-20 04:44:20(pid=10716,tid=31106) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 04:44:20(pid=10716,tid=31106) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 4:44
+2015-08-20 04:44:20(pid=10716,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 04:54:10(pid=13185,tid=31251) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 04:54:10(pid=13185,tid=31251) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 4:54
+2015-08-20 04:54:10(pid=13185,tid=31251) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 04:54:10(pid=13185,tid=31251) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 4:54
+2015-08-20 04:54:10(pid=13185,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 04:54:16(pid=13990,tid=31361) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 04:54:16(pid=13990,tid=31361) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 4:54
+2015-08-20 04:54:16(pid=13990,tid=31361) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 04:54:16(pid=13990,tid=31361) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 4:54
+2015-08-20 04:54:16(pid=13990,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 05:04:22(pid=15835,tid=31486) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 05:04:22(pid=15835,tid=31486) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 5:04
+2015-08-20 05:04:22(pid=15835,tid=31486) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 05:04:22(pid=15835,tid=31486) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 5:04
+2015-08-20 05:04:22(pid=15835,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 05:04:28(pid=16618,tid=31596) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 05:04:28(pid=16618,tid=31596) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 5:04
+2015-08-20 05:04:28(pid=16618,tid=31596) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 05:04:28(pid=16618,tid=31596) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 5:04
+2015-08-20 05:04:28(pid=16618,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 05:14:22(pid=18378,tid=31701) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 05:14:22(pid=18378,tid=31701) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 5:14
+2015-08-20 05:14:22(pid=18378,tid=31701) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 05:14:22(pid=18378,tid=31701) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 5:14
+2015-08-20 05:14:22(pid=18378,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 05:14:31(pid=19188,tid=31811) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 05:14:31(pid=19188,tid=31811) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 5:14
+2015-08-20 05:14:31(pid=19188,tid=31811) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 05:14:31(pid=19188,tid=31811) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 5:14
+2015-08-20 05:14:31(pid=19188,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 05:21:46(pid=21484,tid=32011) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 05:21:46(pid=21484,tid=32011) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 5:21
+2015-08-20 05:21:46(pid=21484,tid=32011) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 05:21:46(pid=21484,tid=32011) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 5:21
+2015-08-20 05:21:47(pid=21484,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 05:21:54(pid=22257,tid=32106) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 05:21:54(pid=22257,tid=32106) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 5:21
+2015-08-20 05:21:54(pid=22257,tid=32106) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 05:21:54(pid=22257,tid=32106) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 5:21
+2015-08-20 05:21:54(pid=22257,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 05:22:03(pid=23094,tid=32216) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 05:22:03(pid=23094,tid=32216) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 5:22
+2015-08-20 05:22:03(pid=23094,tid=32216) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 05:22:03(pid=23094,tid=32216) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 5:22
+2015-08-20 05:22:03(pid=23094,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 05:24:18(pid=27814,tid=32671) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 05:24:18(pid=27814,tid=32671) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 5:24
+2015-08-20 05:24:18(pid=27814,tid=32671) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 05:24:18(pid=27814,tid=32671) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 5:24
+2015-08-20 05:24:18(pid=27814,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 05:24:31(pid=29176,tid=32831) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 05:24:31(pid=29176,tid=32831) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 5:24
+2015-08-20 05:24:31(pid=29176,tid=32831) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 05:24:31(pid=29176,tid=32831) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 5:24
+2015-08-20 05:24:31(pid=29176,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 05:24:37(pid=29743,tid=32881) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 05:24:37(pid=29743,tid=32881) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 5:24
+2015-08-20 05:24:37(pid=29743,tid=32881) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 05:24:37(pid=29743,tid=32881) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 5:24
+2015-08-20 05:24:37(pid=29743,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 05:24:43(pid=30363,tid=32971) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 05:24:43(pid=30363,tid=32971) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 5:24
+2015-08-20 05:24:43(pid=30363,tid=32971) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 05:24:43(pid=30363,tid=32971) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 5:24
+2015-08-20 05:24:43(pid=30363,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 05:24:48(pid=31125,tid=33076) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 05:24:48(pid=31125,tid=33076) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 5:24
+2015-08-20 05:24:48(pid=31125,tid=33076) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 05:24:48(pid=31125,tid=33076) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 5:24
+2015-08-20 05:24:48(pid=31125,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 05:34:23(pid=611,tid=33236) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 05:34:23(pid=611,tid=33236) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 5:34
+2015-08-20 05:34:23(pid=611,tid=33236) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 05:34:23(pid=611,tid=33236) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 5:34
+2015-08-20 05:34:23(pid=611,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 05:34:28(pid=1700,tid=33346) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 05:34:28(pid=1700,tid=33346) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 5:34
+2015-08-20 05:34:28(pid=1700,tid=33346) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 05:34:28(pid=1700,tid=33346) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 5:34
+2015-08-20 05:34:28(pid=1700,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 06:06:45(pid=6466,tid=33471) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 06:06:45(pid=6466,tid=33471) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 6:06
+2015-08-20 06:06:45(pid=6466,tid=33471) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 06:06:45(pid=6466,tid=33471) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 6:06
+2015-08-20 06:06:45(pid=6466,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.session.connect (D) : [connect] current channel. Channel.isConnected() = Channel is null
+2015-08-20 06:06:45(pid=6466,tid=33482) : Legy (D) : lookUpFromOS address=ga2k-rc2.line.naver.jp/203.104.131.22 elapsed=21
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 200000, isWifi=true
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.heartbeat (D) : change pingInterval{cachedValue=200000(msec), cachedTime06:06.45)
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.heartbeat (D) : change pingFaileCount{cachedValue=3(msec), cachedTime06:06.45)
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy (D) : setReadTimeoutHandler(pingTimeout). timeout=240
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.session.connect (D) : [connect info] ChannelFutureListener#operationComplete. done=true, success=true, time=99, canceled=false
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.session.connect (D) : [connect(result = true)]LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.session.connect (D) : [connect start]spdy://ga2k-rc2.line.naver.jp:443obj-@28241704 : currentThread = 33480
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.session (D) : setSessionStatusChanged oldSessionStatus = Init, sessionStatus = Connected
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.heartbeat (D) : #### checkConnection - checkList=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1], LegyConnectionType [protocol:spdy] [host:ga2x-rc2.line.naver.jp] [port:443] [ssl:false] [priority:2][secureType:Enc][connectivityScore:1]]
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.encryption (D) : expired secretKey
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.profile (D) : id='/NP5(662254829)' time='1440018405679' elapsedTime='148' 'onStart'
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.request.spdyReqMgr (D) : addRequest. streamId=1
+spdy://ga2k-rc2.line.naver.jp:443obj-@28241704
+    reqeustMap. size=0
+
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.encryption (D) : #### legySessionEncryptionKey = {0x41, 0x0e, 0x0b, 0xc3, 0x53, 0xc4, 0x6f, 0x6f, 0xc0, 0x18, 0xd6, 0x14, 0x90, 0x1c, 0x99, 0x9b}
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDE4NDA1NDk4Cg==..aWEN+PK93h3Hb+z452jDtnJo+HQ= 
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDE4NDA1NDk4Cg==..aWEN+PK93h3Hb+z452jDtnJo+HQ= 
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.encryption (D) : #### encrypt header=X-Line-Access value=u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDE4NDA1NDk4Cg==..aWEN+PK93h3Hb+z452jDtnJo+HQ=
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] LegySpdySynStreamFrame [
+ * spdySynStreamFrame=lby(last: false; unidirectional: false; deflateEnd: true)
+--> Stream-ID = 1
+--> Priority = 0
+--> Headers:
+    version: HTTP/1.1
+    method: POST
+    scheme: http
+    host: ga2k-rc2.line.naver.jp
+    url: /NP5
+    x-le: 7
+    x-la: ANDROID_RC	5.3.1	Android OS	5.1.1
+    x-lcs: 0004C+vmXpSJGeQ+Bc5KL9c2B4fFVuO0Y2dXzz4STDcRSGAa6ItLyu85Cxe6tq7FlEKcwPkmoJqMYNVQV0owZvGX8jDL89Bn5ev9VJcx6J1XI7Ejr/rxPyFCfQfmI5ytd6DR0G2z8TgxhV7weBQFYPitAm6wonAyVdrJQbFzVakA+QUNwapwe2qeFC1emT7avHUQwHAW8H0jw3sAEFSWMHt0uLLG1QE1llwvXgj/rEn20L4HkR8ahVzKvtWqAm0xroP833paF9rWIacOMMC0QAB5Zerml7rACefMz5w0EpZrB66o+KTwHEFEV0lpcf4MJPsRe2rgVcZRbOfXHUhvIzDrkA==
+    content-type: application/x-thrift
+    x-lal: ko_KR
+    x-lap: 1
+    x-lpv: 1
+    user-agent: Line/5.3.1
+    accept: application/x-thrift
+    x-lhm: POST
+    content-length: 26
+ * spdyDataFrame=lbo(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 148]
+2015-08-20 06:06:45(pid=6466,tid=33480) : Legy.request (D) : ### SpdyFrameEncoder - resetDeflate
+2015-08-20 06:06:45(pid=6466,tid=33501) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbv
+--> 4:70 (persist value: true; persisted: false)
+--> 10001:30 (persist value: true; persisted: false)
+--> 10002:3 (persist value: true; persisted: false)
+--> 10003:3600 (persist value: true; persisted: false)
+--> 10005:1440018406 (persist value: true; persisted: false)
+--> 10006:535 (persist value: true; persisted: false)
+2015-08-20 06:06:45(pid=6466,tid=33501) : Legy.response.stream (D) : receive SynReplyFrame. [streamId=1, last=false]
+2015-08-20 06:06:45(pid=6466,tid=33501) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbx(last: false; deflateEnd: false)
+--> Stream-ID = 1
+--> Headers:
+    content-length: 36
+    content-type: application/x-thrift;charset=UTF-8
+    status: 200
+    version: HTTP/1.1
+    x-lc: 200
+    x-lcr: 193
+    x-le: 7
+2015-08-20 06:06:45(pid=6466,tid=33501) : Legy.request.spdyReqMgr (D) : receiveSynReply streamId=1 responseCode=200 status=OK headerFields={x-le=7, content-length=36, x-lcr=193, status=200, x-lc=200, version=HTTP/1.1, content-type=application/x-thrift;charset=UTF-8}
+2015-08-20 06:06:45(pid=6466,tid=33501) : Legy.response.stream (D) : receive DataFrame.     [streamId=1, last=true]
+2015-08-20 06:06:45(pid=6466,tid=33501) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbo(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 68
+2015-08-20 06:06:45(pid=6466,tid=33501) : Legy.request.spdyReqMgr (D) : receiveDataFrame. streamId=1, last=true, size=68
+2015-08-20 06:06:45(pid=6466,tid=33501) : Legy.request.spdyReqMgr (D) : isFirstDataFrame=true
+2015-08-20 06:06:45(pid=6466,tid=33501) : Legy (D) : receiveDataFrame : sessionKey=GPbv8w
+2015-08-20 06:06:45(pid=6466,tid=33501) : Legy.request.spdyReqMgr (D) : fireComplete. streamId=1, requestMap = {1=dls@2a4d9f70}
+spdy://ga2k-rc2.line.naver.jp:443obj-@28241704
+    reqeustMap. size=1
+        [streamId=1, status=200, uri=/NP5]
+
+2015-08-20 06:06:45(pid=6466,tid=33501) : Legy.request.spdyReqMgr (D) : streamId=1 responseCode=200 status=OK isFirstDataFrame=true
+2015-08-20 06:06:45(pid=6466,tid=33501) : Legy.profile (D) : id='/NP5(662254829)' time='1440018405810' elapsedTime='279' 'onReceiveComplete'
+2015-08-20 06:06:53(pid=6466,tid=33479) : Legy.session.connect (D) : LegySpdyPortScanner : start scan
+2015-08-20 06:06:53(pid=6466,tid=33485) : Legy (D) : lookUpFromOS address=ga2k-rc2.line.naver.jp/203.104.131.22 elapsed=1
+2015-08-20 06:06:53(pid=6466,tid=33479) : Legy.session.connect (D) : LegySpdyPortScanner : port connected : true LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 06:06:53(pid=6466,tid=33479) : Legy.session.connect (D) : LegySpdyPortScanner : end scan scannedConnectionType : LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 07:04:23(pid=15327,tid=33571) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 07:04:23(pid=15327,tid=33571) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 7:04
+2015-08-20 07:04:23(pid=15327,tid=33571) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 07:04:23(pid=15327,tid=33571) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 7:04
+2015-08-20 07:04:24(pid=15327,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 07:04:31(pid=16151,tid=33681) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 07:04:31(pid=16151,tid=33681) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 7:04
+2015-08-20 07:04:31(pid=16151,tid=33681) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 07:04:31(pid=16151,tid=33681) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 7:04
+2015-08-20 07:04:31(pid=16151,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 07:14:10(pid=18052,tid=33801) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 07:14:10(pid=18052,tid=33801) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 7:14
+2015-08-20 07:14:10(pid=18052,tid=33801) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 07:14:10(pid=18052,tid=33801) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 7:14
+2015-08-20 07:14:10(pid=18052,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 07:14:21(pid=18827,tid=33911) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 07:14:21(pid=18827,tid=33911) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 7:14
+2015-08-20 07:14:21(pid=18827,tid=33911) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 07:14:21(pid=18827,tid=33911) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 7:14
+2015-08-20 07:14:21(pid=18827,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 07:34:23(pid=22518,tid=34031) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 07:34:23(pid=22518,tid=34031) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 7:34
+2015-08-20 07:34:23(pid=22518,tid=34031) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 07:34:23(pid=22518,tid=34031) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 7:34
+2015-08-20 07:34:23(pid=22518,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 07:34:43(pid=23308,tid=34141) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 07:34:43(pid=23308,tid=34141) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 7:34
+2015-08-20 07:34:43(pid=23308,tid=34141) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 07:34:43(pid=23308,tid=34141) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 7:34
+2015-08-20 07:34:43(pid=23308,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 07:48:24(pid=25955,tid=34236) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 07:48:24(pid=25955,tid=34236) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 7:48
+2015-08-20 07:48:24(pid=25955,tid=34236) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 07:48:24(pid=25955,tid=34236) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 7:48
+2015-08-20 07:48:24(pid=25955,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.session.connect (D) : [connect] current channel. Channel.isConnected() = Channel is null
+2015-08-20 07:48:25(pid=25955,tid=34252) : Legy (D) : lookUpFromOS address=ga2k-rc2.line.naver.jp/203.104.131.22 elapsed=7
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 200000, isWifi=true
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.heartbeat (D) : change pingInterval{cachedValue=200000(msec), cachedTime07:48.25)
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.heartbeat (D) : change pingFaileCount{cachedValue=3(msec), cachedTime07:48.25)
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy (D) : setReadTimeoutHandler(pingTimeout). timeout=240
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.session.connect (D) : [connect info] ChannelFutureListener#operationComplete. done=true, success=true, time=153, canceled=false
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.session.connect (D) : [connect(result = true)]LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.session.connect (D) : [connect start]spdy://ga2k-rc2.line.naver.jp:443obj-@28241704 : currentThread = 34245
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.session (D) : setSessionStatusChanged oldSessionStatus = Init, sessionStatus = Connected
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.heartbeat (D) : #### checkConnection - checkList=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1], LegyConnectionType [protocol:spdy] [host:ga2x-rc2.line.naver.jp] [port:443] [ssl:false] [priority:2][secureType:Enc][connectivityScore:1]]
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.encryption (D) : expired secretKey
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.profile (D) : id='/NP5(662254829)' time='1440024505306' elapsedTime='186' 'onStart'
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.request.spdyReqMgr (D) : addRequest. streamId=1
+spdy://ga2k-rc2.line.naver.jp:443obj-@28241704
+    reqeustMap. size=0
+
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.encryption (D) : #### legySessionEncryptionKey = {0xd6, 0xac, 0xa9, 0x5c, 0x79, 0x13, 0xf9, 0x12, 0x81, 0x53, 0x2f, 0xf3, 0xfb, 0x33, 0x81, 0x7c}
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDI0NTA1MTAzCg==..WMXWji0oY4Lo0IgpVxgHd+aX8rQ= 
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDI0NTA1MTAzCg==..WMXWji0oY4Lo0IgpVxgHd+aX8rQ= 
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.encryption (D) : #### encrypt header=X-Line-Access value=u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDI0NTA1MTAzCg==..WMXWji0oY4Lo0IgpVxgHd+aX8rQ=
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] LegySpdySynStreamFrame [
+ * spdySynStreamFrame=lby(last: false; unidirectional: false; deflateEnd: true)
+--> Stream-ID = 1
+--> Priority = 0
+--> Headers:
+    version: HTTP/1.1
+    method: POST
+    scheme: http
+    host: ga2k-rc2.line.naver.jp
+    url: /NP5
+    x-le: 7
+    x-la: ANDROID_RC	5.3.1	Android OS	5.1.1
+    x-lcs: 0004GN3f4SIjqHkv0PofJ80ZBaxENbZG5pRri+FYZ/vi2drYFqY2QL07SlVV5Fdr+eNBIds9wo0Pphk1GwVj9eSTdXYuFIuB46QADpGCc0TY1PrpXr4eNY4w+7yZH8f10C+1VEZ88I3r0nphJdotYjdKq3BlGFZ2+G9zk8TGXqOYV5dKO1S+AGKlOej6gLpWyLKExNZWV2vAe1FF0OCy4hb35qqBFP2T9hzDZzrfc/vS5kMiAiSKeDbZAO5Ip48KSw8wdRrzhkSFmdigXmtBcdQEZ2EVR+zzQjmNPyaNfhbsA0gYsN8CB+7YVOrOIGjsL1I9iKxhu7cLj8fhHMMeyMV3vw==
+    content-type: application/x-thrift
+    x-lal: ko_KR
+    x-lap: 1
+    x-lpv: 1
+    user-agent: Line/5.3.1
+    accept: application/x-thrift
+    x-lhm: POST
+    content-length: 26
+ * spdyDataFrame=lbo(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 148]
+2015-08-20 07:48:25(pid=25955,tid=34245) : Legy.request (D) : ### SpdyFrameEncoder - resetDeflate
+2015-08-20 07:48:25(pid=25955,tid=34265) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbv
+--> 4:70 (persist value: true; persisted: false)
+--> 10001:30 (persist value: true; persisted: false)
+--> 10002:3 (persist value: true; persisted: false)
+--> 10003:3600 (persist value: true; persisted: false)
+--> 10005:1440024506 (persist value: true; persisted: false)
+--> 10006:340 (persist value: true; persisted: false)
+2015-08-20 07:48:25(pid=25955,tid=34265) : Legy.response.stream (D) : receive SynReplyFrame. [streamId=1, last=false]
+2015-08-20 07:48:25(pid=25955,tid=34265) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbx(last: false; deflateEnd: false)
+--> Stream-ID = 1
+--> Headers:
+    content-length: 0
+    status: 200
+    version: HTTP/1.1
+    x-lc: 204
+    x-lcr: 193
+    x-le: 7
+2015-08-20 07:48:25(pid=25955,tid=34265) : Legy.request.spdyReqMgr (D) : receiveSynReply streamId=1 responseCode=200 status=OK headerFields={x-le=7, content-length=0, x-lcr=193, status=200, x-lc=204, version=HTTP/1.1}
+2015-08-20 07:48:25(pid=25955,tid=34265) : Legy.response.stream (D) : receive DataFrame.     [streamId=1, last=true]
+2015-08-20 07:48:25(pid=25955,tid=34265) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbo(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 36
+2015-08-20 07:48:25(pid=25955,tid=34265) : Legy.request.spdyReqMgr (D) : receiveDataFrame. streamId=1, last=true, size=36
+2015-08-20 07:48:25(pid=25955,tid=34265) : Legy.request.spdyReqMgr (D) : isFirstDataFrame=true
+2015-08-20 07:48:25(pid=25955,tid=34265) : Legy (D) : receiveDataFrame : sessionKey=H3Cabg
+2015-08-20 07:48:25(pid=25955,tid=34265) : Legy.request.spdyReqMgr (D) : fireComplete. streamId=1, requestMap = {1=dls@2a4d9f70}
+spdy://ga2k-rc2.line.naver.jp:443obj-@28241704
+    reqeustMap. size=1
+        [streamId=1, status=200, uri=/NP5]
+
+2015-08-20 07:48:25(pid=25955,tid=34265) : Legy.request.spdyReqMgr (D) : streamId=1 responseCode=200 status=OK isFirstDataFrame=true
+2015-08-20 07:48:25(pid=25955,tid=34265) : Legy.profile (D) : id='/NP5(662254829)' time='1440024505765' elapsedTime='645' 'onReceiveComplete'
+2015-08-20 07:48:44(pid=25955,tid=34250) : Legy.session.connect (D) : LegySpdyPortScanner : start scan
+2015-08-20 07:48:44(pid=25955,tid=34252) : Legy (D) : lookUpFromOS address=ga2k-rc2.line.naver.jp/203.104.131.22 elapsed=1
+2015-08-20 07:48:44(pid=25955,tid=34250) : Legy.session.connect (D) : LegySpdyPortScanner : port connected : true LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 07:48:44(pid=25955,tid=34250) : Legy.session.connect (D) : LegySpdyPortScanner : end scan scannedConnectionType : LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 07:50:25(pid=25955,tid=34265) : Legy (D) : LegySpdyChannelHandler#channelDisconnected(ctx=org.jboss.netty.channel.al@c7114a5, e=[id: 0x190e5eb1, /192.168.219.105:57350 :> ga2k-rc2.line.naver.jp/203.104.131.22:443] DISCONNECTED)
+2015-08-20 07:50:25(pid=25955,tid=34265) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-rc2.line.naver.jp:443obj-@28241704
+    reqeustMap. size=0
+
+2015-08-20 08:14:17(pid=4918,tid=34511) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:14:17(pid=4918,tid=34511) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:14
+2015-08-20 08:14:17(pid=4918,tid=34511) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:14:17(pid=4918,tid=34511) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:14
+2015-08-20 08:14:17(pid=4918,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:14:32(pid=5854,tid=34641) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:14:32(pid=5854,tid=34641) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:14
+2015-08-20 08:14:32(pid=5854,tid=34641) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:14:32(pid=5854,tid=34641) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:14
+2015-08-20 08:14:32(pid=5854,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:24:11(pid=8243,tid=34791) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:24:11(pid=8243,tid=34791) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:24
+2015-08-20 08:24:11(pid=8243,tid=34791) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:24:11(pid=8243,tid=34791) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:24
+2015-08-20 08:24:11(pid=8243,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:24:20(pid=8999,tid=34901) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:24:20(pid=8999,tid=34901) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:24
+2015-08-20 08:24:20(pid=8999,tid=34901) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:24:20(pid=8999,tid=34901) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:24
+2015-08-20 08:24:20(pid=8999,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:34:15(pid=12617,tid=35086) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:34:15(pid=12617,tid=35086) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:34
+2015-08-20 08:34:15(pid=12617,tid=35086) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:34:15(pid=12617,tid=35086) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:34
+2015-08-20 08:34:15(pid=12617,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:34:24(pid=13472,tid=35206) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:34:24(pid=13472,tid=35206) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:34
+2015-08-20 08:34:24(pid=13472,tid=35206) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:34:24(pid=13472,tid=35206) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:34
+2015-08-20 08:34:24(pid=13472,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:41:52(pid=19813,tid=35596) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:41:52(pid=19813,tid=35596) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:41
+2015-08-20 08:41:52(pid=19813,tid=35596) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:41:52(pid=19813,tid=35596) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:41
+2015-08-20 08:41:52(pid=19813,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:41:59(pid=20459,tid=35681) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:41:59(pid=20459,tid=35681) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:41
+2015-08-20 08:41:59(pid=20459,tid=35681) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:41:59(pid=20459,tid=35681) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:41
+2015-08-20 08:41:59(pid=20459,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:42:07(pid=21304,tid=35786) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:42:07(pid=21304,tid=35786) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:42
+2015-08-20 08:42:07(pid=21304,tid=35786) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:42:07(pid=21304,tid=35786) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:42
+2015-08-20 08:42:07(pid=21304,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:42:26(pid=23002,tid=36012) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:42:26(pid=23002,tid=36012) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:42
+2015-08-20 08:42:26(pid=23002,tid=36012) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:42:26(pid=23002,tid=36012) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:42
+2015-08-20 08:42:26(pid=23002,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:42:47(pid=24824,tid=36231) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:42:47(pid=24824,tid=36231) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:42
+2015-08-20 08:42:47(pid=24824,tid=36231) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:42:47(pid=24824,tid=36231) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:42
+2015-08-20 08:42:47(pid=24824,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:42:56(pid=25825,tid=36366) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:42:56(pid=25825,tid=36366) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:42
+2015-08-20 08:42:56(pid=25825,tid=36366) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:42:56(pid=25825,tid=36366) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:42
+2015-08-20 08:42:56(pid=25825,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:44:29(pid=29870,tid=36726) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:44:29(pid=29870,tid=36726) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:44
+2015-08-20 08:44:29(pid=29870,tid=36726) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:44:29(pid=29870,tid=36726) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:44
+2015-08-20 08:44:30(pid=29870,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:44:46(pid=31231,tid=36901) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:44:46(pid=31231,tid=36901) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:44
+2015-08-20 08:44:46(pid=31231,tid=36901) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:44:46(pid=31231,tid=36901) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:44
+2015-08-20 08:44:46(pid=31231,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:45:47(pid=477,tid=37076) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:45:47(pid=477,tid=37076) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:45
+2015-08-20 08:45:47(pid=477,tid=37076) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:45:47(pid=477,tid=37076) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:45
+2015-08-20 08:45:47(pid=477,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:45:48(pid=477,tid=37082) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:45:48(pid=477,tid=37082) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:45
+2015-08-20 08:45:48(pid=477,tid=37082) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:45:48(pid=477,tid=37082) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:45
+2015-08-20 08:45:54(pid=1837,tid=37176) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:45:54(pid=1837,tid=37176) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:45
+2015-08-20 08:45:54(pid=1837,tid=37176) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:45:54(pid=1837,tid=37176) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:45
+2015-08-20 08:45:54(pid=1837,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:45:59(pid=2553,tid=37256) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:45:59(pid=2553,tid=37256) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:45
+2015-08-20 08:45:59(pid=2553,tid=37256) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:45:59(pid=2553,tid=37256) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:45
+2015-08-20 08:45:59(pid=2553,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:46:02(pid=2840,tid=37292) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:46:02(pid=2840,tid=37292) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:46
+2015-08-20 08:46:02(pid=2840,tid=37292) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:46:02(pid=2840,tid=37292) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:46
+2015-08-20 08:46:02(pid=2840,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:46:24(pid=4145,tid=37441) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:46:24(pid=4145,tid=37441) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:46
+2015-08-20 08:46:24(pid=4145,tid=37441) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:46:24(pid=4145,tid=37441) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:46
+2015-08-20 08:46:24(pid=4145,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:48:08(pid=6680,tid=37631) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:48:08(pid=6680,tid=37631) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:48
+2015-08-20 08:48:08(pid=6680,tid=37631) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:48:08(pid=6680,tid=37631) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:48
+2015-08-20 08:48:08(pid=6680,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:48:29(pid=7846,tid=37726) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:48:29(pid=7846,tid=37726) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:48
+2015-08-20 08:48:29(pid=7846,tid=37726) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:48:29(pid=7846,tid=37726) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:48
+2015-08-20 08:48:29(pid=7846,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:48:42(pid=8815,tid=37851) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:48:42(pid=8815,tid=37851) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:48
+2015-08-20 08:48:42(pid=8815,tid=37851) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:48:42(pid=8815,tid=37851) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:48
+2015-08-20 08:48:42(pid=8815,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:48:52(pid=9588,tid=37961) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:48:52(pid=9588,tid=37961) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:48
+2015-08-20 08:48:52(pid=9588,tid=37961) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:48:52(pid=9588,tid=37961) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:48
+2015-08-20 08:48:52(pid=9588,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:54:12(pid=12679,tid=38101) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:54:12(pid=12679,tid=38101) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:54
+2015-08-20 08:54:12(pid=12679,tid=38101) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:54:12(pid=12679,tid=38101) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:54
+2015-08-20 08:54:12(pid=12679,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:54:18(pid=13484,tid=38206) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:54:18(pid=13484,tid=38206) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:54
+2015-08-20 08:54:18(pid=13484,tid=38206) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:54:18(pid=13484,tid=38206) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:54
+2015-08-20 08:54:18(pid=13484,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:58:20(pid=16653,tid=38396) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:58:20(pid=16653,tid=38396) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:58
+2015-08-20 08:58:20(pid=16653,tid=38396) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:58:20(pid=16653,tid=38396) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:58
+2015-08-20 08:58:20(pid=16653,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:58:27(pid=17551,tid=38486) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:58:27(pid=17551,tid=38486) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:58
+2015-08-20 08:58:27(pid=17551,tid=38486) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:58:27(pid=17551,tid=38486) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:58
+2015-08-20 08:58:27(pid=17551,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:58:35(pid=18316,tid=38586) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:58:35(pid=18316,tid=38586) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:58
+2015-08-20 08:58:35(pid=18316,tid=38586) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:58:35(pid=18316,tid=38586) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:58
+2015-08-20 08:58:35(pid=18316,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:58:42(pid=19030,tid=38691) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:58:42(pid=19030,tid=38691) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:58
+2015-08-20 08:58:42(pid=19030,tid=38691) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:58:42(pid=19030,tid=38691) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:58
+2015-08-20 08:58:42(pid=19030,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 08:58:50(pid=19910,tid=38806) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 08:58:50(pid=19910,tid=38806) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 8:58
+2015-08-20 08:58:50(pid=19910,tid=38806) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 08:58:50(pid=19910,tid=38806) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 8:58
+2015-08-20 08:58:50(pid=19910,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:04:14(pid=24655,tid=39126) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:04:14(pid=24655,tid=39126) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:04
+2015-08-20 09:04:14(pid=24655,tid=39126) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:04:14(pid=24655,tid=39126) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:04
+2015-08-20 09:04:14(pid=24655,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:04:24(pid=25530,tid=39226) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:04:24(pid=25530,tid=39226) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:04
+2015-08-20 09:04:24(pid=25530,tid=39226) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:04:24(pid=25530,tid=39226) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:04
+2015-08-20 09:04:24(pid=25530,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:13:50(pid=30753,tid=39491) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:13:50(pid=30753,tid=39491) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:13
+2015-08-20 09:13:50(pid=30753,tid=39491) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:13:50(pid=30753,tid=39491) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:13
+2015-08-20 09:13:51(pid=30753,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:13:57(pid=31523,tid=39596) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:13:57(pid=31523,tid=39596) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:13
+2015-08-20 09:13:57(pid=31523,tid=39596) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:13:57(pid=31523,tid=39596) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:13
+2015-08-20 09:13:57(pid=31523,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:24:15(pid=7374,tid=40091) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:24:15(pid=7374,tid=40091) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:24
+2015-08-20 09:24:15(pid=7374,tid=40091) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:24:15(pid=7374,tid=40091) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:24
+2015-08-20 09:24:15(pid=7374,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:24:24(pid=8162,tid=40191) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:24:24(pid=8162,tid=40191) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:24
+2015-08-20 09:24:24(pid=8162,tid=40191) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:24:24(pid=8162,tid=40191) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:24
+2015-08-20 09:24:25(pid=8162,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:28:01(pid=10849,tid=40416) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:28:01(pid=10849,tid=40416) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:28
+2015-08-20 09:28:01(pid=10849,tid=40416) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:28:01(pid=10849,tid=40416) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:28
+2015-08-20 09:28:01(pid=10849,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:28:09(pid=11588,tid=40521) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:28:09(pid=11588,tid=40521) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:28
+2015-08-20 09:28:09(pid=11588,tid=40521) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:28:09(pid=11588,tid=40521) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:28
+2015-08-20 09:28:09(pid=11588,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:28:25(pid=13101,tid=40701) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:28:25(pid=13101,tid=40701) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:28
+2015-08-20 09:28:25(pid=13101,tid=40701) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:28:25(pid=13101,tid=40701) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:28
+2015-08-20 09:28:25(pid=13101,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:28:34(pid=14013,tid=40821) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:28:34(pid=14013,tid=40821) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:28
+2015-08-20 09:28:34(pid=14013,tid=40821) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:28:34(pid=14013,tid=40821) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:28
+2015-08-20 09:28:34(pid=14013,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:28:40(pid=14680,tid=40916) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:28:40(pid=14680,tid=40916) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:28
+2015-08-20 09:28:40(pid=14680,tid=40916) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:28:40(pid=14680,tid=40916) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:28
+2015-08-20 09:28:41(pid=14680,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:34:13(pid=17363,tid=41121) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:34:13(pid=17363,tid=41121) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:34
+2015-08-20 09:34:13(pid=17363,tid=41121) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:34:13(pid=17363,tid=41121) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:34
+2015-08-20 09:34:13(pid=17363,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:34:22(pid=18181,tid=41221) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:34:22(pid=18181,tid=41221) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:34
+2015-08-20 09:34:22(pid=18181,tid=41221) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:34:22(pid=18181,tid=41221) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:34
+2015-08-20 09:34:22(pid=18181,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:59:24(pid=31263,tid=41891) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:59:24(pid=31263,tid=41891) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:59
+2015-08-20 09:59:24(pid=31263,tid=41891) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:59:24(pid=31263,tid=41891) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:59
+2015-08-20 09:59:24(pid=31263,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:59:31(pid=31891,tid=41976) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:59:31(pid=31891,tid=41976) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:59
+2015-08-20 09:59:31(pid=31891,tid=41976) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:59:31(pid=31891,tid=41976) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:59
+2015-08-20 09:59:31(pid=31891,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:59:43(pid=919,tid=42121) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:59:43(pid=919,tid=42121) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:59
+2015-08-20 09:59:43(pid=919,tid=42121) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:59:43(pid=919,tid=42121) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:59
+2015-08-20 09:59:43(pid=919,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:59:52(pid=2120,tid=42206) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:59:52(pid=2120,tid=42206) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:59
+2015-08-20 09:59:52(pid=2120,tid=42206) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:59:52(pid=2120,tid=42206) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:59
+2015-08-20 09:59:52(pid=2120,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 09:59:59(pid=2843,tid=42301) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 09:59:59(pid=2843,tid=42301) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 9:59
+2015-08-20 09:59:59(pid=2843,tid=42301) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 09:59:59(pid=2843,tid=42301) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 9:59
+2015-08-20 09:59:59(pid=2843,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:01:09(pid=5020,tid=42506) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:01:09(pid=5020,tid=42506) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:01
+2015-08-20 10:01:09(pid=5020,tid=42506) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:01:09(pid=5020,tid=42506) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:01
+2015-08-20 10:01:09(pid=5020,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:01:15(pid=5654,tid=42581) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:01:15(pid=5654,tid=42581) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:01
+2015-08-20 10:01:15(pid=5654,tid=42581) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:01:15(pid=5654,tid=42581) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:01
+2015-08-20 10:01:15(pid=5654,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:01:22(pid=6464,tid=42696) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:01:22(pid=6464,tid=42696) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:01
+2015-08-20 10:01:22(pid=6464,tid=42696) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:01:22(pid=6464,tid=42696) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:01
+2015-08-20 10:01:23(pid=6464,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:05:13(pid=10779,tid=42956) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:05:13(pid=10779,tid=42956) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:05
+2015-08-20 10:05:13(pid=10779,tid=42956) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:05:13(pid=10779,tid=42956) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:05
+2015-08-20 10:05:13(pid=10779,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:05:24(pid=11530,tid=43046) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:05:24(pid=11530,tid=43046) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:05
+2015-08-20 10:05:24(pid=11530,tid=43046) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:05:24(pid=11530,tid=43046) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:05
+2015-08-20 10:05:25(pid=11530,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:05:36(pid=12493,tid=43151) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:05:36(pid=12493,tid=43151) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:05
+2015-08-20 10:05:36(pid=12493,tid=43151) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:05:36(pid=12493,tid=43151) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:05
+2015-08-20 10:05:36(pid=12493,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:19:30(pid=16731,tid=43516) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:19:30(pid=16731,tid=43516) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:19
+2015-08-20 10:19:30(pid=16731,tid=43516) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:19:30(pid=16731,tid=43516) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:19
+2015-08-20 10:19:30(pid=16731,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:19:41(pid=17594,tid=43616) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:19:41(pid=17594,tid=43616) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:19
+2015-08-20 10:19:41(pid=17594,tid=43616) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:19:41(pid=17594,tid=43616) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:19
+2015-08-20 10:19:41(pid=17594,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:19:51(pid=18503,tid=43736) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:19:51(pid=18503,tid=43736) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:19
+2015-08-20 10:19:51(pid=18503,tid=43736) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:19:51(pid=18503,tid=43736) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:19
+2015-08-20 10:19:51(pid=18503,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:20:13(pid=20010,tid=43881) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:20:13(pid=20010,tid=43881) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:20
+2015-08-20 10:20:13(pid=20010,tid=43881) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:20:13(pid=20010,tid=43881) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:20
+2015-08-20 10:20:13(pid=20010,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:20:19(pid=20669,tid=43961) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:20:19(pid=20669,tid=43961) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:20
+2015-08-20 10:20:19(pid=20669,tid=43961) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:20:19(pid=20669,tid=43961) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:20
+2015-08-20 10:20:19(pid=20669,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:39:14(pid=26295,tid=44181) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:39:14(pid=26295,tid=44181) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:39
+2015-08-20 10:39:14(pid=26295,tid=44181) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:39:14(pid=26295,tid=44181) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:39
+2015-08-20 10:39:14(pid=26295,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:39:21(pid=27080,tid=44271) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:39:21(pid=27080,tid=44271) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:39
+2015-08-20 10:39:21(pid=27080,tid=44271) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:39:21(pid=27080,tid=44271) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:39
+2015-08-20 10:39:21(pid=27080,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:39:30(pid=27995,tid=44391) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:39:30(pid=27995,tid=44391) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:39
+2015-08-20 10:39:30(pid=27995,tid=44391) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:39:30(pid=27995,tid=44391) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:39
+2015-08-20 10:39:30(pid=27995,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:42:25(pid=30888,tid=44662) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:42:25(pid=30888,tid=44662) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:42
+2015-08-20 10:42:25(pid=30888,tid=44662) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:42:25(pid=30888,tid=44662) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:42
+2015-08-20 10:42:42(pid=32007,tid=44771) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:42:42(pid=32007,tid=44771) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:42
+2015-08-20 10:42:42(pid=32007,tid=44771) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:42:42(pid=32007,tid=44771) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:42
+2015-08-20 10:42:43(pid=32007,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:58:50(pid=9540,tid=45506) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:58:50(pid=9540,tid=45506) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:58
+2015-08-20 10:58:50(pid=9540,tid=45506) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:58:50(pid=9540,tid=45506) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:58
+2015-08-20 10:58:50(pid=9540,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:59:26(pid=11108,tid=45686) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 10:59:26(pid=11108,tid=45686) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 10:59
+2015-08-20 10:59:26(pid=11108,tid=45686) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 10:59:26(pid=11108,tid=45686) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 10:59
+2015-08-20 10:59:26(pid=11108,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:00:13(pid=12966,tid=45891) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:00:13(pid=12966,tid=45891) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:00
+2015-08-20 11:00:13(pid=12966,tid=45891) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:00:13(pid=12966,tid=45891) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:00
+2015-08-20 11:00:13(pid=12966,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:00:46(pid=14259,tid=46041) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:00:46(pid=14259,tid=46041) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:00
+2015-08-20 11:00:46(pid=14259,tid=46041) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:00:46(pid=14259,tid=46041) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:00
+2015-08-20 11:00:46(pid=14259,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:02:05(pid=16019,tid=46221) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:02:05(pid=16019,tid=46221) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:02
+2015-08-20 11:02:05(pid=16019,tid=46221) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:02:05(pid=16019,tid=46221) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:02
+2015-08-20 11:02:05(pid=16019,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:10:31(pid=18483,tid=46331) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:10:31(pid=18483,tid=46331) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:10
+2015-08-20 11:10:31(pid=18483,tid=46331) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:10:31(pid=18483,tid=46331) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:10
+2015-08-20 11:10:31(pid=18483,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:10:31(pid=18483,tid=46340) : Legy.session.connect (D) : [connect] current channel. Channel.isConnected() = Channel is null
+2015-08-20 11:10:31(pid=18483,tid=46346) : Legy (D) : lookUpFromOS address=ga2k-rc2.line.naver.jp/203.104.131.22 elapsed=5
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 200000, isWifi=true
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.heartbeat (D) : change pingInterval{cachedValue=200000(msec), cachedTime11:10.32)
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.heartbeat (D) : change pingFaileCount{cachedValue=3(msec), cachedTime11:10.32)
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy (D) : setReadTimeoutHandler(pingTimeout). timeout=240
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.session.connect (D) : [connect info] ChannelFutureListener#operationComplete. done=true, success=true, time=144, canceled=false
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.session.connect (D) : [connect(result = true)]LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.session.connect (D) : [connect start]spdy://ga2k-rc2.line.naver.jp:443obj-@28241704 : currentThread = 46340
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.session (D) : setSessionStatusChanged oldSessionStatus = Init, sessionStatus = Connected
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.heartbeat (D) : #### checkConnection - checkList=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1], LegyConnectionType [protocol:spdy] [host:ga2x-rc2.line.naver.jp] [port:443] [ssl:false] [priority:2][secureType:Enc][connectivityScore:1]]
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.encryption (D) : expired secretKey
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.profile (D) : id='/NP5(662254829)' time='1440036632139' elapsedTime='175' 'onStart'
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.request.spdyReqMgr (D) : addRequest. streamId=1
+spdy://ga2k-rc2.line.naver.jp:443obj-@28241704
+    reqeustMap. size=0
+
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.encryption (D) : #### legySessionEncryptionKey = {0xd2, 0xde, 0xf9, 0x8c, 0xe4, 0x8b, 0x83, 0xb7, 0x79, 0x05, 0xa6, 0x6e, 0x1d, 0x8a, 0x44, 0x1e}
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDM2NjMxOTQ2Cg==..0FKskrtMKSNDfpEy+Xjo7HeGkI8= 
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDM2NjMxOTQ2Cg==..0FKskrtMKSNDfpEy+Xjo7HeGkI8= 
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.encryption (D) : #### encrypt header=X-Line-Access value=u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDM2NjMxOTQ2Cg==..0FKskrtMKSNDfpEy+Xjo7HeGkI8=
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] LegySpdySynStreamFrame [
+ * spdySynStreamFrame=lby(last: false; unidirectional: false; deflateEnd: true)
+--> Stream-ID = 1
+--> Priority = 0
+--> Headers:
+    version: HTTP/1.1
+    method: POST
+    scheme: http
+    host: ga2k-rc2.line.naver.jp
+    url: /NP5
+    x-le: 7
+    x-la: ANDROID_RC	5.3.1	Android OS	5.1.1
+    x-lcs: 0004m7WjweTDv+r/zK48/qolLU/BcJJIIBuJFxasbmucqxjDGZUClcFPGJu14UlA1Tfbtsx0y1nO19RRzyuqspF/UaMDcpuZLQ9AW59ABWrZ3St4YiXKnVyNytsU5OH30FcT+riFIRSDk7/U4Q9i5rTJVwMjv4MPcIc/Kf+JTJ67/5aK6HXR1Y5K4Vc5xTP3LhBBpXgN6/mJ5zW4rWJK7LqUm4IFPi5/t3Yjt7g3kC4gHOrm1oZ0W/P8vUAujLuLkNzd1iJnELPyL2LP7CC5r3NkXAoR5dGbh/ju8tGM606DiwdVyskltHFAbNA29Ml0O96a+rS8xDvdtLnMSgP/Y1SlfA==
+    content-type: application/x-thrift
+    x-lal: ko_KR
+    x-lap: 1
+    x-lpv: 1
+    user-agent: Line/5.3.1
+    accept: application/x-thrift
+    x-lhm: POST
+    content-length: 26
+ * spdyDataFrame=lbo(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 148]
+2015-08-20 11:10:32(pid=18483,tid=46340) : Legy.request (D) : ### SpdyFrameEncoder - resetDeflate
+2015-08-20 11:10:32(pid=18483,tid=46360) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbv
+--> 4:70 (persist value: true; persisted: false)
+--> 10001:30 (persist value: true; persisted: false)
+--> 10002:3 (persist value: true; persisted: false)
+--> 10003:3600 (persist value: true; persisted: false)
+--> 10005:1440036632 (persist value: true; persisted: false)
+--> 10006:587 (persist value: true; persisted: false)
+2015-08-20 11:10:32(pid=18483,tid=46360) : Legy.response.stream (D) : receive SynReplyFrame. [streamId=1, last=false]
+2015-08-20 11:10:32(pid=18483,tid=46360) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbx(last: false; deflateEnd: false)
+--> Stream-ID = 1
+--> Headers:
+    content-length: 23246
+    content-type: application/x-thrift;charset=UTF-8
+    status: 200
+    version: HTTP/1.1
+    x-lc: 200
+    x-lcr: 193
+    x-le: 7
+2015-08-20 11:10:32(pid=18483,tid=46360) : Legy.request.spdyReqMgr (D) : receiveSynReply streamId=1 responseCode=200 status=OK headerFields={x-le=7, content-length=23246, x-lcr=193, status=200, x-lc=200, version=HTTP/1.1, content-type=application/x-thrift;charset=UTF-8}
+2015-08-20 11:10:32(pid=18483,tid=46360) : Legy.response.stream (D) : receive DataFrame.     [streamId=1, last=true]
+2015-08-20 11:10:32(pid=18483,tid=46360) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbo(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 23284
+2015-08-20 11:10:32(pid=18483,tid=46360) : Legy.request.spdyReqMgr (D) : receiveDataFrame. streamId=1, last=true, size=23284
+2015-08-20 11:10:32(pid=18483,tid=46360) : Legy.request.spdyReqMgr (D) : isFirstDataFrame=true
+2015-08-20 11:10:32(pid=18483,tid=46360) : Legy (D) : receiveDataFrame : sessionKey=oGu8TQ
+2015-08-20 11:10:32(pid=18483,tid=46360) : Legy.request.spdyReqMgr (D) : fireComplete. streamId=1, requestMap = {1=dls@2a4d9f70}
+spdy://ga2k-rc2.line.naver.jp:443obj-@28241704
+    reqeustMap. size=1
+        [streamId=1, status=200, uri=/NP5]
+
+2015-08-20 11:10:32(pid=18483,tid=46360) : Legy.request.spdyReqMgr (D) : streamId=1 responseCode=200 status=OK isFirstDataFrame=true
+2015-08-20 11:10:32(pid=18483,tid=46360) : Legy.profile (D) : id='/NP5(662254829)' time='1440036632552' elapsedTime='588' 'onReceiveComplete'
+2015-08-20 11:12:17(pid=19035,tid=46381) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:12:17(pid=19035,tid=46381) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:12
+2015-08-20 11:12:17(pid=19035,tid=46381) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:12:17(pid=19035,tid=46381) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:12
+2015-08-20 11:12:17(pid=19035,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:19:36(pid=22841,tid=46711) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:19:36(pid=22841,tid=46711) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:19
+2015-08-20 11:19:36(pid=22841,tid=46711) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:19:36(pid=22841,tid=46711) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:19
+2015-08-20 11:19:36(pid=22841,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:19:45(pid=23632,tid=46806) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:19:45(pid=23632,tid=46806) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:19
+2015-08-20 11:19:45(pid=23632,tid=46806) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:19:45(pid=23632,tid=46806) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:19
+2015-08-20 11:19:46(pid=23632,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:19:55(pid=24490,tid=46926) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:19:55(pid=24490,tid=46926) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:19
+2015-08-20 11:19:55(pid=24490,tid=46926) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:19:55(pid=24490,tid=46926) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:19
+2015-08-20 11:19:55(pid=24490,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:22:21(pid=26664,tid=47131) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:22:21(pid=26664,tid=47131) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:22
+2015-08-20 11:22:21(pid=26664,tid=47131) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:22:21(pid=26664,tid=47131) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:22
+2015-08-20 11:22:22(pid=26664,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:22:30(pid=27419,tid=47231) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:22:30(pid=27419,tid=47231) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:22
+2015-08-20 11:22:30(pid=27419,tid=47231) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:22:30(pid=27419,tid=47231) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:22
+2015-08-20 11:22:31(pid=27419,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:24:18(pid=29031,tid=47391) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:24:18(pid=29031,tid=47391) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:24
+2015-08-20 11:24:18(pid=29031,tid=47391) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:24:18(pid=29031,tid=47391) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:24
+2015-08-20 11:24:18(pid=29031,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:24:30(pid=29861,tid=47496) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:24:30(pid=29861,tid=47496) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:24
+2015-08-20 11:24:30(pid=29861,tid=47496) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:24:30(pid=29861,tid=47496) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:24
+2015-08-20 11:24:30(pid=29861,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:34:14(pid=32143,tid=47671) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:34:14(pid=32143,tid=47671) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:34
+2015-08-20 11:34:14(pid=32143,tid=47671) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:34:14(pid=32143,tid=47671) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:34
+2015-08-20 11:34:14(pid=32143,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:34:27(pid=699,tid=47776) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:34:27(pid=699,tid=47776) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:34
+2015-08-20 11:34:27(pid=699,tid=47776) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:34:27(pid=699,tid=47776) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:34
+2015-08-20 11:34:27(pid=699,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:36:33(pid=3762,tid=48006) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:36:33(pid=3762,tid=48006) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:36
+2015-08-20 11:36:33(pid=3762,tid=48006) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:36:33(pid=3762,tid=48006) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:36
+2015-08-20 11:36:34(pid=3762,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:36:47(pid=4727,tid=48116) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:36:47(pid=4727,tid=48116) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:36
+2015-08-20 11:36:47(pid=4727,tid=48116) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:36:47(pid=4727,tid=48116) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:36
+2015-08-20 11:36:47(pid=4727,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:37:09(pid=6140,tid=48291) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:37:09(pid=6140,tid=48291) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:37
+2015-08-20 11:37:09(pid=6140,tid=48291) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:37:09(pid=6140,tid=48291) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:37
+2015-08-20 11:37:09(pid=6140,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:39:27(pid=8624,tid=48521) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:39:27(pid=8624,tid=48521) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:39
+2015-08-20 11:39:27(pid=8624,tid=48521) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:39:27(pid=8624,tid=48521) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:39
+2015-08-20 11:39:27(pid=8624,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:39:36(pid=9350,tid=48621) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:39:36(pid=9350,tid=48621) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:39
+2015-08-20 11:39:36(pid=9350,tid=48621) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:39:36(pid=9350,tid=48621) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:39
+2015-08-20 11:39:36(pid=9350,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:49:24(pid=13962,tid=48951) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:49:24(pid=13962,tid=48951) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:49
+2015-08-20 11:49:24(pid=13962,tid=48951) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:49:24(pid=13962,tid=48951) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:49
+2015-08-20 11:49:24(pid=13962,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:49:31(pid=14764,tid=49066) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:49:31(pid=14764,tid=49066) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:49
+2015-08-20 11:49:31(pid=14764,tid=49066) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:49:31(pid=14764,tid=49066) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:49
+2015-08-20 11:49:32(pid=14764,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:49:41(pid=15628,tid=49191) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:49:41(pid=15628,tid=49191) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:49
+2015-08-20 11:49:41(pid=15628,tid=49191) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:49:41(pid=15628,tid=49191) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:49
+2015-08-20 11:49:41(pid=15628,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:50:01(pid=17230,tid=49376) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:50:01(pid=17230,tid=49376) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:50
+2015-08-20 11:50:01(pid=17230,tid=49376) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:50:01(pid=17230,tid=49376) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:50
+2015-08-20 11:50:02(pid=17230,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:50:11(pid=18047,tid=49491) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:50:11(pid=18047,tid=49491) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:50
+2015-08-20 11:50:11(pid=18047,tid=49491) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:50:11(pid=18047,tid=49491) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:50
+2015-08-20 11:50:11(pid=18047,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:50:30(pid=19333,tid=49641) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 11:50:30(pid=19333,tid=49641) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오전 11:50
+2015-08-20 11:50:30(pid=19333,tid=49641) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 11:50:30(pid=19333,tid=49641) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오전 11:50
+2015-08-20 11:50:31(pid=19333,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:00:24(pid=22645,tid=49881) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:00:24(pid=22645,tid=49881) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:00
+2015-08-20 12:00:24(pid=22645,tid=49881) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:00:24(pid=22645,tid=49881) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:00
+2015-08-20 12:00:24(pid=22645,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:00:43(pid=24055,tid=50056) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:00:43(pid=24055,tid=50056) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:00
+2015-08-20 12:00:43(pid=24055,tid=50056) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:00:43(pid=24055,tid=50056) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:00
+2015-08-20 12:00:43(pid=24055,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:00:52(pid=24847,tid=50161) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:00:52(pid=24847,tid=50161) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:00
+2015-08-20 12:00:52(pid=24847,tid=50161) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:00:52(pid=24847,tid=50161) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:00
+2015-08-20 12:00:52(pid=24847,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:01:18(pid=26576,tid=50331) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:01:18(pid=26576,tid=50331) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:01
+2015-08-20 12:01:18(pid=26576,tid=50331) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:01:18(pid=26576,tid=50331) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:01
+2015-08-20 12:01:19(pid=26576,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:01:31(pid=27509,tid=50431) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:01:31(pid=27509,tid=50431) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:01
+2015-08-20 12:01:31(pid=27509,tid=50431) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:01:31(pid=27509,tid=50431) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:01
+2015-08-20 12:01:31(pid=27509,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:09:27(pid=31664,tid=50771) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:09:27(pid=31664,tid=50771) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:09
+2015-08-20 12:09:27(pid=31664,tid=50771) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:09:27(pid=31664,tid=50771) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:09
+2015-08-20 12:09:27(pid=31664,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:09:39(pid=32397,tid=50871) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:09:39(pid=32397,tid=50871) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:09
+2015-08-20 12:09:39(pid=32397,tid=50871) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:09:39(pid=32397,tid=50871) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:09
+2015-08-20 12:09:39(pid=32397,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:09:50(pid=1188,tid=51007) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:09:50(pid=1188,tid=51007) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:09
+2015-08-20 12:09:50(pid=1188,tid=51007) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:09:50(pid=1188,tid=51007) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:09
+2015-08-20 12:09:50(pid=1188,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:17:47(pid=5552,tid=51301) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:17:47(pid=5552,tid=51301) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:17
+2015-08-20 12:17:47(pid=5552,tid=51301) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:17:47(pid=5552,tid=51301) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:17
+2015-08-20 12:17:47(pid=5552,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:17:56(pid=6327,tid=51396) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:17:56(pid=6327,tid=51396) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:17
+2015-08-20 12:17:56(pid=6327,tid=51396) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:17:56(pid=6327,tid=51396) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:17
+2015-08-20 12:17:56(pid=6327,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:44:33(pid=12269,tid=51751) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:44:33(pid=12269,tid=51751) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:44
+2015-08-20 12:44:33(pid=12269,tid=51751) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:44:33(pid=12269,tid=51751) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:44
+2015-08-20 12:44:33(pid=12269,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:44:44(pid=13095,tid=51851) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:44:44(pid=13095,tid=51851) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:44
+2015-08-20 12:44:44(pid=13095,tid=51851) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:44:44(pid=13095,tid=51851) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:44
+2015-08-20 12:44:45(pid=13095,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:45:02(pid=14338,tid=51996) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:45:02(pid=14338,tid=51996) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:45
+2015-08-20 12:45:02(pid=14338,tid=51996) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:45:02(pid=14338,tid=51996) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:45
+2015-08-20 12:45:02(pid=14338,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:47:44(pid=21156,tid=52711) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:47:44(pid=21156,tid=52711) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:47
+2015-08-20 12:47:44(pid=21156,tid=52711) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:47:44(pid=21156,tid=52711) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:47
+2015-08-20 12:47:45(pid=21156,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:47:57(pid=22006,tid=52811) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:47:57(pid=22006,tid=52811) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:47
+2015-08-20 12:47:57(pid=22006,tid=52811) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:47:57(pid=22006,tid=52811) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:47
+2015-08-20 12:47:57(pid=22006,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:48:53(pid=24244,tid=53086) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:48:53(pid=24244,tid=53086) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:48
+2015-08-20 12:48:53(pid=24244,tid=53086) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:48:53(pid=24244,tid=53086) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:48
+2015-08-20 12:48:53(pid=24244,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:49:41(pid=26315,tid=53301) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:49:41(pid=26315,tid=53301) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:49
+2015-08-20 12:49:41(pid=26315,tid=53301) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:49:41(pid=26315,tid=53301) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:49
+2015-08-20 12:49:42(pid=26315,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:49:54(pid=27117,tid=53401) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:49:54(pid=27117,tid=53401) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:49
+2015-08-20 12:49:54(pid=27117,tid=53401) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:49:54(pid=27117,tid=53401) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:49
+2015-08-20 12:49:54(pid=27117,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:50:12(pid=28205,tid=53536) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:50:12(pid=28205,tid=53536) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:50
+2015-08-20 12:50:12(pid=28205,tid=53536) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:50:12(pid=28205,tid=53536) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:50
+2015-08-20 12:50:12(pid=28205,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:55:45(pid=1151,tid=53881) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:55:45(pid=1151,tid=53881) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:55
+2015-08-20 12:55:46(pid=1151,tid=53881) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:55:46(pid=1151,tid=53881) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:55
+2015-08-20 12:55:46(pid=1151,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:55:58(pid=2302,tid=53971) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:55:58(pid=2302,tid=53971) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:55
+2015-08-20 12:55:58(pid=2302,tid=53971) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:55:58(pid=2302,tid=53971) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:55
+2015-08-20 12:55:58(pid=2302,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:56:06(pid=3064,tid=54066) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:56:06(pid=3064,tid=54066) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:56
+2015-08-20 12:56:06(pid=3064,tid=54066) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:56:06(pid=3064,tid=54066) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:56
+2015-08-20 12:56:06(pid=3064,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:57:50(pid=5157,tid=54226) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 12:57:50(pid=5157,tid=54226) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 12:57
+2015-08-20 12:57:50(pid=5157,tid=54226) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 12:57:50(pid=5157,tid=54226) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 12:57
+2015-08-20 12:57:50(pid=5157,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 13:00:36(pid=7303,tid=54386) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 13:00:36(pid=7303,tid=54386) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 1:00
+2015-08-20 13:00:36(pid=7303,tid=54386) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 13:00:36(pid=7303,tid=54386) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 1:00
+2015-08-20 13:00:36(pid=7303,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 13:00:49(pid=8291,tid=54526) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 13:00:49(pid=8291,tid=54526) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 1:00
+2015-08-20 13:00:49(pid=8291,tid=54526) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 13:00:49(pid=8291,tid=54526) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 1:00
+2015-08-20 13:00:49(pid=8291,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 13:00:55(pid=8900,tid=54611) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 13:00:55(pid=8900,tid=54611) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 1:00
+2015-08-20 13:00:55(pid=8900,tid=54611) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 13:00:55(pid=8900,tid=54611) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 1:00
+2015-08-20 13:00:55(pid=8900,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 13:03:20(pid=10999,tid=54811) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 13:03:20(pid=10999,tid=54811) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 1:03
+2015-08-20 13:03:20(pid=10999,tid=54811) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 13:03:20(pid=10999,tid=54811) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 1:03
+2015-08-20 13:03:21(pid=10999,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 13:04:03(pid=12294,tid=54906) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 13:04:03(pid=12294,tid=54906) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 1:04
+2015-08-20 13:04:03(pid=12294,tid=54906) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 13:04:03(pid=12294,tid=54906) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 1:04
+2015-08-20 13:04:04(pid=12294,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 13:36:06(pid=27232,tid=55206) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 13:36:06(pid=27232,tid=55206) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 1:36
+2015-08-20 13:36:06(pid=27232,tid=55206) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 13:36:06(pid=27232,tid=55206) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 1:36
+2015-08-20 13:36:06(pid=27232,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 13:36:06(pid=27232,tid=55215) : Legy.session.connect (D) : [connect] current channel. Channel.isConnected() = Channel is null
+2015-08-20 13:36:08(pid=27232,tid=55213) : Legy (D) : lookUpFromOS address=ga2k-rc2.line.naver.jp/203.104.131.22 elapsed=1413
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 420000, isWifi=false
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.heartbeat (D) : change pingInterval{cachedValue=420000(msec), cachedTime13:36.08)
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.heartbeat (D) : change pingFaileCount{cachedValue=3(msec), cachedTime13:36.08)
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy (D) : setReadTimeoutHandler(pingTimeout). timeout=460
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.session.connect (D) : [connect info] ChannelFutureListener#operationComplete. done=true, success=true, time=422, canceled=false
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.session.connect (D) : [connect(result = true)]LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.session.connect (D) : [connect start]spdy://ga2k-rc2.line.naver.jp:443obj-@28241704 : currentThread = 55215
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.session (D) : setSessionStatusChanged oldSessionStatus = Init, sessionStatus = Connected
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.heartbeat (D) : #### checkConnection - checkList=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1], LegyConnectionType [protocol:spdy] [host:ga2x-rc2.line.naver.jp] [port:443] [ssl:false] [priority:2][secureType:Enc][connectivityScore:1]]
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.encryption (D) : expired secretKey
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.profile (D) : id='/NP5(662254829)' time='1440045368552' elapsedTime='1894' 'onStart'
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.request.spdyReqMgr (D) : addRequest. streamId=1
+spdy://ga2k-rc2.line.naver.jp:443obj-@28241704
+    reqeustMap. size=0
+
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.encryption (D) : #### legySessionEncryptionKey = {0xf8, 0x9f, 0x06, 0x5f, 0xd4, 0x7c, 0xf4, 0x31, 0x33, 0xb4, 0xb3, 0xcc, 0x90, 0x63, 0x54, 0xea}
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDQ1MzY2NjM4Cg==..Vc0sv8ivhjV36BL6sFR4/KposfM= 
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDQ1MzY2NjM4Cg==..Vc0sv8ivhjV36BL6sFR4/KposfM= 
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.encryption (D) : #### encrypt header=X-Line-Access value=u7455d1b522685d26dc1fb3d7a146d037:aWF0OiAxNDQwMDQ1MzY2NjM4Cg==..Vc0sv8ivhjV36BL6sFR4/KposfM=
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] LegySpdySynStreamFrame [
+ * spdySynStreamFrame=lby(last: false; unidirectional: false; deflateEnd: true)
+--> Stream-ID = 1
+--> Priority = 0
+--> Headers:
+    version: HTTP/1.1
+    method: POST
+    scheme: http
+    host: ga2k-rc2.line.naver.jp
+    url: /NP5
+    x-le: 7
+    x-la: ANDROID_RC	5.3.1	Android OS	5.1.1
+    x-lcs: 0004DiSwzpm4V2NeITmOw5zUXV9Pdn7yVV3SXqHyr5qfLJiOTQm0xwjiFF1UiqDO5w0/ANbBBZJ82O/N7PAHWeLw22ThBa9Y0UJiaBE0qZnO8RBLirPrEeiX4Izo3AEQNM9dk+zWMqD6aPh6F8y6I2YPIr89JRpBOKhN5uDBZMJjJJwY75UcGrzznUHa5uShrB1GOfuAPumgE2HhpyleE+3KG/S/CgD8pAApKSDqB5X2b29VVynxVh8/EOyyJHVQ7T9oY/rlk1SRi4Enw9y9i8Wzjrj4b/bYixhYQRK8oM0mp/0nzh/w6otTzYhutN/t/Z9d/IKkxs6HONbwsfqgKGuTSg==
+    content-type: application/x-thrift
+    x-lal: ko_KR
+    x-lap: 1
+    x-lpv: 1
+    user-agent: Line/5.3.1
+    accept: application/x-thrift
+    x-lhm: POST
+    content-length: 26
+ * spdyDataFrame=lbo(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 148]
+2015-08-20 13:36:08(pid=27232,tid=55215) : Legy.request (D) : ### SpdyFrameEncoder - resetDeflate
+2015-08-20 13:36:09(pid=27232,tid=55235) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbv
+--> 4:70 (persist value: true; persisted: false)
+--> 10001:30 (persist value: true; persisted: false)
+--> 10002:3 (persist value: true; persisted: false)
+--> 10003:3600 (persist value: true; persisted: false)
+--> 10005:1440045370 (persist value: true; persisted: false)
+--> 10006:554 (persist value: true; persisted: false)
+2015-08-20 13:36:09(pid=27232,tid=55235) : Legy.response.stream (D) : receive SynReplyFrame. [streamId=1, last=false]
+2015-08-20 13:36:09(pid=27232,tid=55235) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbx(last: false; deflateEnd: false)
+--> Stream-ID = 1
+--> Headers:
+    content-length: 9584
+    content-type: application/x-thrift;charset=UTF-8
+    status: 200
+    version: HTTP/1.1
+    x-lc: 200
+    x-lcr: 193
+    x-le: 7
+2015-08-20 13:36:09(pid=27232,tid=55235) : Legy.request.spdyReqMgr (D) : receiveSynReply streamId=1 responseCode=200 status=OK headerFields={x-le=7, content-length=9584, x-lcr=193, status=200, x-lc=200, version=HTTP/1.1, content-type=application/x-thrift;charset=UTF-8}
+2015-08-20 13:36:09(pid=27232,tid=55235) : Legy.response.stream (D) : receive DataFrame.     [streamId=1, last=true]
+2015-08-20 13:36:09(pid=27232,tid=55235) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-rc2.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] lbo(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 9620
+2015-08-20 13:36:09(pid=27232,tid=55235) : Legy.request.spdyReqMgr (D) : receiveDataFrame. streamId=1, last=true, size=9620
+2015-08-20 13:36:09(pid=27232,tid=55235) : Legy.request.spdyReqMgr (D) : isFirstDataFrame=true
+2015-08-20 13:36:09(pid=27232,tid=55235) : Legy (D) : receiveDataFrame : sessionKey=N5xfjA
+2015-08-20 13:36:09(pid=27232,tid=55235) : Legy.request.spdyReqMgr (D) : fireComplete. streamId=1, requestMap = {1=dls@2aac220f}
+spdy://ga2k-rc2.line.naver.jp:443obj-@28241704
+    reqeustMap. size=1
+        [streamId=1, status=200, uri=/NP5]
+
+2015-08-20 13:36:09(pid=27232,tid=55235) : Legy.request.spdyReqMgr (D) : streamId=1 responseCode=200 status=OK isFirstDataFrame=true
+2015-08-20 13:36:09(pid=27232,tid=55235) : Legy.profile (D) : id='/NP5(662254829)' time='1440045369810' elapsedTime='3152' 'onReceiveComplete'
+2015-08-20 13:36:14(pid=27232,tid=55214) : Legy.session.connect (D) : LegySpdyPortScanner : start scan
+2015-08-20 13:36:14(pid=27232,tid=55219) : Legy (D) : lookUpFromOS address=ga2k-rc2.line.naver.jp/203.104.131.22 elapsed=53
+2015-08-20 13:47:49(pid=30810,tid=55326) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 13:47:49(pid=30810,tid=55326) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 1:47
+2015-08-20 13:47:49(pid=30810,tid=55326) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 13:47:49(pid=30810,tid=55326) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 1:47
+2015-08-20 13:47:49(pid=30810,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 13:55:03(pid=3431,tid=55637) : Legy.dns (D) : addReservedDNSInfo address=/125.209.238.213
+2015-08-20 13:55:03(pid=3431,tid=55637) : Legy.dns (D) : createDNSInfo address=/125.209.238.213, time=15. 8. 20. 오후 1:55
+2015-08-20 13:55:03(pid=3431,tid=55637) : Legy.dns (D) : addReservedDNSInfo address=/182.162.194.70
+2015-08-20 13:55:03(pid=3431,tid=55637) : Legy.dns (D) : createDNSInfo address=/182.162.194.70, time=15. 8. 20. 오후 1:55
+2015-08-20 13:55:03(pid=3431,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+

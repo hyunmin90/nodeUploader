@@ -1,0 +1,66 @@
+2015-08-20 00:07:25(pid=16840,tid=27578) : TalkApi (D) : [req][id=204963267] fetchOps(localRev=13265, count=100, globalRev=14740, individualRev=59, queryParameters=null, callback=ecj@23c42640)
+2015-08-20 00:07:29(pid=16840,tid=27579) : TalkApi (D) : [res][id=204963267] fetchOps[elapsed=4264ms] result=Callback[a(eli)]
+eli
+	at elb.a(SourceFile:268)
+	at eky.a(SourceFile:187)
+	at dfd.a(SourceFile:34)
+	at dhj.run(SourceFile:281)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at jp.naver.line.android.util.ad.run(SourceFile:229)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at jp.naver.line.android.util.ad.run(SourceFile:229)
+	at java.lang.Thread.run(Thread.java:818)
+
+2015-08-20 02:04:23(pid=9511,tid=29304) : TalkApi (D) : [req][id=330037625] fetchOps(localRev=13265, count=100, globalRev=14740, individualRev=59, queryParameters=null, callback=ecj@32d246be)
+2015-08-20 02:04:24(pid=9511,tid=29292) : TalkApi (D) : [res][id=330037625] fetchOps[elapsed=576ms] result=Callback[a(eli)]
+eli
+	at elb.a(SourceFile:268)
+	at eky.a(SourceFile:187)
+	at dfd.a(SourceFile:34)
+	at dhj.run(SourceFile:281)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at jp.naver.line.android.util.ad.run(SourceFile:229)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at jp.naver.line.android.util.ad.run(SourceFile:229)
+	at java.lang.Thread.run(Thread.java:818)
+
+2015-08-20 04:08:27(pid=4075,tid=30936) : TalkApi (D) : [req][id=852641470] fetchOps(localRev=13265, count=100, globalRev=14740, individualRev=59, queryParameters=null, callback=ecj@2a0a331f)
+2015-08-20 04:08:32(pid=4075,tid=30937) : TalkApi (D) : [res][id=852641470] fetchOps[elapsed=5408ms] result=Callback[a(eli)]
+eli
+	at elb.a(SourceFile:268)
+	at eky.a(SourceFile:187)
+	at dfd.a(SourceFile:34)
+	at dhj.run(SourceFile:281)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at jp.naver.line.android.util.ad.run(SourceFile:229)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at jp.naver.line.android.util.ad.run(SourceFile:229)
+	at java.lang.Thread.run(Thread.java:818)
+
+2015-08-20 06:06:45(pid=6466,tid=33478) : TalkApi (D) : [req][id=852641470] fetchOps(localRev=13265, count=100, globalRev=14740, individualRev=59, queryParameters=null, callback=ecj@2a0a331f)
+2015-08-20 06:06:45(pid=6466,tid=33485) : TalkApi (D) : [res][id=852641470] fetchOps[elapsed=382ms] result=Callback[a(emi@2aac220f)]
+2015-08-20 07:48:25(pid=25955,tid=34247) : TalkApi (D) : [req][id=852641470] fetchOps(localRev=13265, count=100, globalRev=14741, individualRev=59, queryParameters=null, callback=ecj@2a0a331f)
+2015-08-20 07:48:25(pid=25955,tid=34249) : TalkApi (D) : [res][id=852641470] fetchOps[elapsed=726ms] result=Callback[a(eli)]
+eli
+	at elb.a(SourceFile:268)
+	at eky.a(SourceFile:187)
+	at dfd.a(SourceFile:34)
+	at dhj.run(SourceFile:281)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at jp.naver.line.android.util.ad.run(SourceFile:229)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:422)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+	at jp.naver.line.android.util.ad.run(SourceFile:229)
+	at java.lang.Thread.run(Thread.java:818)
+
+2015-08-20 11:10:31(pid=18483,tid=46335) : TalkApi (D) : [req][id=852641470] fetchOps(localRev=13265, count=100, globalRev=14741, individualRev=59, queryParameters=null, callback=ecj@2a0a331f)
+2015-08-20 11:10:32(pid=18483,tid=46337) : TalkApi (D) : [res][id=852641470] fetchOps[elapsed=664ms] result=Callback[a(emi@c7114a5)]
+2015-08-20 13:36:06(pid=27232,tid=55217) : TalkApi (D) : [req][id=204963267] fetchOps(localRev=13265, count=100, globalRev=14741, individualRev=59, queryParameters=null, callback=ecj@23c42640)
+2015-08-20 13:36:09(pid=27232,tid=55211) : TalkApi (D) : [res][id=204963267] fetchOps[elapsed=3253ms] result=Callback[a(emi@12b1ec88)]

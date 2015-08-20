@@ -1,0 +1,9 @@
+2015-08-20 10:05:08(pid=3036,tid=13069) : LineAlarmManager (D) : cancelSchedule(alarmType=FETCH_OP_TIMEOUT_FOR_PUSH)
+2015-08-20 10:05:08(pid=3036,tid=13069) : LineAlarmManager (D) : setSchedule(alarmType=FETCH_OP_SCHEDULER, schedule=10:05:09)
+2015-08-20 10:05:09(pid=3036,tid=1) : LineAlarmManager (D) : receive alarm. alarmType=FETCH_OP_SCHEDULER
+2015-08-20 10:05:09(pid=3036,tid=1) : LineAlarmManager (D) : cancelSchedule(alarmType=FETCH_OP_SCHEDULER)
+2015-08-20 10:05:11(pid=3036,tid=13072) : LineAlarmManager (D) : cancelSchedule(alarmType=FETCH_OP_TIMEOUT_FOR_PUSH)
+2015-08-20 10:05:11(pid=3036,tid=13072) : LineAlarmManager (D) : setSchedule(alarmType=FETCH_OP_SCHEDULER, schedule=10:05:14)
+2015-08-20 10:05:14(pid=3036,tid=1) : LineAlarmManager (D) : receive alarm. alarmType=FETCH_OP_SCHEDULER
+2015-08-20 10:05:14(pid=3036,tid=1) : LineAlarmManager (D) : cancelSchedule(alarmType=FETCH_OP_SCHEDULER)
+2015-08-20 10:05:14(pid=3036,tid=13069) : LineAlarmManager (D) : cancelSchedule(alarmType=FETCH_OP_TIMEOUT_FOR_PUSH)

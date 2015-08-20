@@ -1,0 +1,478 @@
+2015-08-17 15:26:29(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegyDNSManager$1
+2015-08-17 15:26:29(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:29(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegyDNSManager$1
+2015-08-17 15:26:29(pid=6904,tid=588) : LExecutorService (V) : worker start (1) : [LINE] #1 
+2015-08-17 15:26:29(pid=6904,tid=588) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:29(pid=6904,tid=588) : LExecutorService (V) : f worker start (1) : [LINE] #1 FWorker 
+2015-08-17 15:26:29(pid=6904,tid=588) : LExecutorService (D) : run : jp.naver.line.android.legy.LegyDNSManager$1
+2015-08-17 15:26:29(pid=6904,tid=588) : LExecutorService (D) : run : jp.naver.line.android.legy.LegyDNSManager$1
+2015-08-17 15:26:29(pid=6904,tid=588) : LExecutorService (V) : f worker end (0) : [LINE] #1 FWorker 
+2015-08-17 15:26:29(pid=6904,tid=588) : LExecutorService (V) : worker wait (1,1) : [LINE] #1 
+2015-08-17 15:26:29(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.LineApplication$BackgroundInitializeTask
+2015-08-17 15:26:29(pid=6904,tid=588) : LExecutorService (V) : worker awake (1,0) : [LINE] #1 
+2015-08-17 15:26:29(pid=6904,tid=588) : LExecutorService (D) : run : jp.naver.line.android.LineApplication$BackgroundInitializeTask
+2015-08-17 15:26:29(pid=6904,tid=1) : db.main (D) : onOpen [start] : name=naver_line
+2015-08-17 15:26:29(pid=6904,tid=1) : db.main (D) : onOpen [ end ] : name=naver_line, elapsedTime=0ms
+2015-08-17 15:26:29(pid=6904,tid=1) : FTS (D) : start
+2015-08-17 15:26:29(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.thrift.client.AuthErrorChecker$1
+2015-08-17 15:26:29(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:29(pid=6904,tid=1) : FTS (D) : onForeground
+2015-08-17 15:26:29(pid=6904,tid=593) : LExecutorService (V) : worker start (2) : [LINE] #2 
+2015-08-17 15:26:29(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.service.search.ChatTextSearchManager$1
+2015-08-17 15:26:29(pid=6904,tid=594) : LExecutorService (V) : worker start (3) : [LINE] #3 
+2015-08-17 15:26:29(pid=6904,tid=594) : LExecutorService (D) : run : jp.naver.line.android.service.search.ChatTextSearchManager$1
+2015-08-17 15:26:29(pid=6904,tid=594) : FTS (D) : buildFTSDatabase:false at /data/data/jp.naver.line.android/databases/search.sqlite
+2015-08-17 15:26:29(pid=6904,tid=594) : LExecutorService (D) : execute : jp.naver.line.android.service.search.ChatTextSearchManager$4
+2015-08-17 15:26:29(pid=6904,tid=593) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:29(pid=6904,tid=595) : LExecutorService (V) : worker start (4) : [LINE] #4 
+2015-08-17 15:26:29(pid=6904,tid=593) : LExecutorService (V) : f worker start (1) : [LINE] #2 FWorker 
+2015-08-17 15:26:29(pid=6904,tid=595) : LExecutorService (V) : worker wait (4,1) : [LINE] #4 
+2015-08-17 15:26:29(pid=6904,tid=594) : LExecutorService (D) : run : jp.naver.line.android.service.search.ChatTextSearchManager$4
+2015-08-17 15:26:29(pid=6904,tid=593) : LExecutorService (D) : run : jp.naver.line.android.thrift.client.AuthErrorChecker$1
+2015-08-17 15:26:29(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.LineExecutorFutureTask
+2015-08-17 15:26:29(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:29(pid=6904,tid=595) : LExecutorService (V) : worker awake (4,0) : [LINE] #4 
+2015-08-17 15:26:29(pid=6904,tid=595) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:29(pid=6904,tid=595) : LExecutorService (V) : f worker start (1) : [LINE] #4 FWorker 
+2015-08-17 15:26:29(pid=6904,tid=595) : LExecutorService (D) : run : jp.naver.line.android.analytics.AnalyticsLogContext$1
+2015-08-17 15:26:29(pid=6904,tid=593) : LExecutorService (V) : f worker end (0) : [LINE] #2 FWorker 
+2015-08-17 15:26:29(pid=6904,tid=593) : LExecutorService (V) : worker wait (4,1) : [LINE] #2 
+2015-08-17 15:26:29(pid=6904,tid=595) : LExecutorService (V) : f worker end (0) : [LINE] #4 FWorker 
+2015-08-17 15:26:29(pid=6904,tid=595) : LExecutorService (V) : worker wait (4,2) : [LINE] #4 
+2015-08-17 15:26:29(pid=6904,tid=594) : FTS (E) : validateFTSDatabase: Index tables are invalid, rebuild
+2015-08-17 15:26:29(pid=6904,tid=594) : FTS (D) : buildFTSDatabase:true at /data/data/jp.naver.line.android/databases/search.sqlite
+2015-08-17 15:26:29(pid=6904,tid=594) : LExecutorService (D) : execute : jp.naver.line.android.service.search.ChatTextSearchManager$5
+2015-08-17 15:26:29(pid=6904,tid=594) : LExecutorService (D) : run : jp.naver.line.android.service.search.ChatTextSearchManager$5
+2015-08-17 15:26:29(pid=6904,tid=594) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-17 15:26:29(pid=6904,tid=593) : LExecutorService (V) : worker awake (4,1) : [LINE] #2 
+2015-08-17 15:26:29(pid=6904,tid=593) : LExecutorService (V) : worker wait (4,2) : [LINE] #2 
+2015-08-17 15:26:29(pid=6904,tid=595) : LExecutorService (V) : worker awake (4,1) : [LINE] #4 
+2015-08-17 15:26:29(pid=6904,tid=595) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-17 15:26:30(pid=6904,tid=588) : LExecutorService (D) : execute : jp.naver.line.android.status.UserStatusManager$1
+2015-08-17 15:26:30(pid=6904,tid=593) : LExecutorService (V) : worker awake (4,0) : [LINE] #2 
+2015-08-17 15:26:30(pid=6904,tid=593) : LExecutorService (D) : run : jp.naver.line.android.status.UserStatusManager$1
+2015-08-17 15:26:30(pid=6904,tid=593) : LExecutorService (V) : worker wait (4,1) : [LINE] #2 
+2015-08-17 15:26:30(pid=6904,tid=588) : LExecutorService (D) : execute : jp.naver.line.android.LineApplication$5
+2015-08-17 15:26:30(pid=6904,tid=593) : LExecutorService (V) : worker awake (4,0) : [LINE] #2 
+2015-08-17 15:26:30(pid=6904,tid=593) : LExecutorService (D) : run : jp.naver.line.android.LineApplication$5
+2015-08-17 15:26:30(pid=6904,tid=588) : LExecutorService (D) : execute : jp.naver.line.android.db.BaseDbOpenHelper$1
+2015-08-17 15:26:30(pid=6904,tid=588) : LExecutorService (D) : execute : jp.naver.line.android.db.BaseDbOpenHelper$1
+2015-08-17 15:26:30(pid=6904,tid=600) : LExecutorService (V) : worker start (6) : [LINE] #5 
+2015-08-17 15:26:30(pid=6904,tid=601) : LExecutorService (V) : worker start (6) : [LINE] #6 
+2015-08-17 15:26:30(pid=6904,tid=601) : LExecutorService (D) : run : jp.naver.line.android.db.BaseDbOpenHelper$1
+2015-08-17 15:26:30(pid=6904,tid=588) : LExecutorService (D) : execute : jp.naver.line.android.db.BaseDbOpenHelper$1
+2015-08-17 15:26:30(pid=6904,tid=600) : LExecutorService (D) : run : jp.naver.line.android.db.BaseDbOpenHelper$1
+2015-08-17 15:26:30(pid=6904,tid=588) : LExecutorService (D) : execute : jp.naver.line.android.db.BaseDbOpenHelper$1
+2015-08-17 15:26:30(pid=6904,tid=605) : LExecutorService (V) : worker start (8) : [LINE] #7 
+2015-08-17 15:26:30(pid=6904,tid=605) : LExecutorService (D) : run : jp.naver.line.android.db.BaseDbOpenHelper$1
+2015-08-17 15:26:30(pid=6904,tid=588) : LExecutorService (D) : execute : jp.naver.line.android.legy.conninfo.ConnInfoLoader$1
+2015-08-17 15:26:30(pid=6904,tid=588) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:30(pid=6904,tid=603) : LExecutorService (V) : worker start (9) : [LINE] #8 
+2015-08-17 15:26:30(pid=6904,tid=603) : LExecutorService (D) : run : jp.naver.line.android.db.BaseDbOpenHelper$1
+2015-08-17 15:26:30(pid=6904,tid=606) : LExecutorService (V) : worker start (9) : [LINE] #9 
+2015-08-17 15:26:30(pid=6904,tid=606) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:30(pid=6904,tid=606) : LExecutorService (V) : f worker start (1) : [LINE] #9 FWorker 
+2015-08-17 15:26:30(pid=6904,tid=606) : LExecutorService (D) : run : jp.naver.line.android.legy.conninfo.ConnInfoLoader$1
+2015-08-17 15:26:30(pid=6904,tid=588) : LExecutorService (D) : execute : jp.naver.line.android.bo.privatechat.PrivateChatroomManager$DestructionMessageTask
+2015-08-17 15:26:30(pid=6904,tid=608) : LExecutorService (V) : worker start (10) : [LINE] #10 
+2015-08-17 15:26:30(pid=6904,tid=608) : LExecutorService (D) : run : jp.naver.line.android.bo.privatechat.PrivateChatroomManager$DestructionMessageTask
+2015-08-17 15:26:30(pid=6904,tid=606) : accessToken.Manager (D) : clear cached token. key=OBS_ENCRYPTED_ACCESS_TOKEN
+2015-08-17 15:26:30(pid=6904,tid=606) : accessToken.Accessor (D) : clearCachedAccessToken.(type=OBS_GENERAL)
+2015-08-17 15:26:30(pid=6904,tid=595) : LExecutorService (V) : worker end (9) : [LINE] #4 
+2015-08-17 15:26:30(pid=6904,tid=593) : LExecutorService (D) : execute : jp.naver.line.android.dexinterface.nelo2.NELO2Wrapper$NELO2Task
+2015-08-17 15:26:30(pid=6904,tid=593) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:30(pid=6904,tid=593) : LExecutorService (D) : execute : jp.naver.line.android.dexinterface.nelo2.NELO2Wrapper$NELO2Task
+2015-08-17 15:26:30(pid=6904,tid=593) : LExecutorService (D) : execute : jp.naver.line.android.dexinterface.nelo2.NELO2Wrapper$NELO2Task
+2015-08-17 15:26:30(pid=6904,tid=609) : LExecutorService (V) : worker start (10) : [LINE] #11 
+2015-08-17 15:26:30(pid=6904,tid=609) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:30(pid=6904,tid=609) : LExecutorService (V) : f worker start (1) : [LINE] #11 FWorker 
+2015-08-17 15:26:30(pid=6904,tid=609) : LExecutorService (D) : run : jp.naver.line.android.dexinterface.nelo2.NELO2Wrapper$NELO2Task
+2015-08-17 15:26:30(pid=6904,tid=609) : LExecutorService (D) : run : jp.naver.line.android.dexinterface.nelo2.NELO2Wrapper$NELO2Task
+2015-08-17 15:26:30(pid=6904,tid=609) : LExecutorService (D) : run : jp.naver.line.android.dexinterface.nelo2.NELO2Wrapper$NELO2Task
+2015-08-17 15:26:30(pid=6904,tid=609) : LExecutorService (V) : f worker end (0) : [LINE] #11 FWorker 
+2015-08-17 15:26:30(pid=6904,tid=609) : LExecutorService (V) : worker end (9) : [LINE] #11 
+2015-08-17 15:26:30(pid=6904,tid=593) : LExecutorService (V) : worker end (8) : [LINE] #2 
+2015-08-17 15:26:30(pid=6904,tid=600) : db.privatechat (D) : onOpen [start] : name=naver_line_private_chat
+2015-08-17 15:26:30(pid=6904,tid=600) : db.privatechat (D) : onOpen [ end ] : name=naver_line_private_chat, elapsedTime=0ms
+2015-08-17 15:26:30(pid=6904,tid=601) : db.pushhistory (D) : onOpen [start] : name=naver_line_push_history
+2015-08-17 15:26:30(pid=6904,tid=601) : db.pushhistory (D) : onOpen [ end ] : name=naver_line_push_history, elapsedTime=0ms
+2015-08-17 15:26:30(pid=6904,tid=600) : LExecutorService (V) : worker wait (8,1) : [LINE] #5 
+2015-08-17 15:26:30(pid=6904,tid=601) : LExecutorService (V) : worker wait (8,2) : [LINE] #6 
+2015-08-17 15:26:30(pid=6904,tid=605) : db.generalkv (D) : onOpen [start] : name=line_general_key_value
+2015-08-17 15:26:30(pid=6904,tid=605) : db.generalkv (D) : onOpen [ end ] : name=line_general_key_value, elapsedTime=0ms
+2015-08-17 15:26:30(pid=6904,tid=605) : LExecutorService (V) : worker wait (8,3) : [LINE] #7 
+2015-08-17 15:26:30(pid=6904,tid=603) : db.autosuggest (D) : onOpen [start] : name=as_dic
+2015-08-17 15:26:30(pid=6904,tid=603) : db.autosuggest (D) : onOpen [ end ] : name=as_dic, elapsedTime=0ms
+2015-08-17 15:26:30(pid=6904,tid=603) : LExecutorService (V) : worker wait (8,4) : [LINE] #8 
+2015-08-17 15:26:30(pid=6904,tid=608) : LExecutorService (V) : worker wait (8,5) : [LINE] #10 
+2015-08-17 15:26:30(pid=6904,tid=606) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegyDNSManager$1
+2015-08-17 15:26:30(pid=6904,tid=606) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegyDNSManager$1
+2015-08-17 15:26:30(pid=6904,tid=588) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-17 15:26:30(pid=6904,tid=600) : LExecutorService (V) : worker awake (8,4) : [LINE] #5 
+2015-08-17 15:26:30(pid=6904,tid=600) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-17 15:26:30(pid=6904,tid=600) : LExecutorService (V) : worker wait (8,5) : [LINE] #5 
+2015-08-17 15:26:31(pid=6904,tid=606) : LExecutorService (D) : run : jp.naver.line.android.legy.LegyDNSManager$1
+2015-08-17 15:26:31(pid=6904,tid=606) : LExecutorService (D) : run : jp.naver.line.android.legy.LegyDNSManager$1
+2015-08-17 15:26:31(pid=6904,tid=606) : LExecutorService (V) : f worker end (0) : [LINE] #9 FWorker 
+2015-08-17 15:26:31(pid=6904,tid=606) : LExecutorService (V) : worker wait (8,6) : [LINE] #9 
+2015-08-17 15:26:31(pid=6904,tid=594) : FTS (D) : buildIndexTables
+2015-08-17 15:26:31(pid=6904,tid=594) : LExecutorService (D) : execute : jp.naver.line.android.service.search.ChatTextSearchManager$6
+2015-08-17 15:26:31(pid=6904,tid=594) : LExecutorService (D) : run : jp.naver.line.android.service.search.ChatTextSearchManager$6
+2015-08-17 15:26:31(pid=6904,tid=601) : LExecutorService (V) : worker awake (8,5) : [LINE] #6 
+2015-08-17 15:26:31(pid=6904,tid=601) : LExecutorService (V) : worker wait (8,6) : [LINE] #6 
+2015-08-17 15:26:31(pid=6904,tid=594) : FTS (D) : prefetchMessagesIds 0 messages in 26(25)
+2015-08-17 15:26:31(pid=6904,tid=594) : FTS (D) : buildIndexTable
+2015-08-17 15:26:31(pid=6904,tid=594) : LExecutorService (D) : execute : jp.naver.line.android.service.search.ChatTextSearchManager$7
+2015-08-17 15:26:31(pid=6904,tid=605) : LExecutorService (V) : worker awake (8,5) : [LINE] #7 
+2015-08-17 15:26:31(pid=6904,tid=605) : LExecutorService (D) : run : jp.naver.line.android.service.search.ChatTextSearchManager$7
+2015-08-17 15:26:31(pid=6904,tid=605) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-17 15:26:31(pid=6904,tid=603) : LExecutorService (V) : worker awake (8,4) : [LINE] #8 
+2015-08-17 15:26:31(pid=6904,tid=603) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-17 15:26:31(pid=6904,tid=594) : LExecutorService (V) : worker wait (8,5) : [LINE] #3 
+2015-08-17 15:26:31(pid=6904,tid=605) : FTS (D) : buildIndexTable: no more messages to be indexed: 0 messages in 0 ms
+2015-08-17 15:26:31(pid=6904,tid=605) : LExecutorService (V) : worker wait (8,6) : [LINE] #7 
+2015-08-17 15:26:31(pid=6904,tid=603) : LExecutorService (V) : worker wait (8,7) : [LINE] #8 
+2015-08-17 15:26:31(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-17 15:26:31(pid=6904,tid=608) : LExecutorService (V) : worker awake (8,6) : [LINE] #10 
+2015-08-17 15:26:31(pid=6904,tid=608) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-17 15:26:31(pid=6904,tid=608) : LExecutorService (V) : worker wait (8,7) : [LINE] #10 
+2015-08-17 15:26:31(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.service.push.PushManager$1
+2015-08-17 15:26:31(pid=6904,tid=600) : LExecutorService (V) : worker awake (8,6) : [LINE] #5 
+2015-08-17 15:26:31(pid=6904,tid=600) : LExecutorService (D) : run : jp.naver.line.android.service.push.PushManager$1
+2015-08-17 15:26:31(pid=6904,tid=600) : LExecutorService (V) : worker wait (8,7) : [LINE] #5 
+2015-08-17 15:26:33(pid=6904,tid=588) : LExecutorService (D) : execute : jp.naver.line.android.bo.shop.sticon.SticonInfoCache$1
+2015-08-17 15:26:33(pid=6904,tid=588) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:33(pid=6904,tid=606) : LExecutorService (V) : worker awake (8,6) : [LINE] #9 
+2015-08-17 15:26:33(pid=6904,tid=606) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:33(pid=6904,tid=606) : LExecutorService (V) : f worker start (1) : [LINE] #9 FWorker 
+2015-08-17 15:26:33(pid=6904,tid=606) : LExecutorService (D) : run : jp.naver.line.android.bo.shop.sticon.SticonInfoCache$1
+2015-08-17 15:26:33(pid=6904,tid=606) : LExecutorService (V) : f worker end (0) : [LINE] #9 FWorker 
+2015-08-17 15:26:33(pid=6904,tid=606) : LExecutorService (V) : worker wait (8,7) : [LINE] #9 
+2015-08-17 15:26:35(pid=6904,tid=588) : LExecutorService (V) : worker wait (8,8) : [LINE] #1 
+2015-08-17 15:26:36(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.service.push.SystemBroadcastReceiver$2
+2015-08-17 15:26:36(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:36(pid=6904,tid=601) : LExecutorService (V) : worker awake (8,7) : [LINE] #6 
+2015-08-17 15:26:36(pid=6904,tid=601) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:36(pid=6904,tid=601) : LExecutorService (V) : f worker start (1) : [LINE] #6 FWorker 
+2015-08-17 15:26:36(pid=6904,tid=601) : LExecutorService (D) : run : jp.naver.line.android.service.push.SystemBroadcastReceiver$2
+2015-08-17 15:26:36(pid=6904,tid=601) : LExecutorService (V) : f worker end (0) : [LINE] #6 FWorker 
+2015-08-17 15:26:36(pid=6904,tid=601) : LExecutorService (V) : worker wait (8,8) : [LINE] #6 
+2015-08-17 15:26:40(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-17 15:26:40(pid=6904,tid=594) : LExecutorService (V) : worker awake (8,7) : [LINE] #3 
+2015-08-17 15:26:40(pid=6904,tid=594) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-17 15:26:40(pid=6904,tid=594) : LExecutorService (V) : worker wait (8,8) : [LINE] #3 
+2015-08-17 15:26:40(pid=6904,tid=594) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-17 15:26:40(pid=6904,tid=605) : LExecutorService (V) : worker awake (8,7) : [LINE] #7 
+2015-08-17 15:26:40(pid=6904,tid=605) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-17 15:26:40(pid=6904,tid=605) : LExecutorService (V) : worker wait (8,8) : [LINE] #7 
+2015-08-17 15:26:40(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-17 15:26:40(pid=6904,tid=603) : LExecutorService (V) : worker awake (8,7) : [LINE] #8 
+2015-08-17 15:26:40(pid=6904,tid=603) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-17 15:26:40(pid=6904,tid=603) : LExecutorService (V) : worker wait (8,8) : [LINE] #8 
+2015-08-17 15:26:41(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-17 15:26:41(pid=6904,tid=608) : LExecutorService (V) : worker awake (8,7) : [LINE] #10 
+2015-08-17 15:26:41(pid=6904,tid=608) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-17 15:26:41(pid=6904,tid=608) : LExecutorService (V) : worker wait (8,8) : [LINE] #10 
+2015-08-17 15:26:41(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.service.push.C2DMReceiver$1
+2015-08-17 15:26:41(pid=6904,tid=600) : LExecutorService (V) : worker awake (8,7) : [LINE] #5 
+2015-08-17 15:26:41(pid=6904,tid=600) : LExecutorService (D) : run : jp.naver.line.android.service.push.C2DMReceiver$1
+2015-08-17 15:26:41(pid=6904,tid=600) : LExecutorService (V) : worker wait (8,8) : [LINE] #5 
+2015-08-17 15:26:41(pid=6904,tid=598) : record.request (D) : {
+    "data": "LegyRequestData [byteArray=giEBF3VwZGF0ZU5vdGlmaWNhdGlvblRva2VuKKIBQVBBOTFiR0xMSnJqSFJMRkUzTDFiYUJ3enBGaWxEaU5nc01QUE9JR1V2bjVEa3VfOTdQbFZES0Iya3ByOGtmZzBpNl9RMGt2Vkxpc1Byd0tlYzhTRFlnN1N5MFl1TGZtNjJSMTVQaGttVlRRX1VHMGxGdWhVdGJ1aG1HSlU4VWhJQkhRWTNPTW51a3FWQzF4dVFiUndDT0dJLUQyZzdhN0lnFQ4A]",
+    "headerFields": {
+        "x-lal": "ja_JP",
+        "User-Agent": "Line\/5.2.0",
+        "X-Line-Access": "uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDM5NzkyNzkwMDg0Cg==..v7c3\/J6gjJgDTRjzuxASSRJjhDU=",
+        "Content-Type": "application\/x-thrift",
+        "Accept": "application\/x-thrift",
+        "X-Line-Application": "ANDROID_BETA\t5.2.0\tAndroid OS\t4.3;MA_BETA"
+    },
+    "commandURL": "http:\/S4",
+    "legyApiType": "NORMAL",
+    "httpMethod": "POST",
+    "option": {
+        "secure": false,
+        "connectSync": true
+    },
+    "destination": "talk"
+}
+2015-08-17 15:26:41(pid=6904,tid=598) : record.request (D) : ,
+2015-08-17 15:26:41(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegySessionPool$1
+2015-08-17 15:26:41(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:41(pid=6904,tid=606) : LExecutorService (V) : worker awake (8,7) : [LINE] #9 
+2015-08-17 15:26:41(pid=6904,tid=606) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:41(pid=6904,tid=606) : LExecutorService (V) : f worker start (1) : [LINE] #9 FWorker 
+2015-08-17 15:26:41(pid=6904,tid=606) : LExecutorService (D) : run : jp.naver.line.android.legy.LegySessionPool$1
+2015-08-17 15:26:41(pid=6904,tid=606) : LExecutorService (V) : f worker end (0) : [LINE] #9 FWorker 
+2015-08-17 15:26:41(pid=6904,tid=606) : LExecutorService (V) : worker wait (8,8) : [LINE] #9 
+2015-08-17 15:26:41(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:41(pid=6904,tid=588) : LExecutorService (V) : worker awake (8,7) : [LINE] #1 
+2015-08-17 15:26:41(pid=6904,tid=588) : LExecutorService (D) : run : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:41(pid=6904,tid=588) : LExecutorService (V) : worker wait (8,8) : [LINE] #1 
+2015-08-17 15:26:41(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.legy.dns.LegyOSDNSClient
+2015-08-17 15:26:41(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:41(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-17 15:26:41(pid=6904,tid=601) : LExecutorService (V) : worker awake (8,7) : [LINE] #6 
+2015-08-17 15:26:41(pid=6904,tid=601) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-17 15:26:41(pid=6904,tid=594) : LExecutorService (V) : worker awake (8,6) : [LINE] #3 
+2015-08-17 15:26:41(pid=6904,tid=594) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:41(pid=6904,tid=594) : LExecutorService (V) : f worker start (1) : [LINE] #3 FWorker 
+2015-08-17 15:26:41(pid=6904,tid=594) : LExecutorService (D) : run : jp.naver.line.android.legy.dns.LegyOSDNSClient
+2015-08-17 15:26:41(pid=6904,tid=594) : LExecutorService (V) : f worker end (0) : [LINE] #3 FWorker 
+2015-08-17 15:26:41(pid=6904,tid=594) : LExecutorService (V) : worker wait (8,7) : [LINE] #3 
+2015-08-17 15:26:41(pid=6904,tid=601) : LExecutorService (V) : worker wait (8,8) : [LINE] #6 
+2015-08-17 15:26:41(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.legy.fetch.AbstractFetchOperationManager$FetchOpTask
+2015-08-17 15:26:41(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:41(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-17 15:26:41(pid=6904,tid=605) : LExecutorService (V) : worker awake (8,6) : [LINE] #7 
+2015-08-17 15:26:41(pid=6904,tid=605) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:41(pid=6904,tid=603) : LExecutorService (V) : worker awake (8,6) : [LINE] #8 
+2015-08-17 15:26:41(pid=6904,tid=605) : LExecutorService (V) : f worker start (1) : [LINE] #7 FWorker 
+2015-08-17 15:26:41(pid=6904,tid=603) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-17 15:26:41(pid=6904,tid=605) : LExecutorService (D) : run : jp.naver.line.android.legy.fetch.AbstractFetchOperationManager$FetchOpTask
+2015-08-17 15:26:41(pid=6904,tid=603) : LExecutorService (V) : worker wait (8,7) : [LINE] #8 
+2015-08-17 15:26:41(pid=6904,tid=605) : record.request (D) : {
+    "data": "LegyRequestData [byteArray=giEBCGZldGNoT3BzJiAVyAEWoJEEFgAA]",
+    "headerFields": {
+        "x-lal": "ja_JP",
+        "User-Agent": "Line\/5.2.0",
+        "X-Line-Access": "uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDM5NzkyNzkwMDg0Cg==..v7c3\/J6gjJgDTRjzuxASSRJjhDU=",
+        "Content-Type": "application\/x-thrift",
+        "Accept": "application\/x-thrift",
+        "X-Line-Application": "ANDROID_BETA\t5.2.0\tAndroid OS\t4.3;MA_BETA"
+    },
+    "commandURL": "http:\/P5",
+    "legyApiType": "LONG_POLLING",
+    "httpMethod": "POST",
+    "option": {
+        "secure": false,
+        "connectSync": false
+    },
+    "destination": "talk"
+}
+2015-08-17 15:26:41(pid=6904,tid=605) : record.request (D) : ,
+2015-08-17 15:26:41(pid=6904,tid=605) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegySessionManager$RequestRunnable
+2015-08-17 15:26:41(pid=6904,tid=605) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:41(pid=6904,tid=608) : LExecutorService (V) : worker awake (8,6) : [LINE] #10 
+2015-08-17 15:26:41(pid=6904,tid=605) : LExecutorService (V) : f worker end (0) : [LINE] #7 FWorker 
+2015-08-17 15:26:41(pid=6904,tid=608) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:41(pid=6904,tid=605) : LExecutorService (V) : worker wait (8,7) : [LINE] #7 
+2015-08-17 15:26:41(pid=6904,tid=608) : LExecutorService (V) : f worker start (1) : [LINE] #10 FWorker 
+2015-08-17 15:26:41(pid=6904,tid=608) : LExecutorService (D) : run : jp.naver.line.android.legy.LegySessionManager$RequestRunnable
+2015-08-17 15:26:42(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (V) : worker awake (8,6) : [LINE] #5 
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (D) : run : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (V) : worker wait (8,7) : [LINE] #5 
+2015-08-17 15:26:42(pid=6904,tid=608) : LExecutorService (D) : execute : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (V) : worker awake (8,6) : [LINE] #9 
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (D) : run : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (V) : worker wait (8,7) : [LINE] #9 
+2015-08-17 15:26:42(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (V) : worker awake (8,6) : [LINE] #1 
+2015-08-17 15:26:42(pid=6904,tid=608) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (D) : run : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (V) : worker awake (8,5) : [LINE] #3 
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (V) : worker wait (8,6) : [LINE] #3 
+2015-08-17 15:26:42(pid=6904,tid=608) : LExecutorService (V) : f worker end (0) : [LINE] #10 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=608) : LExecutorService (V) : worker wait (8,7) : [LINE] #10 
+2015-08-17 15:26:42(pid=6904,tid=619) : LExecutorService (D) : execute : jp.naver.line.android.legy.spdy.LegySpdyChannelHandler$1
+2015-08-17 15:26:42(pid=6904,tid=619) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:42(pid=6904,tid=601) : LExecutorService (V) : worker awake (8,6) : [LINE] #6 
+2015-08-17 15:26:42(pid=6904,tid=601) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:42(pid=6904,tid=601) : LExecutorService (V) : f worker start (1) : [LINE] #6 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=601) : LExecutorService (D) : run : jp.naver.line.android.legy.spdy.LegySpdyChannelHandler$1
+2015-08-17 15:26:42(pid=6904,tid=601) : LExecutorService (V) : f worker end (0) : [LINE] #6 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=601) : LExecutorService (V) : worker wait (8,7) : [LINE] #6 
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (V) : worker wait (8,8) : [LINE] #1 
+2015-08-17 15:26:42(pid=6904,tid=619) : LExecutorService (D) : execute : jp.naver.line.android.legy.spdy.LegySpdyChannelHandler$1
+2015-08-17 15:26:42(pid=6904,tid=619) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (V) : worker awake (8,7) : [LINE] #8 
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (V) : f worker start (1) : [LINE] #8 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (D) : run : jp.naver.line.android.legy.spdy.LegySpdyChannelHandler$1
+2015-08-17 15:26:42(pid=6904,tid=619) : LExecutorService (D) : execute : jp.naver.line.android.legy.spdy.LegySpdyChannelHandler$1
+2015-08-17 15:26:42(pid=6904,tid=619) : LExecutorService (D) : execute : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (V) : worker awake (8,6) : [LINE] #7 
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (D) : run : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (V) : worker wait (8,7) : [LINE] #7 
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (D) : run : jp.naver.line.android.legy.spdy.LegySpdyChannelHandler$1
+2015-08-17 15:26:42(pid=6904,tid=619) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback
+2015-08-17 15:26:42(pid=6904,tid=619) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (V) : worker awake (8,6) : [LINE] #5 
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (V) : f worker start (1) : [LINE] #5 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (V) : f worker end (0) : [LINE] #8 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (D) : run : jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (V) : worker wait (8,7) : [LINE] #8 
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (V) : f worker end (0) : [LINE] #5 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (V) : worker wait (8,8) : [LINE] #5 
+2015-08-17 15:26:42(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (V) : worker awake (8,7) : [LINE] #9 
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (D) : run : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback
+2015-08-17 15:26:42(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (V) : worker awake (8,6) : [LINE] #3 
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (V) : worker wait (8,7) : [LINE] #3 
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-17 15:26:42(pid=6904,tid=608) : LExecutorService (V) : worker awake (8,6) : [LINE] #10 
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (V) : f worker start (1) : [LINE] #9 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegySession$2
+2015-08-17 15:26:42(pid=6904,tid=608) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (D) : run : jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback
+2015-08-17 15:26:42(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:42(pid=6904,tid=601) : LExecutorService (V) : worker awake (8,5) : [LINE] #6 
+2015-08-17 15:26:42(pid=6904,tid=601) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:42(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegySession$1
+2015-08-17 15:26:42(pid=6904,tid=601) : LExecutorService (V) : f worker start (1) : [LINE] #6 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=601) : LExecutorService (D) : run : jp.naver.line.android.legy.LegySession$2
+2015-08-17 15:26:42(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=601) : LExecutorService (D) : run : jp.naver.line.android.legy.LegySession$1
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (V) : worker awake (8,4) : [LINE] #1 
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (D) : run : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (V) : worker wait (8,5) : [LINE] #1 
+2015-08-17 15:26:42(pid=6904,tid=606) : WakeLock.WakeLockWrapper (D) : [release] already released. WakeLock.isHeld()=false, type=FETCH_OP
+2015-08-17 15:26:42(pid=6904,tid=598) : accessToken.Manager (D) : clear cached token. key=OBS_ENCRYPTED_ACCESS_TOKEN
+2015-08-17 15:26:42(pid=6904,tid=598) : accessToken.Accessor (D) : clearCachedAccessToken.(type=OBS_GENERAL)
+2015-08-17 15:26:42(pid=6904,tid=598) : record.request (D) : {
+    "data": "LegyRequestData [byteArray=giEBCmdldFByb2ZpbGUA]",
+    "headerFields": {
+        "x-lal": "ja_JP",
+        "User-Agent": "Line\/5.2.0",
+        "X-Line-Access": "uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDM5NzkyODAyMzAwCg==..6W8cBnPCSfwHERVK\/1bKZlVWVmY=",
+        "Content-Type": "application\/x-thrift",
+        "Accept": "application\/x-thrift",
+        "X-Line-Application": "ANDROID_BETA\t5.2.0\tAndroid OS\t4.3;MA_BETA"
+    },
+    "commandURL": "http:\/S4",
+    "legyApiType": "NORMAL",
+    "httpMethod": "POST",
+    "option": {
+        "secure": false,
+        "connectSync": false
+    },
+    "destination": "talk"
+}
+2015-08-17 15:26:42(pid=6904,tid=598) : record.request (D) : ,
+2015-08-17 15:26:42(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegySessionManager$RequestRunnable
+2015-08-17 15:26:42(pid=6904,tid=598) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (V) : worker awake (8,4) : [LINE] #7 
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (V) : f worker start (1) : [LINE] #7 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (D) : run : jp.naver.line.android.legy.LegySessionManager$RequestRunnable
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (D) : execute : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (D) : execute : jp.naver.line.android.legy.dns.LegyOSDNSClient
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (V) : worker awake (8,3) : [LINE] #8 
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (D) : run : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (V) : worker wait (8,4) : [LINE] #8 
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (V) : f worker end (0) : [LINE] #9 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (V) : worker wait (8,5) : [LINE] #9 
+2015-08-17 15:26:42(pid=6904,tid=619) : LExecutorService (D) : execute : jp.naver.line.android.legy.spdy.LegySpdyChannelHandler$1
+2015-08-17 15:26:42(pid=6904,tid=619) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegySessionManager$1
+2015-08-17 15:26:42(pid=6904,tid=619) : LExecutorService (D) : execute : jp.naver.line.android.legy.spdy.LegySpdyChannelHandler$1
+2015-08-17 15:26:42(pid=6904,tid=601) : LExecutorService (D) : run : jp.naver.line.android.legy.dns.LegyOSDNSClient
+2015-08-17 15:26:42(pid=6904,tid=601) : LExecutorService (D) : run : jp.naver.line.android.legy.spdy.LegySpdyChannelHandler$1
+2015-08-17 15:26:42(pid=6904,tid=601) : LExecutorService (D) : run : jp.naver.line.android.legy.LegySessionManager$1
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (D) : execute : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (V) : worker awake (8,4) : [LINE] #5 
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (D) : run : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (D) : execute : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (V) : worker wait (8,5) : [LINE] #5 
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (V) : worker awake (8,4) : [LINE] #3 
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (D) : run : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (V) : worker wait (8,5) : [LINE] #3 
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (V) : f worker end (0) : [LINE] #7 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (V) : worker wait (8,6) : [LINE] #7 
+2015-08-17 15:26:42(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.legy.fetch.AbstractFetchOperationManager$FetchOpTask
+2015-08-17 15:26:42(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:42(pid=6904,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (V) : worker awake (8,5) : [LINE] #1 
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (V) : worker awake (8,4) : [LINE] #8 
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (V) : f worker start (1) : [LINE] #1 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (D) : run : jp.naver.line.android.legy.fetch.AbstractFetchOperationManager$FetchOpTask
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (V) : worker wait (8,5) : [LINE] #8 
+2015-08-17 15:26:42(pid=6904,tid=588) : record.request (D) : {
+    "data": "LegyRequestData [byteArray=giECCGZldGNoT3BzJiAVyAEWoJEEFgAA]",
+    "headerFields": {
+        "x-lal": "ja_JP",
+        "User-Agent": "Line\/5.2.0",
+        "X-Line-Access": "uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDM5NzkyODAyMzAwCg==..6W8cBnPCSfwHERVK\/1bKZlVWVmY=",
+        "Content-Type": "application\/x-thrift",
+        "Accept": "application\/x-thrift",
+        "X-Line-Application": "ANDROID_BETA\t5.2.0\tAndroid OS\t4.3;MA_BETA"
+    },
+    "commandURL": "http:\/P5",
+    "legyApiType": "LONG_POLLING",
+    "httpMethod": "POST",
+    "option": {
+        "secure": false,
+        "connectSync": false
+    },
+    "destination": "talk"
+}
+2015-08-17 15:26:42(pid=6904,tid=588) : record.request (D) : ,
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegySessionManager$RequestRunnable
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (V) : worker awake (8,4) : [LINE] #9 
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (V) : f worker start (1) : [LINE] #9 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (D) : run : jp.naver.line.android.legy.LegySessionManager$RequestRunnable
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (V) : f worker end (0) : [LINE] #1 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (V) : worker wait (8,5) : [LINE] #1 
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (V) : f worker end (0) : [LINE] #9 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (V) : worker wait (8,6) : [LINE] #9 
+2015-08-17 15:26:42(pid=6904,tid=608) : LExecutorService (V) : worker wait (8,7) : [LINE] #10 
+2015-08-17 15:26:42(pid=6904,tid=621) : LExecutorService (D) : execute : jp.naver.line.android.legy.spdy.LegySpdyChannelHandler$1
+2015-08-17 15:26:42(pid=6904,tid=621) : LExecutorService (D) : execute : jp.naver.line.android.legy.spdy.LegySpdyChannelHandler$1
+2015-08-17 15:26:42(pid=6904,tid=621) : LExecutorService (D) : execute : jp.naver.line.android.legy.spdy.LegySpdyChannelHandler$1
+2015-08-17 15:26:42(pid=6904,tid=621) : LExecutorService (D) : execute : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (V) : worker awake (8,6) : [LINE] #5 
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (D) : run : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (V) : worker wait (8,7) : [LINE] #5 
+2015-08-17 15:26:42(pid=6904,tid=621) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback
+2015-08-17 15:26:42(pid=6904,tid=621) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (V) : worker awake (8,6) : [LINE] #3 
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (V) : f worker start (1) : [LINE] #3 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (D) : run : jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (D) : execute : jp.naver.line.android.thrift.client.AuthErrorChecker$SaveTask
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:42(pid=6904,tid=621) : LExecutorService (D) : execute : jp.naver.line.android.legy.spdy.LegySpdyChannelHandler$1
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (V) : worker awake (8,5) : [LINE] #7 
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (V) : f worker start (1) : [LINE] #7 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (D) : run : jp.naver.line.android.thrift.client.AuthErrorChecker$SaveTask
+2015-08-17 15:26:42(pid=6904,tid=621) : LExecutorService (D) : execute : jp.naver.line.android.legy.spdy.LegySpdyChannelHandler$1
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (V) : f worker end (0) : [LINE] #7 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=605) : LExecutorService (V) : worker wait (8,6) : [LINE] #7 
+2015-08-17 15:26:42(pid=6904,tid=621) : LExecutorService (D) : execute : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (V) : worker awake (8,5) : [LINE] #8 
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (D) : run : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (V) : worker wait (8,6) : [LINE] #8 
+2015-08-17 15:26:42(pid=6904,tid=603) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (V) : worker awake (8,5) : [LINE] #1 
+2015-08-17 15:26:42(pid=6904,tid=588) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (D) : execute : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (V) : worker awake (8,4) : [LINE] #9 
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (D) : run : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=606) : LExecutorService (V) : worker wait (8,5) : [LINE] #9 
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-17 15:26:42(pid=6904,tid=608) : LExecutorService (V) : worker awake (8,4) : [LINE] #10 
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegySession$2
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (D) : execute : jp.naver.line.android.legy.LegySession$1
+2015-08-17 15:26:42(pid=6904,tid=608) : LExecutorService (D) : run : FWorker
+2015-08-17 15:26:42(pid=6904,tid=608) : LExecutorService (V) : f worker start (2) : [LINE] #10 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=608) : LExecutorService (D) : run : jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback
+2015-08-17 15:26:42(pid=6904,tid=608) : WakeLock.WakeLockWrapper (D) : [release] already released. WakeLock.isHeld()=false, type=FETCH_OP
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (D) : execute : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (V) : worker awake (8,3) : [LINE] #5 
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (D) : run : jp.naver.line.android.debug.DebugPopupWindow$4
+2015-08-17 15:26:42(pid=6904,tid=600) : LExecutorService (V) : worker wait (8,4) : [LINE] #5 
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (V) : f worker end (1) : [LINE] #3 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=594) : LExecutorService (V) : worker wait (8,5) : [LINE] #3 
+2015-08-17 15:26:42(pid=6904,tid=608) : LExecutorService (V) : f worker end (0) : [LINE] #10 FWorker 
+2015-08-17 15:26:42(pid=6904,tid=608) : LExecutorService (V) : worker wait (8,6) : [LINE] #10 

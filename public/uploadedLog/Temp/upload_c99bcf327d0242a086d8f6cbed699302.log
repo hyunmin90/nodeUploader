@@ -1,0 +1,145 @@
+2015-08-19 00:41:36(pid=24098,tid=8670) : FetchOp.Scheduler (D) : [# requestNow]
+2015-08-19 00:41:36(pid=24098,tid=8670) : FetchOp (D) : requestFetchOperation
+2015-08-19 00:41:36(pid=24098,tid=8682) : FetchOp.Manager (D) : executeFetchOp(isFetchLongPollingLastConnection=true)
+2015-08-19 00:41:36(pid=24098,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=null, lastDisconnectedTime=null, currentTime=00:41:36
+2015-08-19 00:41:36(pid=24098,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 00:41:36(pid=24098,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 00:41:36(pid=24098,tid=8683) : FetchOp.Manager (D) : fetchOp is running.
+2015-08-19 00:41:37(pid=24098,tid=8682) : FetchOp.Manager (D) : failed fetchOp.TalkException(code:NOT_AUTHORIZED_DEVICE, reason:Auth Failed, parameterMap:{SUB_ERROR_CODE=DEVICE_LOSE})
+2015-08-19 00:41:37(pid=24098,tid=8682) : FetchOp.Scheduler (D) : [# onFailedFetchOp] : exception=class jp.naver.talk.protocol.thriftv1.TalkException,null
+2015-08-19 00:41:37(pid=24098,tid=8682) : FetchOp.Scheduler (D) : setNextSchedule : nextSchedule=00:41:38
+2015-08-19 00:41:37(pid=24098,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=00:41:36, lastDisconnectedTime=null, currentTime=00:41:37
+2015-08-19 00:41:37(pid=24098,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 00:41:37(pid=24098,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 00:41:37(pid=24098,tid=8677) : FetchOp.Manager (D) : executeFetchOp(isFetchLongPollingLastConnection=true)
+2015-08-19 00:41:38(pid=24098,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=00:41:37, lastDisconnectedTime=null, currentTime=00:41:38
+2015-08-19 00:41:38(pid=24098,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 00:41:38(pid=24098,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 00:41:38(pid=24098,tid=8685) : FetchOp.Manager (D) : fetchOp is running.
+2015-08-19 00:41:38(pid=24098,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=00:41:38, lastDisconnectedTime=null, currentTime=00:41:38
+2015-08-19 00:41:38(pid=24098,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 00:41:38(pid=24098,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 00:41:38(pid=24098,tid=8677) : FetchOp.Manager (D) : fetchOp is running.
+2015-08-19 00:41:40(pid=24098,tid=8683) : FetchOp.Manager (D) : failed fetchOp.jp.naver.line.android.thrift.TTransportResetConnectionException: jp.naver.line.android.legy.LegyResetConnectionException
+2015-08-19 00:41:40(pid=24098,tid=8683) : FetchOp.Scheduler (D) : [# onFailedFetchOp] : exception=class jp.naver.line.android.thrift.TTransportResetConnectionException,jp.naver.line.android.legy.LegyResetConnectionException
+2015-08-19 00:41:40(pid=24098,tid=8683) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 00:41:40(pid=24098,tid=8682) : FetchOp.Manager (D) : failed fetchOp.org.apache.thrift.transport.TTransportException: java.nio.channels.ClosedChannelException
+2015-08-19 00:41:40(pid=24098,tid=8682) : FetchOp.Scheduler (D) : [# onFailedFetchOp] : exception=class org.apache.thrift.transport.TTransportException,java.nio.channels.ClosedChannelException
+2015-08-19 00:41:40(pid=24098,tid=8682) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 08:44:00(pid=25734,tid=9648) : FetchOp.Scheduler (D) : [# requestNow]
+2015-08-19 08:44:00(pid=25734,tid=9648) : FetchOp (D) : requestFetchOperation
+2015-08-19 08:44:00(pid=25734,tid=9662) : FetchOp.Manager (D) : executeFetchOp(isFetchLongPollingLastConnection=true)
+2015-08-19 08:44:00(pid=25734,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=null, lastDisconnectedTime=null, currentTime=08:44:00
+2015-08-19 08:44:00(pid=25734,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 08:44:00(pid=25734,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 08:44:00(pid=25734,tid=9657) : FetchOp.Manager (D) : fetchOp is running.
+2015-08-19 08:44:01(pid=25734,tid=9662) : FetchOp.Manager (D) : failed fetchOp.TalkException(code:NOT_AUTHORIZED_DEVICE, reason:Auth Failed, parameterMap:{SUB_ERROR_CODE=DEVICE_LOSE})
+2015-08-19 08:44:01(pid=25734,tid=9662) : FetchOp.Scheduler (D) : [# onFailedFetchOp] : exception=class jp.naver.talk.protocol.thriftv1.TalkException,null
+2015-08-19 08:44:01(pid=25734,tid=9662) : FetchOp.Scheduler (D) : setNextSchedule : nextSchedule=08:44:02
+2015-08-19 08:44:02(pid=25734,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=08:44:00, lastDisconnectedTime=null, currentTime=08:44:02
+2015-08-19 08:44:02(pid=25734,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 08:44:02(pid=25734,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 08:44:02(pid=25734,tid=9661) : FetchOp.Manager (D) : executeFetchOp(isFetchLongPollingLastConnection=true)
+2015-08-19 08:44:03(pid=25734,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=08:44:02, lastDisconnectedTime=null, currentTime=08:44:03
+2015-08-19 08:44:03(pid=25734,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 08:44:03(pid=25734,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 08:44:03(pid=25734,tid=9653) : FetchOp.Manager (D) : fetchOp is running.
+2015-08-19 08:44:04(pid=25734,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=08:44:03, lastDisconnectedTime=null, currentTime=08:44:04
+2015-08-19 08:44:04(pid=25734,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 08:44:04(pid=25734,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 08:44:04(pid=25734,tid=9661) : FetchOp.Manager (D) : fetchOp is running.
+2015-08-19 08:44:04(pid=25734,tid=1) : FetchOp.Scheduler (D) : [# receive alarm]
+2015-08-19 08:44:04(pid=25734,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 08:44:04(pid=25734,tid=9662) : FetchOp.Manager (D) : fetchOp is running.
+2015-08-19 08:44:04(pid=25734,tid=9653) : FetchOp.Manager (D) : failed fetchOp.jp.naver.line.android.thrift.TTransportResetConnectionException: jp.naver.line.android.legy.LegyResetConnectionException
+2015-08-19 08:44:04(pid=25734,tid=9653) : FetchOp.Scheduler (D) : [# onFailedFetchOp] : exception=class jp.naver.line.android.thrift.TTransportResetConnectionException,jp.naver.line.android.legy.LegyResetConnectionException
+2015-08-19 08:44:04(pid=25734,tid=9653) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 10:06:52(pid=31502,tid=9813) : FetchOp.Scheduler (D) : [# receive broadcast(USER_PRESENT)]
+2015-08-19 10:06:52(pid=31502,tid=9813) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 10:06:52(pid=31502,tid=9807) : FetchOp.Scheduler (D) : [# requestNow]
+2015-08-19 10:06:52(pid=31502,tid=9807) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 10:07:04(pid=31502,tid=1) : FetchOp.Scheduler (D) : [# onReceivedSleepOffBroadcast]
+2015-08-19 10:07:04(pid=31502,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 10:07:13(pid=31502,tid=9822) : FetchOp.Scheduler (D) : [# receive broadcast(USER_PRESENT)]
+2015-08-19 10:07:13(pid=31502,tid=9822) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 10:58:15(pid=7099,tid=9953) : FetchOp.Scheduler (D) : [# receive broadcast(USER_PRESENT)]
+2015-08-19 10:58:15(pid=7099,tid=9953) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 10:58:15(pid=7099,tid=9948) : FetchOp.Scheduler (D) : [# requestNow]
+2015-08-19 10:58:15(pid=7099,tid=9948) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 11:23:13(pid=7099,tid=1) : FetchOp.Scheduler (D) : [# onReceivedSleepOffBroadcast]
+2015-08-19 11:23:13(pid=7099,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 11:25:31(pid=7099,tid=9954) : FetchOp.Scheduler (D) : [# receive broadcast(USER_PRESENT)]
+2015-08-19 11:25:31(pid=7099,tid=9954) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 14:09:26(pid=29478,tid=10335) : FetchOp.Scheduler (D) : [# requestNow]
+2015-08-19 14:09:26(pid=29478,tid=10335) : FetchOp (D) : requestFetchOperation
+2015-08-19 14:09:27(pid=29478,tid=10340) : FetchOp.Manager (D) : executeFetchOp(isFetchLongPollingLastConnection=true)
+2015-08-19 14:09:27(pid=29478,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=null, lastDisconnectedTime=null, currentTime=14:09:27
+2015-08-19 14:09:27(pid=29478,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 14:09:27(pid=29478,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 14:09:27(pid=29478,tid=10349) : FetchOp.Manager (D) : fetchOp is running.
+2015-08-19 14:09:27(pid=29478,tid=10347) : FetchOp.Manager (D) : failed fetchOp.TalkException(code:NOT_AUTHORIZED_DEVICE, reason:Auth Failed, parameterMap:{SUB_ERROR_CODE=DEVICE_LOSE})
+2015-08-19 14:09:27(pid=29478,tid=10347) : FetchOp.Scheduler (D) : [# onFailedFetchOp] : exception=class jp.naver.talk.protocol.thriftv1.TalkException,null
+2015-08-19 14:09:27(pid=29478,tid=10347) : FetchOp.Scheduler (D) : setNextSchedule : nextSchedule=14:09:28
+2015-08-19 14:09:27(pid=29478,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=14:09:27, lastDisconnectedTime=null, currentTime=14:09:27
+2015-08-19 14:09:27(pid=29478,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 14:09:27(pid=29478,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 14:09:27(pid=29478,tid=10352) : FetchOp.Manager (D) : executeFetchOp(isFetchLongPollingLastConnection=true)
+2015-08-19 14:09:27(pid=29478,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=14:09:27, lastDisconnectedTime=null, currentTime=14:09:27
+2015-08-19 14:09:27(pid=29478,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 14:09:27(pid=29478,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 14:09:27(pid=29478,tid=10347) : FetchOp.Manager (D) : fetchOp is running.
+2015-08-19 14:09:28(pid=29478,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=14:09:27, lastDisconnectedTime=null, currentTime=14:09:28
+2015-08-19 14:09:28(pid=29478,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 14:09:28(pid=29478,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 14:09:28(pid=29478,tid=10349) : FetchOp.Manager (D) : fetchOp is running.
+2015-08-19 14:09:30(pid=29478,tid=10356) : FetchOp.Manager (D) : failed fetchOp.jp.naver.line.android.thrift.TTransportResetConnectionException: jp.naver.line.android.legy.LegyResetConnectionException
+2015-08-19 14:09:30(pid=29478,tid=10356) : FetchOp.Scheduler (D) : [# onFailedFetchOp] : exception=class jp.naver.line.android.thrift.TTransportResetConnectionException,jp.naver.line.android.legy.LegyResetConnectionException
+2015-08-19 14:09:30(pid=29478,tid=10356) : FetchOp.Scheduler (D) : setNextSchedule : nextSchedule=14:09:33
+2015-08-19 14:09:33(pid=29478,tid=1) : FetchOp.Scheduler (D) : [# receive alarm]
+2015-08-19 14:09:33(pid=29478,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 15:40:28(pid=1944,tid=10594) : FetchOp.Scheduler (D) : [# requestNow]
+2015-08-19 15:40:28(pid=1944,tid=10594) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 15:53:59(pid=1944,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=null, lastDisconnectedTime=null, currentTime=15:53:59
+2015-08-19 15:53:59(pid=1944,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 15:53:59(pid=1944,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=15:53:59, lastDisconnectedTime=null, currentTime=15:53:59
+2015-08-19 15:53:59(pid=1944,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 15:54:01(pid=1944,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=15:53:59, lastDisconnectedTime=null, currentTime=15:54:01
+2015-08-19 15:54:01(pid=1944,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 15:54:01(pid=1944,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=15:54:01, lastDisconnectedTime=null, currentTime=15:54:01
+2015-08-19 15:54:01(pid=1944,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 15:54:02(pid=1944,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=15:54:01, lastDisconnectedTime=null, currentTime=15:54:02
+2015-08-19 15:54:02(pid=1944,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 16:48:26(pid=16570,tid=10835) : FetchOp.Scheduler (D) : [# receive broadcast(USER_PRESENT)]
+2015-08-19 16:48:26(pid=16570,tid=10835) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 16:48:26(pid=16570,tid=10830) : FetchOp.Scheduler (D) : [# requestNow]
+2015-08-19 16:48:26(pid=16570,tid=10830) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 19:55:30(pid=8149,tid=11275) : FetchOp.Scheduler (D) : [# receive broadcast(USER_PRESENT)]
+2015-08-19 19:55:30(pid=8149,tid=11275) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 19:55:30(pid=8149,tid=11268) : FetchOp.Scheduler (D) : [# requestNow]
+2015-08-19 19:55:30(pid=8149,tid=11268) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-19 20:18:59(pid=8149,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=null, lastDisconnectedTime=null, currentTime=20:18:59
+2015-08-19 20:18:59(pid=8149,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 20:18:59(pid=8149,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 20:18:59(pid=8149,tid=11274) : FetchOp.Manager (D) : executeFetchOp(isFetchLongPollingLastConnection=true)
+2015-08-19 20:19:00(pid=8149,tid=11284) : FetchOp.Manager (D) : failed fetchOp.TalkException(code:NOT_AUTHORIZED_DEVICE, reason:Auth Failed, parameterMap:{SUB_ERROR_CODE=DEVICE_LOSE})
+2015-08-19 20:19:00(pid=8149,tid=11284) : FetchOp.Scheduler (D) : [# onFailedFetchOp] : exception=class jp.naver.talk.protocol.thriftv1.TalkException,null
+2015-08-19 20:19:00(pid=8149,tid=11284) : FetchOp.Scheduler (D) : setNextSchedule : nextSchedule=20:19:01
+2015-08-19 20:19:00(pid=8149,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=20:18:59, lastDisconnectedTime=null, currentTime=20:19:00
+2015-08-19 20:19:00(pid=8149,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 20:19:00(pid=8149,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 20:19:00(pid=8149,tid=11279) : FetchOp.Manager (D) : executeFetchOp(isFetchLongPollingLastConnection=true)
+2015-08-19 20:19:01(pid=8149,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=20:19:00, lastDisconnectedTime=null, currentTime=20:19:01
+2015-08-19 20:19:01(pid=8149,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 20:19:01(pid=8149,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 20:19:01(pid=8149,tid=11281) : FetchOp.Manager (D) : fetchOp is running.
+2015-08-19 20:19:01(pid=8149,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=20:19:01, lastDisconnectedTime=null, currentTime=20:19:01
+2015-08-19 20:19:01(pid=8149,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 20:19:01(pid=8149,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 20:19:01(pid=8149,tid=11283) : FetchOp.Manager (D) : fetchOp is running.
+2015-08-19 20:19:02(pid=8149,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=20:19:01, lastDisconnectedTime=null, currentTime=20:19:02
+2015-08-19 20:19:02(pid=8149,tid=1) : FetchOp.Scheduler (D) : calcAndSetNextSchedule : waitTime=-1
+2015-08-19 20:19:02(pid=8149,tid=1) : FetchOp (D) : requestFetchOperation
+2015-08-19 20:19:02(pid=8149,tid=11279) : FetchOp.Manager (D) : fetchOp is running.
+2015-08-19 20:19:03(pid=8149,tid=11284) : FetchOp.Manager (D) : failed fetchOp.jp.naver.line.android.thrift.TTransportResetConnectionException: jp.naver.line.android.legy.LegyResetConnectionException
+2015-08-19 20:19:03(pid=8149,tid=11284) : FetchOp.Scheduler (D) : [# onFailedFetchOp] : exception=class jp.naver.line.android.thrift.TTransportResetConnectionException,jp.naver.line.android.legy.LegyResetConnectionException
+2015-08-19 20:19:03(pid=8149,tid=11284) : FetchOp.Scheduler (D) : FetchOp was not available.

@@ -1,0 +1,588 @@
+2015-08-18 01:43:34(pid=16506,tid=2802) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -40, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 01:43:34(pid=16506,tid=2802) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 01:43:34
+2015-08-18 01:43:34(pid=16506,tid=2802) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 01:43:35(pid=16506,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 01:43:35(pid=16506,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -40, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 01:43:35(pid=16506,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=DISCONNECTED	 /subType=LTE
+2015-08-18 01:43:35(pid=16506,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -40, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 01:43:35(pid=16506,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 01:43:35(pid=16506,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -40, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 01:43:35(pid=16506,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -40, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 01:43:35(pid=16506,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -40, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 01:43:36(pid=16506,tid=2821) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 01:43:36(pid=16506,tid=2821) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 01:43:36(pid=16506,tid=2821) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 01:43:36(pid=16506,tid=2815) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 01:43:37(pid=16506,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 01:43:37(pid=16506,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -40, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 01:43:37(pid=16506,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-18 01:43:37(pid=16506,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -40, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 01:44:06(pid=16506,tid=2821) : PushManager (D) : @_@ setRegisterFailed.notiType=GOOGLE_GCM / progressList=[GOOGLE_GCM]
+2015-08-18 01:44:06(pid=16506,tid=2821) : PushManager (D) : @_@ setRegisterFailed.progressList size 0 / pushBackupListUsed=false
+2015-08-18 01:44:06(pid=16506,tid=2821) : PushManager (D) : @_@ setPriorityListAndRegister.#push_priority_backup=[NHN_NNI]
+2015-08-18 01:44:06(pid=16506,tid=2815) : NHN_NNI (D) : __NNI.#$# - initAvailableCheck
+2015-08-18 01:44:06(pid=16506,tid=2815) : NHN_NNI (D) : __NNI.!! NNIReceiver.register.complete
+2015-08-18 01:44:07(pid=16506,tid=1) : NHN_NNI (D) : __NNI.onReceive : RESPONSE_GETSTATE_INTENT : state='Dex Library Load Completed'
+2015-08-18 01:44:07(pid=16506,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=NHN_NNI:nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 01:44:07(pid=16506,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=NHN_NNI / pushToken=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 01:44:07(pid=16506,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=0 /retryInterval=100
+2015-08-18 01:44:07(pid=16506,tid=1) : NHN_NNI (D) : __NNI.#$# - removeAvailableCheck
+2015-08-18 01:44:07(pid=16506,tid=1) : NHN_NNI (D) : __NNI.onReceive : INFORM_STATUS_INTENT : status = 3 : STAT_UPGRADE_FINISHED
+2015-08-18 01:44:07(pid=16506,tid=2821) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=1 /retryInterval=8000
+2015-08-18 01:44:13(pid=16506,tid=1) : NHN_NNI (D) : __NNI.onReceive : RESPONSE_GETSTATE_INTENT : state='NNI Connected'
+2015-08-18 01:44:13(pid=16506,tid=1) : NHN_NNI (D) : __NNI.onReceive : RESPONSE_GETSTATE_INTENT : state='NNI Subscribe Success'
+2015-08-18 01:44:15(pid=16506,tid=2821) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=2 /retryInterval=38000
+2015-08-18 01:44:36(pid=16506,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = SERVICE_NOT_AVAILABLE /retryCnt=0 /token=null
+2015-08-18 01:44:46(pid=16506,tid=2821) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 01:44:47(pid=16506,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=1 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 01:44:47(pid=16506,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 01:44:47(pid=16506,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 01:44:47(pid=16506,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 01:44:47(pid=16506,tid=2821) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 01:44:53(pid=16506,tid=2821) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=3 /retryInterval=218000
+2015-08-18 06:34:29(pid=17687,tid=3516) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 06:34:29(pid=17687,tid=3516) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 06:34:29
+2015-08-18 06:34:29(pid=17687,tid=3516) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 06:34:29(pid=17687,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 06:34:29(pid=17687,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 06:34:29(pid=17687,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 06:34:29(pid=17687,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 06:34:30(pid=17687,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 06:34:30(pid=17687,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 06:34:30(pid=17687,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-18 06:34:30(pid=17687,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 06:34:31(pid=17687,tid=3536) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 06:34:31(pid=17687,tid=3536) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 06:34:31(pid=17687,tid=3536) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 06:34:31(pid=17687,tid=3521) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 06:34:32(pid=17687,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 06:34:32(pid=17687,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 06:34:32(pid=17687,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 06:34:32(pid=17687,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 06:34:32(pid=17687,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 06:34:32(pid=17687,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 06:34:32(pid=17687,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=DISCONNECTED	 /subType=LTE
+2015-08-18 06:34:32(pid=17687,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 06:34:33(pid=17687,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 06:34:33(pid=17687,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 06:34:33(pid=17687,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 06:34:33(pid=17687,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 06:34:33(pid=17687,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=0 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 06:34:33(pid=17687,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 06:34:33(pid=17687,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 06:34:33(pid=17687,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 11:10:20(pid=20100,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.USER_PRESENT
+2015-08-18 11:10:20(pid=20100,tid=4135) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -40, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 11:10:20(pid=20100,tid=4135) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 11:10:20
+2015-08-18 11:10:20(pid=20100,tid=4135) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 11:10:21(pid=20100,tid=4138) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 11:10:21(pid=20100,tid=4138) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 11:10:21(pid=20100,tid=4138) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 11:10:21(pid=20100,tid=4134) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 11:10:52(pid=20100,tid=4138) : PushManager (D) : @_@ setRegisterFailed.notiType=GOOGLE_GCM / progressList=[GOOGLE_GCM]
+2015-08-18 11:10:52(pid=20100,tid=4138) : PushManager (D) : @_@ setRegisterFailed.progressList size 0 / pushBackupListUsed=false
+2015-08-18 11:10:52(pid=20100,tid=4138) : PushManager (D) : @_@ setPriorityListAndRegister.#push_priority_backup=[NHN_NNI]
+2015-08-18 11:10:52(pid=20100,tid=4143) : NHN_NNI (D) : __NNI.#$# - initAvailableCheck
+2015-08-18 11:10:52(pid=20100,tid=4143) : NHN_NNI (D) : __NNI.!! NNIReceiver.register.complete
+2015-08-18 11:10:52(pid=20100,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=NHN_NNI:nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 11:10:52(pid=20100,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=NHN_NNI / pushToken=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 11:10:52(pid=20100,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=0 /retryInterval=100
+2015-08-18 11:10:52(pid=20100,tid=1) : NHN_NNI (D) : __NNI.#$# - removeAvailableCheck
+2015-08-18 11:10:52(pid=20100,tid=4138) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=1 /retryInterval=8000
+2015-08-18 11:11:00(pid=20100,tid=4138) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=2 /retryInterval=38000
+2015-08-18 11:11:09(pid=20100,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.ACTION_POWER_DISCONNECTED
+2015-08-18 11:11:11(pid=20100,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.ACTION_POWER_CONNECTED
+2015-08-18 11:11:22(pid=20100,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = SERVICE_NOT_AVAILABLE /retryCnt=0 /token=null
+2015-08-18 11:11:32(pid=20100,tid=4138) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 11:11:32(pid=20100,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=1 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 11:11:32(pid=20100,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 11:11:32(pid=20100,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 11:11:32(pid=20100,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 11:11:32(pid=20100,tid=4138) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 11:11:38(pid=20100,tid=4138) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=3 /retryInterval=218000
+2015-08-18 11:13:16(pid=22060,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 11:13:16(pid=22060,tid=4326) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -38, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 11:13:16(pid=22060,tid=4326) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 11:13:16
+2015-08-18 11:13:16(pid=22060,tid=4326) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 11:14:25(pid=23000,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 11:14:25(pid=23000,tid=4386) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -43, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 11:14:25(pid=23000,tid=4386) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 11:14:25
+2015-08-18 11:14:25(pid=23000,tid=4386) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 11:23:51(pid=27858,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 11:23:51(pid=27858,tid=4506) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -37, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 11:23:51(pid=27858,tid=4506) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 11:23:51
+2015-08-18 11:23:51(pid=27858,tid=4506) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 11:23:52(pid=27858,tid=4515) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 11:23:52(pid=27858,tid=4515) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 11:23:52(pid=27858,tid=4515) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 11:23:52(pid=27858,tid=4524) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 11:24:22(pid=27858,tid=4515) : PushManager (D) : @_@ setRegisterFailed.notiType=GOOGLE_GCM / progressList=[GOOGLE_GCM]
+2015-08-18 11:24:22(pid=27858,tid=4515) : PushManager (D) : @_@ setRegisterFailed.progressList size 0 / pushBackupListUsed=false
+2015-08-18 11:24:22(pid=27858,tid=4515) : PushManager (D) : @_@ setPriorityListAndRegister.#push_priority_backup=[NHN_NNI]
+2015-08-18 11:24:22(pid=27858,tid=4526) : NHN_NNI (D) : __NNI.#$# - initAvailableCheck
+2015-08-18 11:24:22(pid=27858,tid=4526) : NHN_NNI (D) : __NNI.!! NNIReceiver.register.complete
+2015-08-18 11:24:22(pid=27858,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=NHN_NNI:nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 11:24:22(pid=27858,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=NHN_NNI / pushToken=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 11:24:22(pid=27858,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=0 /retryInterval=100
+2015-08-18 11:24:22(pid=27858,tid=1) : NHN_NNI (D) : __NNI.#$# - removeAvailableCheck
+2015-08-18 11:24:23(pid=27858,tid=4515) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=1 /retryInterval=8000
+2015-08-18 11:24:31(pid=27858,tid=4515) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=2 /retryInterval=38000
+2015-08-18 11:24:52(pid=27858,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = SERVICE_NOT_AVAILABLE /retryCnt=0 /token=null
+2015-08-18 11:25:02(pid=27858,tid=4515) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 11:25:03(pid=27858,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=1 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 11:25:03(pid=27858,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 11:25:03(pid=27858,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 11:25:03(pid=27858,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 11:34:59(pid=769,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 11:34:59(pid=769,tid=4605) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -36, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 11:34:59(pid=769,tid=4605) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 11:34:59
+2015-08-18 11:34:59(pid=769,tid=4605) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 11:35:01(pid=769,tid=4614) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 11:35:01(pid=769,tid=4614) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 11:35:01(pid=769,tid=4614) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 11:35:01(pid=769,tid=4619) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 11:35:31(pid=769,tid=4614) : PushManager (D) : @_@ setRegisterFailed.notiType=GOOGLE_GCM / progressList=[GOOGLE_GCM]
+2015-08-18 11:35:31(pid=769,tid=4614) : PushManager (D) : @_@ setRegisterFailed.progressList size 0 / pushBackupListUsed=false
+2015-08-18 11:35:31(pid=769,tid=4614) : PushManager (D) : @_@ setPriorityListAndRegister.#push_priority_backup=[NHN_NNI]
+2015-08-18 11:35:31(pid=769,tid=4610) : NHN_NNI (D) : __NNI.#$# - initAvailableCheck
+2015-08-18 11:35:31(pid=769,tid=4610) : NHN_NNI (D) : __NNI.!! NNIReceiver.register.complete
+2015-08-18 11:35:31(pid=769,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=NHN_NNI:nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 11:35:31(pid=769,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=NHN_NNI / pushToken=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 11:35:31(pid=769,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=0 /retryInterval=100
+2015-08-18 11:35:31(pid=769,tid=1) : NHN_NNI (D) : __NNI.#$# - removeAvailableCheck
+2015-08-18 11:35:31(pid=769,tid=4614) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=1 /retryInterval=8000
+2015-08-18 11:35:39(pid=769,tid=4614) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=2 /retryInterval=38000
+2015-08-18 11:36:01(pid=769,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = SERVICE_NOT_AVAILABLE /retryCnt=0 /token=null
+2015-08-18 11:36:11(pid=769,tid=4614) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 11:36:12(pid=769,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=1 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 11:36:12(pid=769,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 11:36:12(pid=769,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 11:36:12(pid=769,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 11:36:12(pid=769,tid=4614) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 11:58:10(pid=12857,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 11:58:10(pid=12857,tid=4791) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -36, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 11:58:10(pid=12857,tid=4791) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 11:58:10
+2015-08-18 11:58:10(pid=12857,tid=4791) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 11:58:11(pid=12857,tid=4800) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 11:58:11(pid=12857,tid=4800) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 11:58:11(pid=12857,tid=4800) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 11:58:11(pid=12857,tid=4805) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 11:58:41(pid=12857,tid=4800) : PushManager (D) : @_@ setRegisterFailed.notiType=GOOGLE_GCM / progressList=[GOOGLE_GCM]
+2015-08-18 11:58:41(pid=12857,tid=4800) : PushManager (D) : @_@ setRegisterFailed.progressList size 0 / pushBackupListUsed=false
+2015-08-18 11:58:41(pid=12857,tid=4800) : PushManager (D) : @_@ setPriorityListAndRegister.#push_priority_backup=[NHN_NNI]
+2015-08-18 11:58:41(pid=12857,tid=4807) : NHN_NNI (D) : __NNI.#$# - initAvailableCheck
+2015-08-18 11:58:41(pid=12857,tid=4807) : NHN_NNI (D) : __NNI.!! NNIReceiver.register.complete
+2015-08-18 11:58:41(pid=12857,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=NHN_NNI:nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 11:58:41(pid=12857,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=NHN_NNI / pushToken=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 11:58:41(pid=12857,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=0 /retryInterval=100
+2015-08-18 11:58:41(pid=12857,tid=1) : NHN_NNI (D) : __NNI.#$# - removeAvailableCheck
+2015-08-18 11:58:42(pid=12857,tid=4800) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=1 /retryInterval=8000
+2015-08-18 11:58:50(pid=12857,tid=4800) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=2 /retryInterval=38000
+2015-08-18 11:59:12(pid=12857,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = SERVICE_NOT_AVAILABLE /retryCnt=0 /token=null
+2015-08-18 11:59:22(pid=12857,tid=4800) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 11:59:22(pid=12857,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=1 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 11:59:22(pid=12857,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 11:59:22(pid=12857,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 11:59:22(pid=12857,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 11:59:22(pid=12857,tid=4800) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 12:03:06(pid=15619,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 12:03:06(pid=15619,tid=4911) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -40, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 12:03:06(pid=15619,tid=4911) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 12:03:06
+2015-08-18 12:03:06(pid=15619,tid=4911) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 12:12:58(pid=20205,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 12:12:58(pid=20205,tid=4965) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -40, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 12:12:58(pid=20205,tid=4965) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 12:12:58
+2015-08-18 12:12:58(pid=20205,tid=4965) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 12:13:00(pid=20205,tid=4976) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 12:13:00(pid=20205,tid=4976) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 12:13:00(pid=20205,tid=4976) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 12:13:00(pid=20205,tid=4974) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 12:13:30(pid=20205,tid=4976) : PushManager (D) : @_@ setRegisterFailed.notiType=GOOGLE_GCM / progressList=[GOOGLE_GCM]
+2015-08-18 12:13:30(pid=20205,tid=4976) : PushManager (D) : @_@ setRegisterFailed.progressList size 0 / pushBackupListUsed=false
+2015-08-18 12:13:30(pid=20205,tid=4976) : PushManager (D) : @_@ setPriorityListAndRegister.#push_priority_backup=[NHN_NNI]
+2015-08-18 12:13:30(pid=20205,tid=4981) : NHN_NNI (D) : __NNI.#$# - initAvailableCheck
+2015-08-18 12:13:30(pid=20205,tid=4981) : NHN_NNI (D) : __NNI.!! NNIReceiver.register.complete
+2015-08-18 12:13:30(pid=20205,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=NHN_NNI:nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 12:13:30(pid=20205,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=NHN_NNI / pushToken=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 12:13:30(pid=20205,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=0 /retryInterval=100
+2015-08-18 12:13:30(pid=20205,tid=1) : NHN_NNI (D) : __NNI.#$# - removeAvailableCheck
+2015-08-18 12:13:30(pid=20205,tid=4976) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=1 /retryInterval=8000
+2015-08-18 12:13:35(pid=20205,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 12:13:38(pid=20205,tid=4976) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=2 /retryInterval=38000
+2015-08-18 12:14:00(pid=20205,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = SERVICE_NOT_AVAILABLE /retryCnt=0 /token=null
+2015-08-18 12:14:10(pid=20205,tid=4976) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 12:14:10(pid=20205,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=1 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 12:14:10(pid=20205,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 12:14:10(pid=20205,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 12:14:10(pid=20205,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 12:14:10(pid=20205,tid=4976) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 12:14:16(pid=20205,tid=4976) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=3 /retryInterval=218000
+2015-08-18 12:14:18(pid=20205,tid=4976) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=2 /retryInterval=38000
+2015-08-18 12:14:56(pid=20205,tid=4976) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=3 /retryInterval=218000
+2015-08-18 12:17:54(pid=20205,tid=4976) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=4 /retryInterval=1298000
+2015-08-18 12:18:34(pid=20205,tid=4976) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=4 /retryInterval=1298000
+2015-08-18 12:18:53(pid=20205,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 12:25:01(pid=20205,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 12:26:52(pid=20205,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 12:47:49(pid=4315,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 12:47:49(pid=4315,tid=5175) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -44, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 12:47:49(pid=4315,tid=5175) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 12:47:49
+2015-08-18 12:47:49(pid=4315,tid=5175) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 12:47:50(pid=4315,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.USER_PRESENT
+2015-08-18 12:47:50(pid=4315,tid=5184) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 12:47:50(pid=4315,tid=5184) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 12:47:50(pid=4315,tid=5184) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 12:47:51(pid=4315,tid=5191) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 12:47:51(pid=4315,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=0 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 12:47:51(pid=4315,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 12:47:51(pid=4315,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 12:47:51(pid=4315,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 12:47:51(pid=4315,tid=5184) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 12:47:59(pid=4315,tid=5184) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=2 /retryInterval=38000
+2015-08-18 12:48:37(pid=4315,tid=5184) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=3 /retryInterval=218000
+2015-08-18 12:52:15(pid=4315,tid=5184) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=4 /retryInterval=1298000
+2015-08-18 14:08:38(pid=24494,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.USER_PRESENT
+2015-08-18 14:08:38(pid=24494,tid=5413) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -42, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 14:08:38(pid=24494,tid=5413) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 14:08:38
+2015-08-18 14:08:38(pid=24494,tid=5413) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 14:08:40(pid=24494,tid=5416) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 14:08:40(pid=24494,tid=5416) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 14:08:40(pid=24494,tid=5416) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 14:08:40(pid=24494,tid=5414) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 14:08:41(pid=24494,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=0 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 14:08:41(pid=24494,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 14:08:41(pid=24494,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 14:08:41(pid=24494,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 14:08:41(pid=24494,tid=5416) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 14:08:49(pid=24494,tid=5416) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=2 /retryInterval=38000
+2015-08-18 14:09:27(pid=24494,tid=5416) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=3 /retryInterval=218000
+2015-08-18 14:09:31(pid=24494,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 14:10:51(pid=24494,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 14:12:32(pid=24494,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 14:13:06(pid=24494,tid=5416) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=4 /retryInterval=1298000
+2015-08-18 14:18:32(pid=24494,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 14:19:33(pid=24494,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 14:19:33(pid=24494,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -42, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 14:19:33(pid=24494,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -39, Link speed: 65, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 14:19:33(pid=24494,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -39, Link speed: 65, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 14:19:34(pid=24494,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 14:19:34(pid=24494,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -42, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 14:19:34(pid=24494,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-18 14:19:34(pid=24494,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -39, Link speed: 65, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 14:19:35(pid=24494,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 14:19:35(pid=24494,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -42, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 14:19:35(pid=24494,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -39, Link speed: 65, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 14:19:35(pid=24494,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -39, Link speed: 65, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 14:39:30(pid=6767,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 14:39:30(pid=6767,tid=5733) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -42, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 14:39:30(pid=6767,tid=5733) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 14:39:30
+2015-08-18 14:39:30(pid=6767,tid=5733) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 14:40:14(pid=7334,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 14:40:14(pid=7334,tid=5766) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -40, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 14:40:14(pid=7334,tid=5766) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 14:40:14
+2015-08-18 14:40:14(pid=7334,tid=5766) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 14:41:32(pid=8217,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 14:41:32(pid=8217,tid=5808) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -43, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 14:41:32(pid=8217,tid=5808) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 14:41:32
+2015-08-18 14:41:32(pid=8217,tid=5808) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 14:46:22(pid=10503,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 14:46:22(pid=10503,tid=5847) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -39, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 14:46:22(pid=10503,tid=5847) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 14:46:22
+2015-08-18 14:46:22(pid=10503,tid=5847) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 14:47:12(pid=11100,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 14:47:13(pid=11100,tid=5877) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -42, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 14:47:13(pid=11100,tid=5877) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 14:47:13
+2015-08-18 14:47:13(pid=11100,tid=5877) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 14:47:14(pid=11100,tid=5887) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 14:47:14(pid=11100,tid=5887) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 14:47:14(pid=11100,tid=5887) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 14:47:14(pid=11100,tid=5894) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 14:47:23(pid=11100,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = SERVICE_NOT_AVAILABLE /retryCnt=0 /token=null
+2015-08-18 14:47:23(pid=11100,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = SERVICE_NOT_AVAILABLE /retryCnt=1 /token=null
+2015-08-18 14:47:33(pid=11100,tid=5887) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 14:47:34(pid=11100,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=2 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 14:47:34(pid=11100,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 14:47:34(pid=11100,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 14:47:34(pid=11100,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 14:47:34(pid=11100,tid=5887) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 14:47:38(pid=11100,tid=5887) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 14:47:39(pid=11100,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=0 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 14:47:39(pid=11100,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 14:47:39(pid=11100,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 14:47:39(pid=11100,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 14:47:39(pid=11100,tid=5887) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 14:47:42(pid=11100,tid=5887) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=2 /retryInterval=38000
+2015-08-18 14:47:47(pid=11100,tid=5887) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=2 /retryInterval=38000
+2015-08-18 14:48:16(pid=11787,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 14:48:16(pid=11787,tid=5907) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -35, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 14:48:16(pid=11787,tid=5907) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 14:48:16
+2015-08-18 14:48:16(pid=11787,tid=5907) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 15:08:00(pid=20350,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 15:08:00(pid=20350,tid=6021) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -37, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:08:00(pid=20350,tid=6021) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 15:08:00
+2015-08-18 15:08:00(pid=20350,tid=6021) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 15:24:25(pid=28009,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 15:24:25(pid=28009,tid=6135) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -43, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:24:25(pid=28009,tid=6135) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 15:24:25
+2015-08-18 15:24:25(pid=28009,tid=6135) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 15:24:26(pid=28009,tid=6144) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 15:24:26(pid=28009,tid=6144) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 15:24:26(pid=28009,tid=6144) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 15:24:26(pid=28009,tid=6140) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 15:24:56(pid=28009,tid=6144) : PushManager (D) : @_@ setRegisterFailed.notiType=GOOGLE_GCM / progressList=[GOOGLE_GCM]
+2015-08-18 15:24:56(pid=28009,tid=6144) : PushManager (D) : @_@ setRegisterFailed.progressList size 0 / pushBackupListUsed=false
+2015-08-18 15:24:56(pid=28009,tid=6144) : PushManager (D) : @_@ setPriorityListAndRegister.#push_priority_backup=[NHN_NNI]
+2015-08-18 15:24:56(pid=28009,tid=6149) : NHN_NNI (D) : __NNI.#$# - initAvailableCheck
+2015-08-18 15:24:56(pid=28009,tid=6149) : NHN_NNI (D) : __NNI.!! NNIReceiver.register.complete
+2015-08-18 15:24:56(pid=28009,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=NHN_NNI:nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 15:24:56(pid=28009,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=NHN_NNI / pushToken=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 15:24:56(pid=28009,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=0 /retryInterval=100
+2015-08-18 15:24:56(pid=28009,tid=1) : NHN_NNI (D) : __NNI.#$# - removeAvailableCheck
+2015-08-18 15:24:56(pid=28009,tid=6144) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=1 /retryInterval=8000
+2015-08-18 15:25:04(pid=28009,tid=6144) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=2 /retryInterval=38000
+2015-08-18 15:25:26(pid=28009,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = SERVICE_NOT_AVAILABLE /retryCnt=0 /token=null
+2015-08-18 15:25:36(pid=28009,tid=6144) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 15:25:57(pid=28947,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 15:25:57(pid=28947,tid=6183) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -43, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:25:57(pid=28947,tid=6183) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 15:25:57
+2015-08-18 15:25:57(pid=28947,tid=6183) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 15:28:23(pid=30694,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 15:28:23(pid=30694,tid=6312) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -41, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:28:23(pid=30694,tid=6312) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 15:28:23
+2015-08-18 15:28:23(pid=30694,tid=6312) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 15:28:24(pid=30694,tid=6321) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 15:28:24(pid=30694,tid=6321) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 15:28:24(pid=30694,tid=6321) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 15:28:24(pid=30694,tid=6325) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 15:28:24(pid=30694,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=0 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 15:28:24(pid=30694,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 15:28:24(pid=30694,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 15:28:24(pid=30694,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 15:28:25(pid=30694,tid=6321) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 15:28:33(pid=30694,tid=6321) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=2 /retryInterval=38000
+2015-08-18 15:29:11(pid=30694,tid=6321) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=3 /retryInterval=218000
+2015-08-18 15:29:41(pid=30694,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 15:29:41(pid=30694,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -41, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:29:41(pid=30694,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -45, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:29:41(pid=30694,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -45, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:29:42(pid=30694,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 15:29:42(pid=30694,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -41, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:29:42(pid=30694,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-18 15:29:42(pid=30694,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -44, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:29:43(pid=30694,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 15:29:43(pid=30694,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -41, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:29:43(pid=30694,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -44, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:29:43(pid=30694,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -44, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:29:43(pid=30694,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 15:29:43(pid=30694,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -41, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:29:43(pid=30694,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=DISCONNECTED	 /subType=LTE
+2015-08-18 15:29:43(pid=30694,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -44, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:29:44(pid=30694,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 15:29:44(pid=30694,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -41, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:29:44(pid=30694,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -44, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:29:44(pid=30694,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -44, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:29:51(pid=30694,tid=1) : NHN_NNI (D) : __NNI.onReceive : RESPONSE_GETSTATE_INTENT : state='NNI Connected'
+2015-08-18 15:29:51(pid=30694,tid=1) : NHN_NNI (D) : __NNI.onReceive : RESPONSE_GETSTATE_INTENT : state='NNI Subscribe Success'
+2015-08-18 15:32:49(pid=30694,tid=6321) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=4 /retryInterval=1298000
+2015-08-18 15:34:38(pid=30694,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 15:47:01(pid=7225,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 15:47:01(pid=7225,tid=6540) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -40, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:47:01(pid=7225,tid=6540) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 15:47:01
+2015-08-18 15:47:01(pid=7225,tid=6540) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 15:52:04(pid=9908,tid=6630) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -36, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:52:04(pid=9908,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 15:52:04(pid=9908,tid=6630) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 15:52:04
+2015-08-18 15:52:04(pid=9908,tid=6630) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 15:59:37(pid=13348,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 15:59:37(pid=13348,tid=6675) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -42, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 15:59:37(pid=13348,tid=6675) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 15:59:37
+2015-08-18 15:59:37(pid=13348,tid=6675) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 15:59:38(pid=13348,tid=6684) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 15:59:38(pid=13348,tid=6684) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 15:59:38(pid=13348,tid=6684) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 15:59:38(pid=13348,tid=6690) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 16:00:08(pid=13348,tid=6684) : PushManager (D) : @_@ setRegisterFailed.notiType=GOOGLE_GCM / progressList=[GOOGLE_GCM]
+2015-08-18 16:00:08(pid=13348,tid=6684) : PushManager (D) : @_@ setRegisterFailed.progressList size 0 / pushBackupListUsed=false
+2015-08-18 16:00:08(pid=13348,tid=6684) : PushManager (D) : @_@ setPriorityListAndRegister.#push_priority_backup=[NHN_NNI]
+2015-08-18 16:00:08(pid=13348,tid=6681) : NHN_NNI (D) : __NNI.#$# - initAvailableCheck
+2015-08-18 16:00:08(pid=13348,tid=6681) : NHN_NNI (D) : __NNI.!! NNIReceiver.register.complete
+2015-08-18 16:00:08(pid=13348,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=NHN_NNI:nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 16:00:08(pid=13348,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=NHN_NNI / pushToken=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 16:00:08(pid=13348,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=0 /retryInterval=100
+2015-08-18 16:00:08(pid=13348,tid=1) : NHN_NNI (D) : __NNI.#$# - removeAvailableCheck
+2015-08-18 16:00:08(pid=13348,tid=6684) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=1 /retryInterval=8000
+2015-08-18 16:00:16(pid=13348,tid=6684) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=2 /retryInterval=38000
+2015-08-18 16:00:38(pid=13348,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = SERVICE_NOT_AVAILABLE /retryCnt=0 /token=null
+2015-08-18 16:00:48(pid=13348,tid=6684) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 16:00:49(pid=13348,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=1 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 16:00:49(pid=13348,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 16:00:49(pid=13348,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 16:00:49(pid=13348,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 16:00:49(pid=13348,tid=6684) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 16:01:06(pid=14372,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 16:01:06(pid=14372,tid=6738) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -46, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 16:01:06(pid=14372,tid=6738) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 16:01:06
+2015-08-18 16:01:06(pid=14372,tid=6738) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 16:02:50(pid=15382,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 16:02:50(pid=15382,tid=6780) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -36, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 16:02:50(pid=15382,tid=6780) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 16:02:50
+2015-08-18 16:02:50(pid=15382,tid=6780) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 16:16:46(pid=21232,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 16:16:46(pid=21232,tid=6870) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -40, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 16:16:46(pid=21232,tid=6870) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 16:16:46
+2015-08-18 16:16:46(pid=21232,tid=6870) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 16:53:47(pid=3847,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.USER_PRESENT
+2015-08-18 16:53:47(pid=3847,tid=6944) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -36, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 16:53:47(pid=3847,tid=6944) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 16:53:47
+2015-08-18 16:53:47(pid=3847,tid=6944) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 16:54:51(pid=5104,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 16:54:51(pid=5104,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = SERVICE_NOT_AVAILABLE /retryCnt=0 /token=null
+2015-08-18 16:54:51(pid=5104,tid=7050) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -38, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 16:54:51(pid=5104,tid=7050) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 16:54:51
+2015-08-18 16:54:51(pid=5104,tid=7050) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 16:54:53(pid=5104,tid=7059) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 16:54:53(pid=5104,tid=7059) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 16:54:53(pid=5104,tid=7059) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 16:54:53(pid=5104,tid=7057) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 16:54:53(pid=5104,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=0 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 16:54:53(pid=5104,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 16:54:53(pid=5104,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 16:54:53(pid=5104,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 16:54:53(pid=5104,tid=7059) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 16:55:01(pid=5104,tid=7059) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 16:55:01(pid=5104,tid=7059) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=2 /retryInterval=38000
+2015-08-18 16:55:01(pid=5104,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=0 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 16:55:01(pid=5104,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 16:55:01(pid=5104,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 16:55:01(pid=5104,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 16:55:02(pid=5104,tid=7059) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 16:55:10(pid=5104,tid=7059) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=2 /retryInterval=38000
+2015-08-18 16:55:39(pid=5104,tid=7059) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=3 /retryInterval=218000
+2015-08-18 16:55:48(pid=5104,tid=7059) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=3 /retryInterval=218000
+2015-08-18 16:59:17(pid=5104,tid=7059) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=4 /retryInterval=1298000
+2015-08-18 16:59:26(pid=5104,tid=7059) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=4 /retryInterval=1298000
+2015-08-18 17:08:12(pid=5104,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleMessage(): pushMsg = [PushMessage notiType='GOOGLE_GCM' revision='94' loc='MT' fetchLevel='1' chatType='1' messageId='3060871840121' fromName='LINE팀...' locContent='지금 바***' toMid='u50f3e3b8f2d7987e9ee16c7cbceced38' receiveTime='1439885292648 'createTime='1439885290891' pushTimeGap='1757' ]
+2015-08-18 17:08:12(pid=5104,tid=1) : PushReceiveCMD (D) :  *ReceiveCMD.handleMessage.return - Not mine : [PushMessage notiType='GOOGLE_GCM' revision='94' loc='MT' fetchLevel='1' chatType='1' messageId='3060871840121' fromName='LINE팀...' locContent='지금 바***' toMid='u50f3e3b8f2d7987e9ee16c7cbceced38' receiveTime='1439885292648 'createTime='1439885290891' pushTimeGap='1757' ]
+2015-08-18 17:20:57(pid=5104,tid=7059) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=5 /retryInterval=7778000
+2015-08-18 17:23:37(pid=14728,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 17:23:37(pid=14728,tid=7212) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -40, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 17:23:37(pid=14728,tid=7212) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 17:23:37
+2015-08-18 17:23:37(pid=14728,tid=7212) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 17:26:43(pid=16437,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 17:26:43(pid=16437,tid=7296) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -41, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 17:26:43(pid=16437,tid=7296) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 17:26:43
+2015-08-18 17:26:43(pid=16437,tid=7296) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 17:26:45(pid=16437,tid=7305) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 17:26:45(pid=16437,tid=7305) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 17:26:45(pid=16437,tid=7305) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 17:26:45(pid=16437,tid=7310) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 17:26:45(pid=16437,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=0 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 17:26:45(pid=16437,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 17:26:45(pid=16437,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 17:26:45(pid=16437,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 17:26:45(pid=16437,tid=7305) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 17:26:53(pid=16437,tid=7305) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=2 /retryInterval=38000
+2015-08-18 17:27:31(pid=16437,tid=7305) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=3 /retryInterval=218000
+2015-08-18 17:31:09(pid=16437,tid=7305) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=4 /retryInterval=1298000
+2015-08-18 17:33:16(pid=16437,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.USER_PRESENT
+2015-08-18 17:33:40(pid=16437,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 17:35:07(pid=16437,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 17:40:46(pid=16437,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.ACTION_POWER_DISCONNECTED
+2015-08-18 17:47:41(pid=16437,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 17:47:41(pid=16437,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -41, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 17:47:41(pid=16437,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "SG_QACenter", BSSID: 60:03:08:9d:9f:ea, Supplicant state: COMPLETED, RSSI: -49, Link speed: 65, Net ID: 2, Metered hint: false, mFrequency: 2412
+2015-08-18 17:47:41(pid=16437,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-18 17:47:41(pid=16437,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 17:47:41(pid=16437,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -41, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 17:47:41(pid=16437,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-18 17:47:41(pid=16437,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "SG_QACenter", BSSID: 60:03:08:9d:9f:ea, Supplicant state: COMPLETED, RSSI: -49, Link speed: 65, Net ID: 2, Metered hint: false, mFrequency: 2412
+2015-08-18 17:47:41(pid=16437,tid=1) : LineNotification (D) : #cc# @@ CHANGED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "SG_QACenter", BSSID: 60:03:08:9d:9f:ea, Supplicant state: COMPLETED, RSSI: -49, Link speed: 65, Net ID: 2, Metered hint: false, mFrequency: 2412
+2015-08-18 17:47:43(pid=16437,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 17:47:43(pid=16437,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "SG_QACenter", BSSID: 60:03:08:9d:9f:ea, Supplicant state: COMPLETED, RSSI: -49, Link speed: 65, Net ID: 2, Metered hint: false, mFrequency: 2412
+2015-08-18 17:47:43(pid=16437,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "SG_QACenter", BSSID: 60:03:08:9d:9f:ea, Supplicant state: COMPLETED, RSSI: -49, Link speed: 65, Net ID: 2, Metered hint: false, mFrequency: 2412
+2015-08-18 17:47:43(pid=16437,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "SG_QACenter", BSSID: 60:03:08:9d:9f:ea, Supplicant state: COMPLETED, RSSI: -49, Link speed: 65, Net ID: 2, Metered hint: false, mFrequency: 2412
+2015-08-18 17:47:43(pid=16437,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 17:47:43(pid=16437,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "SG_QACenter", BSSID: 60:03:08:9d:9f:ea, Supplicant state: COMPLETED, RSSI: -49, Link speed: 65, Net ID: 2, Metered hint: false, mFrequency: 2412
+2015-08-18 17:47:43(pid=16437,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=DISCONNECTED	 /subType=LTE
+2015-08-18 17:47:43(pid=16437,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "SG_QACenter", BSSID: 60:03:08:9d:9f:ea, Supplicant state: COMPLETED, RSSI: -49, Link speed: 65, Net ID: 2, Metered hint: false, mFrequency: 2412
+2015-08-18 17:47:44(pid=16437,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 17:47:44(pid=16437,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "SG_QACenter", BSSID: 60:03:08:9d:9f:ea, Supplicant state: COMPLETED, RSSI: -49, Link speed: 65, Net ID: 2, Metered hint: false, mFrequency: 2412
+2015-08-18 17:47:44(pid=16437,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "SG_QACenter", BSSID: 60:03:08:9d:9f:ea, Supplicant state: COMPLETED, RSSI: -47, Link speed: 65, Net ID: 2, Metered hint: false, mFrequency: 2412
+2015-08-18 17:47:44(pid=16437,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "SG_QACenter", BSSID: 60:03:08:9d:9f:ea, Supplicant state: COMPLETED, RSSI: -47, Link speed: 65, Net ID: 2, Metered hint: false, mFrequency: 2412
+2015-08-18 17:47:53(pid=16437,tid=1) : NHN_NNI (D) : __NNI.onReceive : RESPONSE_GETSTATE_INTENT : state='NNI Connected'
+2015-08-18 17:47:53(pid=16437,tid=1) : NHN_NNI (D) : __NNI.onReceive : RESPONSE_GETSTATE_INTENT : state='NNI Subscribe Success'
+2015-08-18 17:52:47(pid=16437,tid=7305) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=5 /retryInterval=7778000
+2015-08-18 18:04:03(pid=16437,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 18:04:03(pid=16437,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "SG_QACenter", BSSID: 60:03:08:9d:9f:ea, Supplicant state: COMPLETED, RSSI: -49, Link speed: 65, Net ID: 2, Metered hint: false, mFrequency: 2412
+2015-08-18 18:04:03(pid=16437,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 18:04:03(pid=16437,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 18:04:05(pid=16437,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 18:04:05(pid=16437,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "SG_QACenter", BSSID: 60:03:08:9d:9f:ea, Supplicant state: COMPLETED, RSSI: -49, Link speed: 65, Net ID: 2, Metered hint: false, mFrequency: 2412
+2015-08-18 18:04:05(pid=16437,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-18 18:04:05(pid=16437,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 18:04:05(pid=16437,tid=1) : LineNotification (D) : #cc# @@ CHANGED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 18:04:06(pid=16437,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 18:04:06(pid=16437,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 18:04:06(pid=16437,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 18:04:06(pid=16437,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 18:12:48(pid=24767,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 18:12:48(pid=24767,tid=7554) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -41, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 18:12:48(pid=24767,tid=7554) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 18:12:48
+2015-08-18 18:12:48(pid=24767,tid=7554) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 18:12:49(pid=24767,tid=7563) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 18:12:49(pid=24767,tid=7563) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 18:12:49(pid=24767,tid=7563) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 18:12:49(pid=24767,tid=7559) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 18:12:50(pid=24767,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=0 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 18:12:50(pid=24767,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 18:12:50(pid=24767,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 18:12:50(pid=24767,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 18:12:50(pid=24767,tid=7563) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 18:12:58(pid=24767,tid=7563) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=2 /retryInterval=38000
+2015-08-18 18:13:36(pid=24767,tid=7563) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=3 /retryInterval=218000
+2015-08-18 18:13:37(pid=24767,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.PACKAGE_REPLACED
+2015-08-18 19:06:46(pid=31778,tid=1) : LineNotification (D) :    # System.onReceive.action=android.intent.action.USER_PRESENT
+2015-08-18 19:06:46(pid=31778,tid=7878) : LineNotification (D) : #cc# @@ CONNECTED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -36, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 19:06:46(pid=31778,tid=7878) : LineNotification (D) : #cc# getNetworkConnectState : 08/18 19:06:46
+2015-08-18 19:06:46(pid=31778,tid=7878) : LineNotification (D) : #cc#  - getNetwork	NETWORK_WIFI	CONNECTED	WIFI
+2015-08-18 19:06:47(pid=31778,tid=7881) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 19:06:47(pid=31778,tid=7881) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-18 19:06:47(pid=31778,tid=7881) : PushManager (D) : @_@ setPriorityListAndRegister..push_priority=[GOOGLE_GCM]
+2015-08-18 19:06:47(pid=31778,tid=7883) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 19:07:17(pid=31778,tid=7881) : PushManager (D) : @_@ setRegisterFailed.notiType=GOOGLE_GCM / progressList=[GOOGLE_GCM]
+2015-08-18 19:07:17(pid=31778,tid=7881) : PushManager (D) : @_@ setRegisterFailed.progressList size 0 / pushBackupListUsed=false
+2015-08-18 19:07:17(pid=31778,tid=7881) : PushManager (D) : @_@ setPriorityListAndRegister.#push_priority_backup=[NHN_NNI]
+2015-08-18 19:07:17(pid=31778,tid=7886) : NHN_NNI (D) : __NNI.#$# - initAvailableCheck
+2015-08-18 19:07:17(pid=31778,tid=7886) : NHN_NNI (D) : __NNI.!! NNIReceiver.register.complete
+2015-08-18 19:07:17(pid=31778,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=NHN_NNI:nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 19:07:17(pid=31778,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=NHN_NNI / pushToken=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9
+2015-08-18 19:07:17(pid=31778,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=0 /retryInterval=100
+2015-08-18 19:07:17(pid=31778,tid=1) : NHN_NNI (D) : __NNI.#$# - removeAvailableCheck
+2015-08-18 19:07:18(pid=31778,tid=7881) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=1 /retryInterval=8000
+2015-08-18 19:07:26(pid=31778,tid=7881) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=2 /retryInterval=38000
+2015-08-18 19:07:48(pid=31778,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = SERVICE_NOT_AVAILABLE /retryCnt=0 /token=null
+2015-08-18 19:07:59(pid=31778,tid=7881) : PushManager (D) : isAvailable = true / result = SERVICE_VERSION_UPDATE_REQUIRED
+2015-08-18 19:08:01(pid=31778,tid=1) : GOOGLE_GCM (D) : __GCM onReceive.error = null /retryCnt=1 /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 19:08:01(pid=31778,tid=1) : BasePushReceiver (D) : -$$ BasePushReceiver.handleRegistration(): registration=GOOGLE_GCM:APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 19:08:01(pid=31778,tid=1) : PushManager (D) : @_@ requestPushTokenUpdate.notiType=GOOGLE_GCM / pushToken=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig
+2015-08-18 19:08:01(pid=31778,tid=1) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=0 /retryInterval=100
+2015-08-18 19:08:01(pid=31778,tid=7881) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=1 /retryInterval=8000
+2015-08-18 19:08:05(pid=31778,tid=7881) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=3 /retryInterval=218000
+2015-08-18 19:08:09(pid=31778,tid=7881) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=2 /retryInterval=38000
+2015-08-18 19:08:47(pid=31778,tid=7881) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=3 /retryInterval=218000
+2015-08-18 19:11:43(pid=31778,tid=7881) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=4 /retryInterval=1298000
+2015-08-18 19:12:25(pid=31778,tid=7881) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=4 /retryInterval=1298000
+2015-08-18 19:33:21(pid=31778,tid=7881) : TokenProxy (D) :  @TokenProxy.updateToken.type=NHN_NNI /token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9 /tryCnt=5 /retryInterval=7778000
+2015-08-18 19:34:01(pid=31778,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 19:34:01(pid=31778,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -36, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 19:34:01(pid=31778,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 19:34:01(pid=31778,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 19:34:01(pid=31778,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 19:34:01(pid=31778,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -36, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 19:34:01(pid=31778,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-18 19:34:01(pid=31778,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 19:34:03(pid=31778,tid=7881) : TokenProxy (D) :  @TokenProxy.updateToken.type=GOOGLE_GCM /token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig /tryCnt=5 /retryInterval=7778000
+2015-08-18 19:34:03(pid=31778,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-18 19:34:03(pid=31778,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -36, Link speed: 72, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 19:34:03(pid=31778,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-18 19:34:04(pid=31778,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462

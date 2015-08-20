@@ -1,0 +1,718 @@
+2015-08-20 10:05:06(pid=3036,tid=13056) : Legy.dns (D) : addReservedDNSInfo address=/182.162.201.216
+2015-08-20 10:05:06(pid=3036,tid=13056) : Legy.dns (D) : createDNSInfo address=/182.162.201.216, time=8/20/15 10:05 AM
+2015-08-20 10:05:06(pid=3036,tid=13056) : Legy.dns (D) : addReservedDNSInfo address=/182.162.201.207
+2015-08-20 10:05:06(pid=3036,tid=13056) : Legy.dns (D) : createDNSInfo address=/182.162.201.207, time=8/20/15 10:05 AM
+2015-08-20 10:05:06(pid=3036,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.session.connect (D) : [connect] current channel. Channel.isConnected() = Channel is null
+2015-08-20 10:05:07(pid=3036,tid=13068) : Legy (D) : lookUpFromOS address=ga2k-beta.line.naver.jp/119.235.232.235 elapsed=1
+2015-08-20 10:05:07(pid=3036,tid=13068) : Legy.dns (D) : addReservedDNSInfo address=/182.162.201.216
+2015-08-20 10:05:07(pid=3036,tid=13068) : Legy.dns (D) : createDNSInfo address=/182.162.201.216, time=8/20/15 10:05 AM
+2015-08-20 10:05:07(pid=3036,tid=13068) : Legy.dns (D) : addReservedDNSInfo address=/182.162.201.207
+2015-08-20 10:05:07(pid=3036,tid=13068) : Legy.dns (D) : createDNSInfo address=/182.162.201.207, time=8/20/15 10:05 AM
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 110000, isWifi=true
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.heartbeat (D) : change pingInterval{cachedValue=110000(msec), cachedTime10:05.07)
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.heartbeat (D) : change pingFaileCount{cachedValue=3(msec), cachedTime10:05.07)
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy (D) : setReadTimeoutHandler(pingTimeout). timeout=150
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.session.connect (D) : [connect info] ChannelFutureListener#operationComplete. done=true, success=true, time=162, canceled=false
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.session.connect (D) : [connect(result = true)]LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.session.connect (D) : [connect start]spdy://ga2k-beta.line.naver.jp:443obj-@42ca6648 : currentThread = 13061
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.session (D) : setSessionStatusChanged oldSessionStatus = Init, sessionStatus = Connected
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.heartbeat (D) : #### checkConnection - checkList=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1], LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:true] [priority:2][secureType:Tls][connectivityScore:1], LegyConnectionType [protocol:http] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:3][secureType:Enc][connectivityScore:1]]
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.encryption (D) : expired secretKey
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.longPolling (D) : setLongPollingSession. (old=null, new=spdy://ga2k-beta.line.naver.jp:443obj-@42ca6648)
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.profile (D) : id='/P5(1121350544)' time='1440032707812' elapsedTime='274' 'onStart'
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.request.spdyReqMgr (D) : addRequest. streamId=1
+spdy://ga2k-beta.line.naver.jp:443obj-@42ca6648
+    reqeustMap. size=0
+
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.heartbeat (D) : don't use client ping
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.encryption (D) : #### legySessionEncryptionKey = {0x36, 0xc6, 0x07, 0x9d, 0x68, 0x15, 0x14, 0x39, 0x29, 0xa5, 0x4d, 0x51, 0xe2, 0x60, 0xb1, 0xd8}
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA3MjM1Cg==..7aM0R/j6VUL6BBDtdbaGCHUD0o8= 
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 110000, isWifi=true
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA3MjM1Cg==..7aM0R/j6VUL6BBDtdbaGCHUD0o8= 
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.encryption (D) : #### encrypt header=X-Line-Access value=uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA3MjM1Cg==..7aM0R/j6VUL6BBDtdbaGCHUD0o8=
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] LegySpdySynStreamFrame [
+ * spdySynStreamFrame=DefaultSpdySynStreamFrame(last: false; unidirectional: false; deflateEnd: true)
+--> Stream-ID = 1
+--> Priority = 0
+--> Headers:
+    version: HTTP/1.1
+    method: POST
+    scheme: http
+    host: ga2k-beta.line.naver.jp
+    url: /P5
+    x-lal: en_US
+    x-lam: w
+    x-le: 7
+    x-lap: 3
+    user-agent: Line/5.2.0
+    x-las: B
+    x-la: ANDROID_BETA	5.2.0	Android OS	4.3;MA_BETA
+    x-lcs: 0004KZZII2FTSlT8rBZd6wFbjtsdJba6uzy92b7S4+vyo7KxhbO5FIVXm0/dOXgl1ru0/GTnLv81OEjVbIztaqawMimbzK5fZyrhP2IIQYyyZxYfTc9Oui/62mHESQfXe2fT5GMZokJLbi9TZf7OkxUYHVUiS95Bt5PP1TzY1wJs/lQxtfRqLBmjuJtG8knbB0Oi373wxGbOi0lPGUsCM/M2eGApqBeSZIf5h7SfgQForHMobVk/yQu3Cr//2+5dmbrbYsMvciKp07Q/vrHmhNVyKfbUuIVDhd+8jRgkLPMuiWd+/2HLgOG86ppkOwSNSKJL+/xxvR4Jxp4SwTApcra6QA==
+    x-lhm: POST
+    x-lpv: 1
+    x-lpi: 30,110
+    x-lac: 45005
+    accept: application/x-thrift
+    content-type: application/x-thrift
+    content-length: 24
+ * spdyDataFrame=DefaultSpdyDataFrame(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 148]
+2015-08-20 10:05:07(pid=3036,tid=13061) : Legy.request (D) : ### SpdyFrameEncoder - resetDeflate
+2015-08-20 10:05:07(pid=3036,tid=13083) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] DefaultSpdySettingsFrame
+--> 4:70 (persist value: true; persisted: false)
+--> 10001:30 (persist value: true; persisted: false)
+--> 10002:3 (persist value: true; persisted: false)
+--> 10003:3600 (persist value: true; persisted: false)
+--> 10005:1440032708 (persist value: true; persisted: false)
+--> 10006:78 (persist value: true; persisted: false)
+2015-08-20 10:05:07(pid=3036,tid=13072) : Legy.heartbeat (D) : notifyReceivedSpdyFrame - lastReceivedSpdyFrameTime = 1440032707888
+2015-08-20 10:05:07(pid=3036,tid=13072) : Legy.heartbeat (D) : reset ServerPing interval=140000
+2015-08-20 10:05:07(pid=3036,tid=13083) : Legy.response (D) : ### SpdyFrameDecoder - resetDeflate
+2015-08-20 10:05:07(pid=3036,tid=13083) : Legy.response.stream (D) : receive SynReplyFrame. [streamId=1, last=false]
+2015-08-20 10:05:07(pid=3036,tid=13083) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] DefaultSpdySynReplyFrame(last: false; deflateEnd: true)
+--> Stream-ID = 1
+--> Headers:
+    content-length: 52
+    content-type: application/x-thrift;charset=UTF-8
+    status: 200
+    version: HTTP/1.1
+    x-lc: 200
+    x-lcr: 23
+    x-le: 7
+2015-08-20 10:05:07(pid=3036,tid=13070) : Legy.heartbeat (D) : notifyReceivedSpdyFrame - lastReceivedSpdyFrameTime = 1440032707995
+2015-08-20 10:05:07(pid=3036,tid=13083) : Legy.request.spdyReqMgr (D) : receiveSynReply streamId=1 responseCode=200 status=OK headerFields={content-type=application/x-thrift;charset=UTF-8, x-lc=200, x-le=7, x-lcr=23, status=200, content-length=52, version=HTTP/1.1}
+2015-08-20 10:05:07(pid=3036,tid=13070) : Legy.heartbeat (D) : reset ServerPing interval=140000
+2015-08-20 10:05:07(pid=3036,tid=13083) : Legy.response.stream (D) : receive DataFrame.     [streamId=1, last=true]
+2015-08-20 10:05:07(pid=3036,tid=13083) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] DefaultSpdyDataFrame(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 84
+2015-08-20 10:05:07(pid=3036,tid=13083) : Legy.request.spdyReqMgr (D) : receiveDataFrame. streamId=1, last=true, size=84
+2015-08-20 10:05:07(pid=3036,tid=13083) : Legy.request.spdyReqMgr (D) : isFirstDataFrame=true
+2015-08-20 10:05:07(pid=3036,tid=13083) : Legy (D) : receiveDataFrame : sessionKey=mKJV9w
+2015-08-20 10:05:07(pid=3036,tid=13083) : Legy.request.spdyReqMgr (D) : fireComplete. streamId=1, requestMap = android.util.SparseArray@42b68a00
+spdy://ga2k-beta.line.naver.jp:443obj-@42ca6648
+    reqeustMap. size=1
+        [streamId=1, status=200, uri=/P5]
+
+2015-08-20 10:05:07(pid=3036,tid=13083) : Legy.request.spdyReqMgr (D) : streamId=1 responseCode=200 status=OK isFirstDataFrame=true
+2015-08-20 10:05:07(pid=3036,tid=13083) : Legy.longPolling (D) : setLongPollingSession. (old=spdy://ga2k-beta.line.naver.jp:443obj-@42ca6648, new=null)
+2015-08-20 10:05:07(pid=3036,tid=13083) : Legy.profile (D) : id='/P5(1121350544)' time='1440032707998' elapsedTime='460' 'onReceiveComplete'
+2015-08-20 10:05:08(pid=3036,tid=13070) : Legy.heartbeat (D) : reset ServerPing interval=140000
+2015-08-20 10:05:08(pid=3036,tid=13069) : Legy.session.close (D) : [close start]spdy://ga2k-beta.line.naver.jp:443obj-@42ca6648
+2015-08-20 10:05:08(pid=3036,tid=13069) : Legy.session (D) : setSessionStatusChanged oldSessionStatus = Connected, sessionStatus = Closed
+2015-08-20 10:05:08(pid=3036,tid=13069) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-beta.line.naver.jp:443obj-@42ca6648
+    reqeustMap. size=0
+
+2015-08-20 10:05:08(pid=3036,tid=13069) : Legy.session.close (D) : [close info] start close channel. spdy://ga2k-beta.line.naver.jp:443obj-@42ca6648
+2015-08-20 10:05:08(pid=3036,tid=13069) : Legy.session.close (D) : [close end]spdy://ga2k-beta.line.naver.jp:443obj-@42ca6648
+2015-08-20 10:05:08(pid=3036,tid=13069) : Legy.session.close (D) : [connected sessions count] 0
+2015-08-20 10:05:08(pid=3036,tid=13083) : Legy (D) : LegySpdyChannelHandler#channelDisconnected(ctx=org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext@42acc8e0, e=[id: 0x42d15588, /192.168.2.5:59954 :> ga2k-beta.line.naver.jp/119.235.232.235:443] DISCONNECTED)
+2015-08-20 10:05:08(pid=3036,tid=13083) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-beta.line.naver.jp:443obj-@42ca6648
+    reqeustMap. size=0
+
+2015-08-20 10:05:08(pid=3036,tid=13068) : Legy.session.connect (D) : [connect] current channel. Channel.isConnected() = Channel is null
+2015-08-20 10:05:11(pid=3036,tid=13072) : Legy.session.close (D) : removeHashedWheelTimer
+2015-08-20 10:05:11(pid=3036,tid=13072) : Legy (D) : lookUpFromOS address=ga2k-beta.line.naver.jp/119.235.232.235 elapsed=3
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy (D) : setReadTimeoutHandler(pingTimeout). timeout=150
+2015-08-20 10:05:11(pid=3036,tid=13072) : Legy (D) : lookUpFromOS address=ga2k-beta.line.naver.jp/119.235.232.235 elapsed=0
+2015-08-20 10:05:11(pid=3036,tid=13065) : Legy.session.connect (D) : [connect start]spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38 : currentThread = 13065
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.session.connect (D) : [connect info] ChannelFutureListener#operationComplete. done=true, success=true, time=69, canceled=false
+2015-08-20 10:05:11(pid=3036,tid=13065) : Legy.session (D) : setSessionStatusChanged oldSessionStatus = Init, sessionStatus = Connected
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.session.connect (D) : [connect(result = true)]LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 10:05:11(pid=3036,tid=13065) : Legy.encryption (D) : expired secretKey
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.session.connect (D) : [connect start]spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38 : currentThread = 13068
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : expired secretKey
+2015-08-20 10:05:11(pid=3036,tid=13065) : Legy.profile (D) : id='/S4(1121051312)' time='1440032711101' elapsedTime='2012' 'onStart'
+2015-08-20 10:05:11(pid=3036,tid=13065) : Legy.request.spdyReqMgr (D) : addRequest. streamId=1
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=0
+
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.profile (D) : id='/S4(1121154952)' time='1440032711103' elapsedTime='3089' 'onStart'
+2015-08-20 10:05:11(pid=3036,tid=13065) : Legy.encryption (D) : #### legySessionEncryptionKey = {0xcd, 0xdf, 0xa4, 0xa7, 0x24, 0xc1, 0x2f, 0xe0, 0xda, 0x05, 0x64, 0x8c, 0x8b, 0xa0, 0x99, 0xfd}
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.request.spdyReqMgr (D) : addRequest. streamId=3
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=1
+        [streamId=1, status=0, uri=/S4]
+
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : #### legySessionEncryptionKey = {0xc8, 0xa9, 0x54, 0x8f, 0xe8, 0x85, 0x8b, 0x4e, 0x44, 0x93, 0x2c, 0xbe, 0x61, 0xf5, 0x8f, 0xa7}
+2015-08-20 10:05:11(pid=3036,tid=13065) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg= 
+2015-08-20 10:05:11(pid=3036,tid=13065) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 10:05:11(pid=3036,tid=13065) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg= 
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 10:05:11(pid=3036,tid=13065) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 110000, isWifi=true
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 110000, isWifi=true
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg= 
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : #### encrypt header=X-Line-Access value=uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg=
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] LegySpdySynStreamFrame [
+ * spdySynStreamFrame=DefaultSpdySynStreamFrame(last: false; unidirectional: false; deflateEnd: true)
+--> Stream-ID = 3
+--> Priority = 0
+--> Headers:
+    version: HTTP/1.1
+    method: POST
+    scheme: http
+    host: ga2k-beta.line.naver.jp
+    url: /S4
+    x-lal: en_US
+    x-le: 7
+    x-lap: 3
+    x-lcs: 0004YwwUt7GCKgXeHmzQTlyEZHz+Kiy/CqU5nQb11r28ZtO0qKdgxP/rTtYTR9IUbSLZ8rSKv17Jl/NH9VoAj9Ct5Vqi1T8+E6AZxKHG3ppvVFA8GF6yVlcGU7944O47jYKFdI/oLyMjxtZXVMMDA9iLEfu2CnlS27XQdfFzNiK7mVusEtvWy1p0AYez9IWiGYq3huEhRIwW+a2CsW5+gxnNYmOLDUGcqnzCd3kOMxZF3z60ZgXrSNW/gbDXR3JHnLFhRgh/r61B5tQTuln/Bp29XuvXkMYGXu2t3U3SxyQpTftBeeK97inxX8eyClATqhKdCo1tBTsqAAfdA5THOG+b6g==
+    x-lhm: POST
+    x-lpv: 1
+    user-agent: Line/5.2.0
+    x-lpi: 30,110
+    accept: application/x-thrift
+    content-type: application/x-thrift
+    x-la: ANDROID_BETA	5.2.0	Android OS	4.3;MA_BETA
+    content-length: 15
+ * spdyDataFrame=DefaultSpdyDataFrame(last: true; compressed: false)
+--> Stream-ID = 3
+--> Size = 148]
+2015-08-20 10:05:11(pid=3036,tid=13065) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg= 
+2015-08-20 10:05:11(pid=3036,tid=13065) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 10:05:11(pid=3036,tid=13065) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 10:05:11(pid=3036,tid=13065) : Legy.encryption (D) : #### encrypt header=X-Line-Access value=uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg=
+2015-08-20 10:05:11(pid=3036,tid=13065) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] LegySpdySynStreamFrame [
+ * spdySynStreamFrame=DefaultSpdySynStreamFrame(last: false; unidirectional: false; deflateEnd: true)
+--> Stream-ID = 1
+--> Priority = 0
+--> Headers:
+    version: HTTP/1.1
+    method: POST
+    scheme: http
+    host: ga2k-beta.line.naver.jp
+    url: /S4
+    x-lal: en_US
+    x-le: 7
+    x-lap: 3
+    x-lcs: 0004XTZh1uMBh8TQHV9+QeDQ2i2TKBlwehyPPiMNudtcCIKBTD0/Y7wAAg4MAg9g7OWTs7R4Vfi5okDTWJ6Da4ZoG3kBzfhsGCN3nG7jNa3tSwKyFtHLkRVUyDxH+m7HqPMi3q0vpQQxUqimJWkJPgBuhbRnagbnt24MiNztLaZUOM44u3XX0aj61YepgEQdHL+FeIgaXyc9ASJhENrigmVI7XICWFemZGsI1gk5sYU+FsiT/aZsQ/zXYM942QJCQDBs5QN/N6QV0y6oSW9iRAgPKqBpNLa/4sCZY+Ay0ZWWyEUgpzO3icJ7m0J4MmzaXVpizn3pjB7jL6WCODmEep2F8w==
+    x-lhm: POST
+    x-lpv: 1
+    user-agent: Line/5.2.0
+    x-lpi: 30,110
+    accept: application/x-thrift
+    content-type: application/x-thrift
+    x-la: ANDROID_BETA	5.2.0	Android OS	4.3;MA_BETA
+    content-length: 195
+ * spdyDataFrame=DefaultSpdyDataFrame(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 324]
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.request (D) : ### SpdyFrameEncoder - resetDeflate
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.request (D) : ### SpdyFrameEncoder - resetDeflate
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] DefaultSpdySettingsFrame
+--> 4:70 (persist value: true; persisted: false)
+--> 10001:30 (persist value: true; persisted: false)
+--> 10002:3 (persist value: true; persisted: false)
+--> 10003:3600 (persist value: true; persisted: false)
+--> 10005:1440032711 (persist value: true; persisted: false)
+--> 10006:406 (persist value: true; persisted: false)
+2015-08-20 10:05:11(pid=3036,tid=13070) : Legy.heartbeat (D) : reset ServerPing interval=140000
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.longPolling (D) : setLongPollingSession. (old=null, new=spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38)
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.profile (D) : id='/P5(1121764104)' time='1440032711231' elapsedTime='2194' 'onStart'
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.request.spdyReqMgr (D) : addRequest. streamId=5
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=2
+        [streamId=1, status=0, uri=/S4]
+        [streamId=3, status=0, uri=/S4]
+
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.heartbeat (D) : don't use client ping
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg= 
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 110000, isWifi=true
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg= 
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.encryption (D) : #### encrypt header=X-Line-Access value=uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg=
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] LegySpdySynStreamFrame [
+ * spdySynStreamFrame=DefaultSpdySynStreamFrame(last: false; unidirectional: false; deflateEnd: true)
+--> Stream-ID = 5
+--> Priority = 0
+--> Headers:
+    version: HTTP/1.1
+    method: POST
+    scheme: http
+    host: ga2k-beta.line.naver.jp
+    url: /P5
+    x-lal: en_US
+    x-lam: w
+    x-le: 7
+    x-lap: 3
+    user-agent: Line/5.2.0
+    x-las: B
+    x-la: ANDROID_BETA	5.2.0	Android OS	4.3;MA_BETA
+    x-lcs: 0004Xg9m72678Nv5lm+u17uvDYj5MbPDX1umKLmWWK1yeyt+kyURGk4aK27Po0A8pxDOgIzJQLEF/vlK1Hv4BFwfpb5lEX0F5VtPdelcr1nUyym7/rtIMDguACCa/7JqN8d9yrcBie3gBNjevrVN87c7Z+UJCA59uCuvoTCXvcpa2Rxk3hEut0DN84YdxRCc+5ga331XKFRcUpuT3+7CLv1vpD71BtM4otWjKApwHg6nwzfTLH80z64vyUcm1dOX7iQYION+vbroHjIByFbgkhwFLfJNIgwcPVvsmR9h+xG8mOeuXx2lLscEQtPuWsrI/NLBS/spnBO76RWdEPMQ8opS4Q==
+    x-lhm: POST
+    x-lpv: 1
+    x-lpi: 30,110
+    x-lac: 45005
+    accept: application/x-thrift
+    content-type: application/x-thrift
+    content-length: 24
+ * spdyDataFrame=DefaultSpdyDataFrame(last: true; compressed: false)
+--> Stream-ID = 5
+--> Size = 148]
+2015-08-20 10:05:11(pid=3036,tid=13068) : Legy.request (D) : ### SpdyFrameEncoder - resetDeflate
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] DefaultSpdyGoAwayFrame
+--> Last-good-stream-ID = 3
+--> Status: OK
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=3
+        [streamId=1, status=0, uri=/S4]
+        [streamId=3, status=0, uri=/S4]
+        [streamId=5, status=0, uri=/P5]
+
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.request.spdyReqMgr (D) : retry. LegyRequest [scheme=http, method=POST, , host=ga2k-beta.line.naver.jp, path=/S4, retryCount=1], headerFields ={x-lal=en_US, x-lap=3, X-LHM=POST, X-LPV=1, User-Agent=Line/5.2.0, X-Line-Access=uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg=, Content-Type=application/x-thrift, Accept=application/x-thrift, X-Line-Application=ANDROID_BETA	5.2.0	Android OS	4.3;MA_BETA}
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.request.spdyReqMgr (D) : retry. LegyRequest [scheme=http, method=POST, , host=ga2k-beta.line.naver.jp, path=/S4, retryCount=1], headerFields ={x-lal=en_US, x-lap=3, X-LHM=POST, X-LPV=1, User-Agent=Line/5.2.0, X-Line-Access=uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg=, Content-Type=application/x-thrift, Accept=application/x-thrift, X-Line-Application=ANDROID_BETA	5.2.0	Android OS	4.3;MA_BETA}
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.longPolling (D) : setLongPollingSession. (old=spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38, new=null)
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.profile (D) : id='/P5(1121764104)' time='1440032711287' elapsedTime='2250' 'onReceiveComplete'
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.profile (D) : id='/S4(1121051312)' time='1440032711290' elapsedTime='2201' 'onStart'
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.request.spdyReqMgr (D) : addRequest. streamId=7
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=0
+
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.exception (D) : LegyLoggingHandler.exceptionCaught
+jp.naver.line.android.legy.LegyResetConnectionException: received GoAwayFrame.
+	at jp.naver.line.android.legy.spdy.LegySpdyChannelHandler.messageReceived(LegySpdyChannelHandler.java:374)
+	at jp.naver.line.android.legy.spdy.LegySpdyLoggingHandler.messageReceived(LegySpdyLoggingHandler.java:52)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleUpstream(ChunkedWriteHandler.java:148)
+	at org.jboss.netty.handler.codec.spdy.SpdySessionHandler.messageReceived(SpdySessionHandler.java:399)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:423)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.callDecode(FrameDecoder.java:404)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.messageReceived(FrameDecoder.java:268)
+	at jp.naver.line.android.legy.spdy.LegySpdyFrameCodec.handleUpstream(LegySpdyFrameCodec.java:27)
+	at org.jboss.netty.handler.timeout.ReadTimeoutHandler.messageReceived(ReadTimeoutHandler.java:198)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.oio.OioWorker.process(OioWorker.java:96)
+	at org.jboss.netty.channel.socket.oio.AbstractOioWorker.run(AbstractOioWorker.java:82)
+	at org.jboss.netty.channel.socket.oio.OioWorker.run(OioWorker.java:63)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=1
+        [streamId=7, status=0, uri=/S4]
+
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg= 
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.request.spdyReqMgr (D) : retry. LegyRequest [scheme=http, method=POST, , host=ga2k-beta.line.naver.jp, path=/S4, retryCount=2], headerFields ={x-lal=en_US, x-lap=3, X-LHM=POST, X-LPV=1, User-Agent=Line/5.2.0, X-Line-Access=uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg=, Content-Type=application/x-thrift, Accept=application/x-thrift, X-Line-Application=ANDROID_BETA	5.2.0	Android OS	4.3;MA_BETA}
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.session.close (D) : [close start]spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 110000, isWifi=true
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] LegySpdySynStreamFrame [
+ * spdySynStreamFrame=DefaultSpdySynStreamFrame(last: false; unidirectional: false; deflateEnd: true)
+--> Stream-ID = 7
+--> Priority = 0
+--> Headers:
+    version: HTTP/1.1
+    method: POST
+    scheme: http
+    host: ga2k-beta.line.naver.jp
+    url: /S4
+    x-lal: en_US
+    x-le: 7
+    x-lap: 3
+    x-lcs: 0004mig6thpM9F38tVYjDHd9SWBj6OqAxboCuL5fM3YiVc8GhFY4fqYHcMGyEHPn5bSVDHcepTfR4mUJrXboEHXp6CR8kfhIrWQLMOtWpXxc2ubIVsfGMDlFL0igPnBSVYPAAe0rh85rwzOTpB/20vrBA5TG6ISF28uhbMbhECK24CSo/0rO5oDztl3YMz7Ai/QnePpGaTpJLWZOmJGCPOaUn5W+NC3yildo43IT6g8JoJgFEqnvc7CihCQjBTA2vcUldbPWd2aV/doJvLPDuKwRhnKKtpKM1bgI12btLEVESglyloYWty8ElvacMf8Zu9HFwh9fFJys1MYc4H1OMqMbTw==
+    x-lhm: POST
+    x-lpv: 1
+    user-agent: Line/5.2.0
+    x-lpi: 30,110
+    accept: application/x-thrift
+    content-type: application/x-thrift
+    x-la: ANDROID_BETA	5.2.0	Android OS	4.3;MA_BETA
+    content-length: 195
+ * spdyDataFrame=DefaultSpdyDataFrame(last: true; compressed: false)
+--> Stream-ID = 7
+--> Size = 0]
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.request (D) : failed write SynStreamFrame. streamId=7
+org.jboss.netty.handler.codec.spdy.SpdyProtocolException
+	at org.jboss.netty.handler.codec.spdy.SpdySessionHandler.<clinit>(SpdySessionHandler.java:43)
+	at jp.naver.line.android.legy.spdy.LegySpdySession$LegySpdyChannelPipelineFactory.getPipeline(LegySpdySession.java:458)
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:207)
+	at jp.naver.line.android.legy.LegySession$ConnectFuture.startConnect(LegySession.java:186)
+	at jp.naver.line.android.legy.LegySession.connect(LegySession.java:325)
+	at jp.naver.line.android.legy.LegySessionChecker.checkConnection(LegySessionChecker.java:183)
+	at jp.naver.line.android.legy.LegySessionManager$RequestRunnable.innerRun(LegySessionManager.java:177)
+	at jp.naver.line.android.util.ExecutorsUtils$SafeRunnable.run(ExecutorsUtils.java:341)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=0
+
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.session.close (D) : [close info] start close channel. spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.session.close (D) : [close end]spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.profile (D) : id='/S4(1121051312)' time='1440032711332' elapsedTime='2243' 'onReceiveComplete'
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.request.stream (D) : write   RstStreamFrame.[streamId=7]
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] DefaultSpdyRstStreamFrame
+--> Stream-ID = 7
+--> Status: CANCEL
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.request.spdyReqMgr (D) : failed fireException. not exists request.(streamId = 7) spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.session.close (D) : [connected sessions count] 0
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy (D) : LegySpdyChannelHandler#channelDisconnected(ctx=org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext@42cd5388, e=[id: 0x42cd53d8, /192.168.2.5:43820 :> ga2k-beta.line.naver.jp/119.235.232.235:443] DISCONNECTED)
+2015-08-20 10:05:11(pid=3036,tid=13086) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=0
+
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.request (D) : ### SpdyFrameEncoder - resetDeflate
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.exception (D) : LegyLoggingHandler.exceptionCaught
+java.nio.channels.ClosedChannelException
+	at org.jboss.netty.channel.socket.oio.OioWorker.write(OioWorker.java:177)
+	at org.jboss.netty.channel.socket.oio.OioClientSocketPipelineSink.eventSunk$4b84bdff(OioClientSocketPipelineSink.java:81)
+	at org.jboss.netty.channel.Channels.write(Channels.java:733)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:63)
+	at org.jboss.netty.handler.codec.spdy.SpdyFrameEncoder.handleDownstream(SpdyFrameEncoder.java:132)
+	at jp.naver.line.android.legy.spdy.LegySpdyFrameCodec.handleDownstream(LegySpdyFrameCodec.java:22)
+	at org.jboss.netty.handler.codec.spdy.SpdySessionHandler.handleDownstream(SpdySessionHandler.java:636)
+	at jp.naver.line.android.legy.spdy.LegySpdySessionHandler.handleDownstream(LegySpdySessionHandler.java:35)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.flush(ChunkedWriteHandler.java:295)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleDownstream(ChunkedWriteHandler.java:127)
+	at jp.naver.line.android.legy.spdy.LegySpdyLoggingHandler.writeRequested(LegySpdyLoggingHandler.java:81)
+	at org.jboss.netty.channel.Channels.write(Channels.java:733)
+	at jp.naver.line.android.legy.spdy.LegySpdyChannelHandler.writeRequested(LegySpdyChannelHandler.java:83)
+	at org.jboss.netty.channel.Channels.write(Channels.java:679)
+	at jp.naver.line.android.legy.LegySession.write(LegySession.java:485)
+	at jp.naver.line.android.legy.LegySession.request(LegySession.java:441)
+	at jp.naver.line.android.legy.LegySessionManager$RequestRunnable.innerRun(LegySessionManager.java:180)
+	at jp.naver.line.android.util.ExecutorsUtils$SafeRunnable.run(ExecutorsUtils.java:341)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=0
+
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.session.close (D) : [close start]spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=0
+
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.session.close (D) : [close end]spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.session.close (D) : [connected sessions count] 0
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.exception (D) : LegyLoggingHandler.exceptionCaught
+java.nio.channels.ClosedChannelException
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.discard(ChunkedWriteHandler.java:174)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.flush(ChunkedWriteHandler.java:300)
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleDownstream(ChunkedWriteHandler.java:127)
+	at jp.naver.line.android.legy.spdy.LegySpdyLoggingHandler.writeRequested(LegySpdyLoggingHandler.java:81)
+	at org.jboss.netty.channel.Channels.write(Channels.java:733)
+	at jp.naver.line.android.legy.spdy.LegySpdyChannelHandler.writeRequested(LegySpdyChannelHandler.java:83)
+	at org.jboss.netty.channel.Channels.write(Channels.java:679)
+	at jp.naver.line.android.legy.LegySession.write(LegySession.java:485)
+	at jp.naver.line.android.legy.LegySession.request(LegySession.java:441)
+	at jp.naver.line.android.legy.LegySessionManager$RequestRunnable.innerRun(LegySessionManager.java:180)
+	at jp.naver.line.android.util.ExecutorsUtils$SafeRunnable.run(ExecutorsUtils.java:341)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=0
+
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.session.close (D) : [close start]spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=0
+
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.session.close (D) : [close end]spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.session.close (D) : [connected sessions count] 0
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.session.connect (D) : [connect] current channel. Channel.isConnected() = Channel is null
+2015-08-20 10:05:11(pid=3036,tid=13063) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=0
+
+2015-08-20 10:05:12(pid=3036,tid=13084) : Legy.session.connect (D) : LegySpdyPortScanner : start scan
+2015-08-20 10:05:14(pid=3036,tid=13061) : Legy.session.close (D) : removeHashedWheelTimer
+2015-08-20 10:05:14(pid=3036,tid=13061) : Legy (D) : lookUpFromOS address=ga2k-beta.line.naver.jp/119.235.232.235 elapsed=2
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy (D) : setReadTimeoutHandler(pingTimeout). timeout=150
+2015-08-20 10:05:14(pid=3036,tid=13061) : Legy (D) : lookUpFromOS address=ga2k-beta.line.naver.jp/119.235.232.235 elapsed=0
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.session.connect (D) : [connect info] ChannelFutureListener#operationComplete. done=true, success=true, time=54, canceled=false
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.session.connect (D) : [connect(result = true)]LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.session.connect (D) : [connect start]spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38 : currentThread = 13063
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.profile (D) : id='/S4(1121154952)' time='1440032714406' elapsedTime='6392' 'onStart'
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.request.spdyReqMgr (D) : addRequest. streamId=1
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=0
+
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### legySessionEncryptionKey = {0xa6, 0xca, 0xe2, 0xb5, 0x7f, 0x33, 0xf9, 0x1a, 0x57, 0x1a, 0x85, 0xd5, 0x47, 0x3c, 0x20, 0x6d}
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg= 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 110000, isWifi=true
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg= 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### encrypt header=X-Line-Access value=uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg=
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] LegySpdySynStreamFrame [
+ * spdySynStreamFrame=DefaultSpdySynStreamFrame(last: false; unidirectional: false; deflateEnd: true)
+--> Stream-ID = 1
+--> Priority = 0
+--> Headers:
+    version: HTTP/1.1
+    method: POST
+    scheme: http
+    host: ga2k-beta.line.naver.jp
+    url: /S4
+    x-lal: en_US
+    x-le: 7
+    x-lap: 3
+    x-lcs: 0004wGN+KyT2tV38WwIRQBPI4peApPwr4icv4ruuIUcs8+8HDL8K6nd/7l3Z0yBiIZsut8dCrSucZnf9fN93o/zuYfyxT879izrReABisWQDqwFe2j9U/s71PjY+hQhX1IXvywvlciiEDAY5nEaemro5S5AmGui3bavTeLGxEkHSC22dAbS0KEesNFjs7ZuD0wSVxVsmRRS3Y6iPYBzFVT+ctfHsLwHnMQsEdBSzvYui+aT6QVD3vbrRDTS6FkIZTnCtLUobsUeP+Hy+K0NNeGBn7cA7qArqdgA6zVe7E3E/C3+u41hxPuCwpnIeYchZvGi2cU5gCJfUlaI2qDXqkZdxrQ==
+    x-lhm: POST
+    x-lpv: 1
+    user-agent: Line/5.2.0
+    x-lpi: 30,110
+    accept: application/x-thrift
+    content-type: application/x-thrift
+    x-la: ANDROID_BETA	5.2.0	Android OS	4.3;MA_BETA
+    content-length: 15
+ * spdyDataFrame=DefaultSpdyDataFrame(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 148]
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.request (D) : ### SpdyFrameEncoder - resetDeflate
+2015-08-20 10:05:14(pid=3036,tid=13084) : Legy.session.connect (D) : LegySpdyPortScanner : port connected : true LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 10:05:14(pid=3036,tid=13084) : Legy.session.connect (D) : LegySpdyPortScanner : end scan scannedConnectionType : LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.heartbeat (D) : startIfStop ServerPing interval=140000
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.profile (D) : id='/S4(1121051312)' time='1440032714466' elapsedTime='5377' 'onStart'
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.request.spdyReqMgr (D) : addRequest. streamId=3
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=1
+        [streamId=1, status=0, uri=/S4]
+
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg= 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 110000, isWifi=true
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg= 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### encrypt header=X-Line-Access value=uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg=
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] LegySpdySynStreamFrame [
+ * spdySynStreamFrame=DefaultSpdySynStreamFrame(last: false; unidirectional: false; deflateEnd: true)
+--> Stream-ID = 3
+--> Priority = 0
+--> Headers:
+    version: HTTP/1.1
+    method: POST
+    scheme: http
+    host: ga2k-beta.line.naver.jp
+    url: /S4
+    x-lal: en_US
+    x-le: 7
+    x-lap: 3
+    x-lcs: 0004waYEnm4AriVc+C//c1jyPfIOHcLQcyLiiz29OnIR5sLND3MWEuPXMNny9QtHm3CU1iYaKyZt1NGXhA8OYooqHabLhyE0/6JxvIjhnl2C8kiAocpNCERw4M4A7LFE+hMrJrneoglsuYV76NaNimsdfsvd76jAgmLEyqEWbUDgG11t48d9vqAimqfWlPWolGcMW80GviyrgtLvjIuDpaRdc0WbM7X7cbW5dpSnO3gXV47mFfNsns9j8V3WAWFOsLLsi+XRpDy8+H+32VxeTJ3BRk21nGFl0Uo/6t8VfKxV53p3fHCxxLBDiobgnaJc2PNNmMkDr+djDj7gk9gY6EQHHQ==
+    x-lhm: POST
+    x-lpv: 1
+    user-agent: Line/5.2.0
+    x-lpi: 30,110
+    accept: application/x-thrift
+    content-type: application/x-thrift
+    x-la: ANDROID_BETA	5.2.0	Android OS	4.3;MA_BETA
+    content-length: 195
+ * spdyDataFrame=DefaultSpdyDataFrame(last: true; compressed: false)
+--> Stream-ID = 3
+--> Size = 324]
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.request (D) : ### SpdyFrameEncoder - resetDeflate
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] DefaultSpdySettingsFrame
+--> 4:70 (persist value: true; persisted: false)
+--> 10001:30 (persist value: true; persisted: false)
+--> 10002:3 (persist value: true; persisted: false)
+--> 10003:3600 (persist value: true; persisted: false)
+--> 10005:1440032714 (persist value: true; persisted: false)
+--> 10006:681 (persist value: true; persisted: false)
+2015-08-20 10:05:14(pid=3036,tid=13069) : Legy.heartbeat (D) : reset ServerPing interval=140000
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.heartbeat (D) : startIfStop ServerPing interval=140000
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.longPolling (D) : setLongPollingSession. (old=null, new=spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38)
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.profile (D) : id='/P5(1123402864)' time='1440032714537' elapsedTime='231' 'onStart'
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.request.spdyReqMgr (D) : addRequest. streamId=5
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=2
+        [streamId=1, status=0, uri=/S4]
+        [streamId=3, status=0, uri=/S4]
+
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.heartbeat (D) : don't use client ping
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg= 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.heartbeat (D) : LegyStatus.bgSpdyPingIntervalSec = -1, result = 110000, isWifi=true
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = X-Line-Access, value = uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg= 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = x-ls, value = null 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### move encryptionHeader = X-LS, value = null 
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.encryption (D) : #### encrypt header=X-Line-Access value=uab4a3226122a3cf8c3504b396cf9a59f:aWF0OiAxNDQwMDMyNzA4MDA5Cg==..sgr+tD3Zq40K5YlZ7BiPoqymxXg=
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.request (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] LegySpdySynStreamFrame [
+ * spdySynStreamFrame=DefaultSpdySynStreamFrame(last: false; unidirectional: false; deflateEnd: true)
+--> Stream-ID = 5
+--> Priority = 0
+--> Headers:
+    version: HTTP/1.1
+    method: POST
+    scheme: http
+    host: ga2k-beta.line.naver.jp
+    url: /P5
+    x-lal: en_US
+    x-lam: w
+    x-le: 7
+    x-lap: 3
+    user-agent: Line/5.2.0
+    x-las: B
+    x-la: ANDROID_BETA	5.2.0	Android OS	4.3;MA_BETA
+    x-lcs: 0004mzFm7nYehGExj1oDb/WH8JwUkTWCv9gciYauMSIU3ruLU6uic4KbhWJVdK5+DKxSlQWvufVLasiu3h4gG+vU3Z+HAunOIWJkHWheuSwgNqqOhxu5WST9QMFgh4w+j5zwUlCfkG0s88ekxwRAV/6FHWZe6vk007p1mcg5Y80ufsMp8pus9fpm83yzZmhFmrLVp/ueudqIZnXlmPMIYMrDRY+5csbRnpTpnCvetVMWTMQC1Ar1pn6jPIlBpsMkp3yflN/FKHkM1enEperFFqqi+y1d7Fr8Au9PF2h8N2lVW9r9DAvKdK4qbF4wLviaJNSdTyH8ikDOxfIxQkLxIP0mcA==
+    x-lhm: POST
+    x-lpv: 1
+    x-lpi: 30,110
+    x-lac: 45005
+    accept: application/x-thrift
+    content-type: application/x-thrift
+    content-length: 24
+ * spdyDataFrame=DefaultSpdyDataFrame(last: true; compressed: false)
+--> Stream-ID = 5
+--> Size = 148]
+2015-08-20 10:05:14(pid=3036,tid=13063) : Legy.request (D) : ### SpdyFrameEncoder - resetDeflate
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.response (D) : ### SpdyFrameDecoder - resetDeflate
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.response.stream (D) : receive SynReplyFrame. [streamId=1, last=false]
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] DefaultSpdySynReplyFrame(last: false; deflateEnd: true)
+--> Stream-ID = 1
+--> Headers:
+    content-length: 62
+    content-type: application/x-thrift;charset=UTF-8
+    status: 200
+    version: HTTP/1.1
+    x-lc: 200
+    x-lcr: 23
+    x-le: 7
+2015-08-20 10:05:14(pid=3036,tid=13062) : Legy.heartbeat (D) : notifyReceivedSpdyFrame - lastReceivedSpdyFrameTime = 1440032714613
+2015-08-20 10:05:14(pid=3036,tid=13062) : Legy.heartbeat (D) : reset ServerPing interval=140000
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.request.spdyReqMgr (D) : receiveSynReply streamId=1 responseCode=200 status=OK headerFields={content-type=application/x-thrift;charset=UTF-8, x-lc=200, x-le=7, x-lcr=23, status=200, content-length=62, version=HTTP/1.1}
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.response.stream (D) : receive DataFrame.     [streamId=1, last=true]
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] DefaultSpdyDataFrame(last: true; compressed: false)
+--> Stream-ID = 1
+--> Size = 100
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.request.spdyReqMgr (D) : receiveDataFrame. streamId=1, last=true, size=100
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.request.spdyReqMgr (D) : isFirstDataFrame=true
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy (D) : receiveDataFrame : sessionKey=FDnSFQ
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.request.spdyReqMgr (D) : fireComplete. streamId=1, requestMap = android.util.SparseArray@42ff9070
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=3
+        [streamId=1, status=200, uri=/S4]
+        [streamId=3, status=0, uri=/S4]
+        [streamId=5, status=0, uri=/P5]
+
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.request.spdyReqMgr (D) : streamId=1 responseCode=200 status=OK isFirstDataFrame=true
+2015-08-20 10:05:14(pid=3036,tid=13062) : Legy.heartbeat (D) : notifyReceivedSpdyFrame - lastReceivedSpdyFrameTime = 1440032714618
+2015-08-20 10:05:14(pid=3036,tid=13062) : Legy.heartbeat (D) : reset ServerPing interval=140000
+2015-08-20 10:05:14(pid=3036,tid=13072) : Legy.session.close (D) : [close start]spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.profile (D) : id='/S4(1121154952)' time='1440032714618' elapsedTime='6604' 'onReceiveComplete'
+2015-08-20 10:05:14(pid=3036,tid=13072) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=2
+        [streamId=3, status=0, uri=/S4]
+        [streamId=5, status=0, uri=/P5]
+
+2015-08-20 10:05:14(pid=3036,tid=13072) : Legy.profile (D) : id='/S4(1121051312)' time='1440032714628' elapsedTime='5539' 'onReceiveComplete'
+2015-08-20 10:05:14(pid=3036,tid=13072) : Legy.longPolling (D) : setLongPollingSession. (old=spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38, new=null)
+2015-08-20 10:05:14(pid=3036,tid=13072) : Legy.profile (D) : id='/P5(1123402864)' time='1440032714629' elapsedTime='323' 'onReceiveComplete'
+2015-08-20 10:05:14(pid=3036,tid=13072) : Legy.session.close (D) : [close info] start close channel. spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+2015-08-20 10:05:14(pid=3036,tid=13072) : Legy.session.close (D) : [close end]spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+2015-08-20 10:05:14(pid=3036,tid=13072) : Legy.session.close (D) : [connected sessions count] 0
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.response (D) : ### SpdyFrameDecoder - resetDeflate
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.response.stream (D) : receive SynReplyFrame. [streamId=3, last=false]
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] DefaultSpdySynReplyFrame(last: false; deflateEnd: true)
+--> Stream-ID = 3
+--> Headers:
+    content-length: 75
+    content-type: application/x-thrift;charset=UTF-8
+    status: 200
+    version: HTTP/1.1
+    x-lc: 200
+    x-le: 7
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.response.stream (D) : receive DataFrame.     [streamId=3, last=true]
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.response (D) : connection=[LegyConnectionType [protocol:spdy] [host:ga2k-beta.line.naver.jp] [port:443] [ssl:false] [priority:1][secureType:Enc][connectivityScore:1]] DefaultSpdyDataFrame(last: true; compressed: false)
+--> Stream-ID = 3
+--> Size = 100
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.request.spdyReqMgr (D) : receiveDataFrame. streamId=3, last=true, size=100
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.request.spdyReqMgr (D) : fireComplete. streamId=3, requestMap = android.util.SparseArray@42ff9070
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=0
+
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.request.spdyReqMgr (D) : failed fireComplete. not exists request.(streamId = 3)spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38, requestMap = android.util.SparseArray@42ff9070
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy (D) : LegySpdyChannelHandler#channelDisconnected(ctx=org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext@42ff9120, e=[id: 0x42ff9170, /192.168.2.5:59720 :> ga2k-beta.line.naver.jp/119.235.232.235:443] DISCONNECTED)
+2015-08-20 10:05:14(pid=3036,tid=13089) : Legy.request.spdyReqMgr (D) : fireFailedAll.
+spdy://ga2k-beta.line.naver.jp:443obj-@42d0ef38
+    reqeustMap. size=0
+
+2015-08-20 10:05:14(pid=3036,tid=13061) : Legy.heartbeat (D) : reset ServerPing interval=140000
+2015-08-20 10:05:14(pid=3036,tid=13061) : Legy.heartbeat (D) : reset ServerPing interval=140000
+2015-08-20 10:05:17(pid=3036,tid=13061) : Legy.session.close (D) : removeHashedWheelTimer
+2015-08-20 10:09:01(pid=3036,tid=1) : Legy.heartbeat (D) : don't use client ping
+2015-08-20 10:09:01(pid=3036,tid=1) : Legy.heartbeat (D) : don't use client ping
+2015-08-20 10:09:02(pid=3036,tid=1) : Legy.heartbeat (D) : don't use client ping
+2015-08-20 10:09:02(pid=3036,tid=1) : Legy.heartbeat (D) : don't use client ping
+2015-08-20 10:09:04(pid=3036,tid=1) : Legy.heartbeat (D) : don't use client ping
+2015-08-20 10:09:04(pid=3036,tid=1) : Legy.heartbeat (D) : don't use client ping
+2015-08-20 10:09:05(pid=3036,tid=1) : Legy.heartbeat (D) : don't use client ping
+2015-08-20 10:09:05(pid=3036,tid=1) : Legy.heartbeat (D) : don't use client ping
+2015-08-20 11:12:21(pid=5080,tid=13227) : Legy.dns (D) : addReservedDNSInfo address=/182.162.201.216
+2015-08-20 11:12:21(pid=5080,tid=13227) : Legy.dns (D) : createDNSInfo address=/182.162.201.216, time=8/20/15 11:12 AM
+2015-08-20 11:12:21(pid=5080,tid=13227) : Legy.dns (D) : addReservedDNSInfo address=/182.162.201.207
+2015-08-20 11:12:21(pid=5080,tid=13227) : Legy.dns (D) : createDNSInfo address=/182.162.201.207, time=8/20/15 11:12 AM
+2015-08-20 11:12:21(pid=5080,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 11:12:22(pid=5080,tid=13232) : Legy.dns (D) : addReservedDNSInfo address=/182.162.201.216
+2015-08-20 11:12:22(pid=5080,tid=13232) : Legy.dns (D) : createDNSInfo address=/182.162.201.216, time=8/20/15 11:12 AM
+2015-08-20 11:12:22(pid=5080,tid=13232) : Legy.dns (D) : addReservedDNSInfo address=/182.162.201.207
+2015-08-20 11:12:22(pid=5080,tid=13232) : Legy.dns (D) : createDNSInfo address=/182.162.201.207, time=8/20/15 11:12 AM
+2015-08-20 11:58:39(pid=8279,tid=13497) : Legy.dns (D) : addReservedDNSInfo address=/182.162.201.216
+2015-08-20 11:58:39(pid=8279,tid=13497) : Legy.dns (D) : createDNSInfo address=/182.162.201.216, time=8/20/15 11:58 AM
+2015-08-20 11:58:39(pid=8279,tid=13497) : Legy.dns (D) : addReservedDNSInfo address=/182.162.201.207
+2015-08-20 11:58:39(pid=8279,tid=13497) : Legy.dns (D) : createDNSInfo address=/182.162.201.207, time=8/20/15 11:58 AM
+2015-08-20 11:58:39(pid=8279,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:01:25(pid=9818,tid=13596) : Legy.dns (D) : addReservedDNSInfo address=/182.162.201.216
+2015-08-20 12:01:25(pid=9818,tid=13596) : Legy.dns (D) : createDNSInfo address=/182.162.201.216, time=8/20/15 12:01 PM
+2015-08-20 12:01:25(pid=9818,tid=13596) : Legy.dns (D) : addReservedDNSInfo address=/182.162.201.207
+2015-08-20 12:01:25(pid=9818,tid=13596) : Legy.dns (D) : createDNSInfo address=/182.162.201.207, time=8/20/15 12:01 PM
+2015-08-20 12:01:25(pid=9818,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+
+2015-08-20 12:09:17(pid=13122,tid=13675) : Legy.dns (D) : addReservedDNSInfo address=/182.162.201.216
+2015-08-20 12:09:17(pid=13122,tid=13675) : Legy.dns (D) : createDNSInfo address=/182.162.201.216, time=8/20/15 12:09 PM
+2015-08-20 12:09:17(pid=13122,tid=13675) : Legy.dns (D) : addReservedDNSInfo address=/182.162.201.207
+2015-08-20 12:09:17(pid=13122,tid=13675) : Legy.dns (D) : createDNSInfo address=/182.162.201.207, time=8/20/15 12:09 PM
+2015-08-20 12:09:18(pid=13122,tid=1) : Legy.session.connect (D) : ################### LINE Application onCreate ###################
+    processName=jp.naver.line.android
+

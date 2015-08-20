@@ -1,0 +1,1463 @@
+2015-08-18 01:43:35(pid=16506,tid=2815) : TalkApi.request (D) : fetchOps[localRev=16,count=100,globalRev=33872,individualRev=0]
+2015-08-18 01:43:41(pid=16506,tid=2817) : TalkApi.request (D) : getProfileWithoutHandleException[]
+2015-08-18 01:43:41(pid=16506,tid=2817) : TalkApi.exception (D) : RequestCallback[0](elapseTime=5881ms)
+TalkException(code:NOT_AUTHORIZED_DEVICE, reason:Auth Failed, parameterMap:{SUB_ERROR_CODE=DEVICE_LOSE})
+	at jp.naver.talk.protocol.thriftv1.TalkService$Client.recv_fetchOps(TalkService.java:10514)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$1.getResponse(TalkServiceClient.java:1064)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$RequestCallback.success(TalkServiceClient.java:134)
+	at jp.naver.line.android.thrift.LineTTransport$AsyncCallback.complete(LineTTransport.java:471)
+	at jp.naver.line.android.thrift.LineTTransport$1.response(LineTTransport.java:393)
+	at jp.naver.line.android.legy.LegyBaseRequestHandler$1.complete(LegyBaseRequestHandler.java:34)
+	at jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback.run(LegyRequest.java:281)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 01:43:42(pid=16506,tid=2802) : TalkApi.request (D) : fetchOps[localRev=16,count=100,globalRev=33872,individualRev=0]
+2015-08-18 01:43:44(pid=16506,tid=2816) : TalkApi.exception (D) : RequestCallback[1](elapseTime=3398ms)
+TalkException(code:NOT_AUTHORIZED_DEVICE, reason:Auth Failed, parameterMap:{SUB_ERROR_CODE=DEVICE_LOSE})
+	at jp.naver.talk.protocol.thriftv1.TalkService$Client.recv_getProfile(TalkService.java:5518)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$2.getResponse(TalkServiceClient.java:2801)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$RequestCallback.success(TalkServiceClient.java:134)
+	at jp.naver.line.android.thrift.LineTTransport$AsyncCallback.complete(LineTTransport.java:471)
+	at jp.naver.line.android.thrift.LineTTransport$1.response(LineTTransport.java:393)
+	at jp.naver.line.android.legy.LegyBaseRequestHandler$1.complete(LegyBaseRequestHandler.java:34)
+	at jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback.run(LegyRequest.java:281)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 01:43:44(pid=16506,tid=2818) : TalkApi.exception (D) : RequestCallback[2](elapseTime=2312ms)
+jp.naver.line.android.thrift.TTransportResetConnectionException: jp.naver.line.android.legy.LegyResetConnectionException
+	at jp.naver.line.android.thrift.LineTTransport.convertToTTransportException(LineTTransport.java:609)
+	at jp.naver.line.android.thrift.LineTTransport$AsyncCallback.complete(LineTTransport.java:486)
+	at jp.naver.line.android.thrift.LineTTransport$1.response(LineTTransport.java:393)
+	at jp.naver.line.android.legy.LegyBaseRequestHandler$1.complete(LegyBaseRequestHandler.java:34)
+	at jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback.run(LegyRequest.java:281)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.lang.Thread.run(Thread.java:841)
+Caused by: jp.naver.line.android.legy.LegyResetConnectionException
+	at jp.naver.line.android.legy.spdy.LegySpdyChannelHandler.resetMember(LegySpdyChannelHandler.java:453)
+	at jp.naver.line.android.legy.spdy.LegySpdySession$LegySpdyChannelPipelineFactory.resetMember(LegySpdySession.java:500)
+	at jp.naver.line.android.legy.spdy.LegySpdySession.resetMember(LegySpdySession.java:86)
+	at jp.naver.line.android.legy.LegySession.close(LegySession.java:358)
+	at jp.naver.line.android.legy.LegySessionPool$CachedLegySession.closeSession(LegySessionPool.java:290)
+	at jp.naver.line.android.legy.LegySessionPool.closeSpdySessions(LegySessionPool.java:105)
+	at jp.naver.line.android.legy.LegySessionPool.closeAllSessions(LegySessionPool.java:41)
+	at jp.naver.line.android.thrift.client.TalkClient$GetProfileCallback.failed(TalkClient.java:177)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$2.innerFailed(TalkServiceClient.java:2821)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$RequestCallback.success(TalkServiceClient.java:137)
+	at jp.naver.line.android.thrift.LineTTransport$AsyncCallback.complete(LineTTransport.java:471)
+	... 10 more
+
+2015-08-18 01:44:07(pid=16506,tid=2821) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 01:44:07(pid=16506,tid=2821) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 01:44:10(pid=16506,tid=2831) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 01:44:10(pid=16506,tid=2831) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 01:44:15(pid=16506,tid=2821) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 01:44:15(pid=16506,tid=2821) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 01:44:47(pid=16506,tid=2821) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 01:44:47(pid=16506,tid=2821) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 01:44:53(pid=16506,tid=2821) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 01:44:53(pid=16506,tid=2821) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 06:34:29(pid=17687,tid=3531) : TalkApi.request (D) : fetchOps[localRev=16,count=100,globalRev=33872,individualRev=0]
+2015-08-18 06:34:30(pid=17687,tid=3531) : TalkApi.request (D) : getProfileWithoutHandleException[]
+2015-08-18 06:34:30(pid=17687,tid=3531) : TalkApi.exception (D) : RequestCallback[0](elapseTime=418ms)
+TalkException(code:NOT_AUTHORIZED_DEVICE, reason:Auth Failed, parameterMap:{SUB_ERROR_CODE=DEVICE_LOSE})
+	at jp.naver.talk.protocol.thriftv1.TalkService$Client.recv_fetchOps(TalkService.java:10514)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$1.getResponse(TalkServiceClient.java:1064)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$RequestCallback.success(TalkServiceClient.java:134)
+	at jp.naver.line.android.thrift.LineTTransport$AsyncCallback.complete(LineTTransport.java:471)
+	at jp.naver.line.android.thrift.LineTTransport$1.response(LineTTransport.java:393)
+	at jp.naver.line.android.legy.LegyBaseRequestHandler$1.complete(LegyBaseRequestHandler.java:34)
+	at jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback.run(LegyRequest.java:281)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 06:34:32(pid=17687,tid=3527) : TalkApi.request (D) : fetchOps[localRev=16,count=100,globalRev=33872,individualRev=0]
+2015-08-18 06:34:33(pid=17687,tid=3523) : TalkApi.exception (D) : RequestCallback[2](elapseTime=1450ms)
+jp.naver.line.android.thrift.TTransportResetConnectionException: jp.naver.line.android.legy.LegyResetConnectionException
+	at jp.naver.line.android.thrift.LineTTransport.convertToTTransportException(LineTTransport.java:609)
+	at jp.naver.line.android.thrift.LineTTransport$AsyncCallback.complete(LineTTransport.java:486)
+	at jp.naver.line.android.thrift.LineTTransport$1.response(LineTTransport.java:393)
+	at jp.naver.line.android.legy.LegyBaseRequestHandler$1.complete(LegyBaseRequestHandler.java:34)
+	at jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback.run(LegyRequest.java:281)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.lang.Thread.run(Thread.java:841)
+Caused by: jp.naver.line.android.legy.LegyResetConnectionException
+	at jp.naver.line.android.legy.spdy.LegySpdyChannelHandler.resetMember(LegySpdyChannelHandler.java:453)
+	at jp.naver.line.android.legy.spdy.LegySpdySession$LegySpdyChannelPipelineFactory.resetMember(LegySpdySession.java:500)
+	at jp.naver.line.android.legy.spdy.LegySpdySession.resetMember(LegySpdySession.java:86)
+	at jp.naver.line.android.legy.LegySession.close(LegySession.java:358)
+	at jp.naver.line.android.legy.LegySessionPool$CachedLegySession.closeSession(LegySessionPool.java:290)
+	at jp.naver.line.android.legy.LegySessionPool.closeSpdySessions(LegySessionPool.java:105)
+	at jp.naver.line.android.legy.LegySessionPool.closeAllSessions(LegySessionPool.java:41)
+	at jp.naver.line.android.thrift.client.TalkClient$GetProfileCallback.failed(TalkClient.java:177)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$2.innerFailed(TalkServiceClient.java:2821)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$RequestCallback.success(TalkServiceClient.java:137)
+	at jp.naver.line.android.thrift.LineTTransport$AsyncCallback.complete(LineTTransport.java:471)
+	... 10 more
+
+2015-08-18 06:34:33(pid=17687,tid=3527) : TalkApi.exception (D) : RequestCallback[1](elapseTime=3253ms)
+TalkException(code:NOT_AUTHORIZED_DEVICE, reason:Auth Failed, parameterMap:{SUB_ERROR_CODE=DEVICE_LOSE})
+	at jp.naver.talk.protocol.thriftv1.TalkService$Client.recv_getProfile(TalkService.java:5518)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$2.getResponse(TalkServiceClient.java:2801)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$RequestCallback.success(TalkServiceClient.java:134)
+	at jp.naver.line.android.thrift.LineTTransport$AsyncCallback.complete(LineTTransport.java:471)
+	at jp.naver.line.android.thrift.LineTTransport$1.response(LineTTransport.java:393)
+	at jp.naver.line.android.legy.LegyBaseRequestHandler$1.complete(LegyBaseRequestHandler.java:34)
+	at jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback.run(LegyRequest.java:281)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:10:20(pid=20100,tid=4141) : TalkApi.request (D) : fetchOps[localRev=16,count=100,globalRev=33872,individualRev=0]
+2015-08-18 11:10:21(pid=20100,tid=4133) : TalkApi.request (D) : getProfileWithoutHandleException[]
+2015-08-18 11:10:21(pid=20100,tid=4133) : TalkApi.exception (D) : RequestCallback[0](elapseTime=710ms)
+TalkException(code:NOT_AUTHORIZED_DEVICE, reason:Auth Failed, parameterMap:{SUB_ERROR_CODE=DEVICE_LOSE})
+	at jp.naver.talk.protocol.thriftv1.TalkService$Client.recv_fetchOps(TalkService.java:10514)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$1.getResponse(TalkServiceClient.java:1064)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$RequestCallback.success(TalkServiceClient.java:134)
+	at jp.naver.line.android.thrift.LineTTransport$AsyncCallback.complete(LineTTransport.java:471)
+	at jp.naver.line.android.thrift.LineTTransport$1.response(LineTTransport.java:393)
+	at jp.naver.line.android.legy.LegyBaseRequestHandler$1.complete(LegyBaseRequestHandler.java:34)
+	at jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback.run(LegyRequest.java:281)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:10:22(pid=20100,tid=4142) : TalkApi.request (D) : fetchOps[localRev=16,count=100,globalRev=33872,individualRev=0]
+2015-08-18 11:10:24(pid=20100,tid=4137) : TalkApi.exception (D) : RequestCallback[2](elapseTime=2296ms)
+jp.naver.line.android.thrift.TTransportResetConnectionException: jp.naver.line.android.legy.LegyResetConnectionException
+	at jp.naver.line.android.thrift.LineTTransport.convertToTTransportException(LineTTransport.java:609)
+	at jp.naver.line.android.thrift.LineTTransport$AsyncCallback.complete(LineTTransport.java:486)
+	at jp.naver.line.android.thrift.LineTTransport$1.response(LineTTransport.java:393)
+	at jp.naver.line.android.legy.LegyBaseRequestHandler$1.complete(LegyBaseRequestHandler.java:34)
+	at jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback.run(LegyRequest.java:281)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.lang.Thread.run(Thread.java:841)
+Caused by: jp.naver.line.android.legy.LegyResetConnectionException
+	at jp.naver.line.android.legy.spdy.LegySpdyChannelHandler.resetMember(LegySpdyChannelHandler.java:453)
+	at jp.naver.line.android.legy.spdy.LegySpdySession$LegySpdyChannelPipelineFactory.resetMember(LegySpdySession.java:500)
+	at jp.naver.line.android.legy.spdy.LegySpdySession.resetMember(LegySpdySession.java:86)
+	at jp.naver.line.android.legy.LegySession.close(LegySession.java:358)
+	at jp.naver.line.android.legy.LegySessionPool$CachedLegySession.closeSession(LegySessionPool.java:290)
+	at jp.naver.line.android.legy.LegySessionPool.closeSpdySessions(LegySessionPool.java:105)
+	at jp.naver.line.android.legy.LegySessionPool.closeAllSessions(LegySessionPool.java:41)
+	at jp.naver.line.android.thrift.client.TalkClient$GetProfileCallback.failed(TalkClient.java:177)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$2.innerFailed(TalkServiceClient.java:2821)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$RequestCallback.success(TalkServiceClient.java:137)
+	at jp.naver.line.android.thrift.LineTTransport$AsyncCallback.complete(LineTTransport.java:471)
+	... 10 more
+
+2015-08-18 11:10:24(pid=20100,tid=4134) : TalkApi.exception (D) : RequestCallback[1](elapseTime=3345ms)
+TalkException(code:NOT_AUTHORIZED_DEVICE, reason:Auth Failed, parameterMap:{SUB_ERROR_CODE=DEVICE_LOSE})
+	at jp.naver.talk.protocol.thriftv1.TalkService$Client.recv_getProfile(TalkService.java:5518)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$2.getResponse(TalkServiceClient.java:2801)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$RequestCallback.success(TalkServiceClient.java:134)
+	at jp.naver.line.android.thrift.LineTTransport$AsyncCallback.complete(LineTTransport.java:471)
+	at jp.naver.line.android.thrift.LineTTransport$1.response(LineTTransport.java:393)
+	at jp.naver.line.android.legy.LegyBaseRequestHandler$1.complete(LegyBaseRequestHandler.java:34)
+	at jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback.run(LegyRequest.java:281)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:10:52(pid=20100,tid=4138) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 11:10:52(pid=20100,tid=4138) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:10:55(pid=20100,tid=4159) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 11:10:55(pid=20100,tid=4159) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:11:00(pid=20100,tid=4138) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 11:11:00(pid=20100,tid=4138) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:11:32(pid=20100,tid=4138) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 11:11:32(pid=20100,tid=4138) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:11:38(pid=20100,tid=4138) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 11:11:38(pid=20100,tid=4138) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:24:23(pid=27858,tid=4515) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 11:24:23(pid=27858,tid=4515) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:24:26(pid=27858,tid=4533) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 11:24:26(pid=27858,tid=4533) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:24:31(pid=27858,tid=4515) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 11:24:31(pid=27858,tid=4515) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:35:31(pid=769,tid=4614) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 11:35:31(pid=769,tid=4614) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:35:35(pid=769,tid=4631) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 11:35:35(pid=769,tid=4631) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:35:39(pid=769,tid=4614) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 11:35:39(pid=769,tid=4614) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:36:12(pid=769,tid=4614) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 11:36:12(pid=769,tid=4614) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:58:42(pid=12857,tid=4800) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 11:58:42(pid=12857,tid=4800) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:58:45(pid=12857,tid=4817) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 11:58:45(pid=12857,tid=4817) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:58:50(pid=12857,tid=4800) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 11:58:50(pid=12857,tid=4800) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 11:59:22(pid=12857,tid=4800) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 11:59:22(pid=12857,tid=4800) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 12:13:30(pid=20205,tid=4976) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 12:13:30(pid=20205,tid=4976) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 12:13:33(pid=20205,tid=4993) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 12:13:33(pid=20205,tid=4993) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 12:13:38(pid=20205,tid=4976) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 12:13:38(pid=20205,tid=4976) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 12:14:10(pid=20205,tid=4976) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 12:14:10(pid=20205,tid=4976) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 12:14:16(pid=20205,tid=4976) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 12:14:16(pid=20205,tid=4976) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 12:14:18(pid=20205,tid=4976) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 12:14:18(pid=20205,tid=4976) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 12:14:56(pid=20205,tid=4976) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 12:14:56(pid=20205,tid=4976) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 12:17:54(pid=20205,tid=4976) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 12:17:54(pid=20205,tid=4976) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 12:18:34(pid=20205,tid=4976) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 12:18:34(pid=20205,tid=4976) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 12:47:51(pid=4315,tid=5184) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 12:47:51(pid=4315,tid=5184) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 12:47:59(pid=4315,tid=5184) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 12:47:59(pid=4315,tid=5184) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 12:48:24(pid=4315,tid=5201) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 12:48:24(pid=4315,tid=5201) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 12:48:37(pid=4315,tid=5184) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 12:48:37(pid=4315,tid=5184) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 12:52:15(pid=4315,tid=5184) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 12:52:15(pid=4315,tid=5184) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 14:08:41(pid=24494,tid=5416) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 14:08:41(pid=24494,tid=5416) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 14:08:49(pid=24494,tid=5416) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 14:08:49(pid=24494,tid=5416) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 14:09:14(pid=24494,tid=5432) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 14:09:14(pid=24494,tid=5432) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 14:09:27(pid=24494,tid=5416) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 14:09:27(pid=24494,tid=5416) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 14:13:05(pid=24494,tid=5416) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 14:13:06(pid=24494,tid=5416) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:NOT_AUTHORIZED_DEVICE, reason:Auth Failed, parameterMap:{SUB_ERROR_CODE=DEVICE_LOSE})
+	at jp.naver.talk.protocol.thriftv1.TalkService$Client.recv_updateNotificationToken(TalkService.java:14627)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 14:13:06(pid=24494,tid=5416) : TalkApi.request (D) : getProfileWithoutHandleException[]
+2015-08-18 14:13:09(pid=24494,tid=5420) : TalkApi.exception (D) : RequestCallback[5](elapseTime=3435ms)
+TalkException(code:NOT_AUTHORIZED_DEVICE, reason:Auth Failed, parameterMap:{SUB_ERROR_CODE=DEVICE_LOSE})
+	at jp.naver.talk.protocol.thriftv1.TalkService$Client.recv_getProfile(TalkService.java:5518)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$2.getResponse(TalkServiceClient.java:2801)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$RequestCallback.success(TalkServiceClient.java:134)
+	at jp.naver.line.android.thrift.LineTTransport$AsyncCallback.complete(LineTTransport.java:471)
+	at jp.naver.line.android.thrift.LineTTransport$1.response(LineTTransport.java:393)
+	at jp.naver.line.android.legy.LegyBaseRequestHandler$1.complete(LegyBaseRequestHandler.java:34)
+	at jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback.run(LegyRequest.java:281)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 14:47:34(pid=11100,tid=5887) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 14:47:34(pid=11100,tid=5887) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 14:47:39(pid=11100,tid=5887) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 14:47:39(pid=11100,tid=5887) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 14:47:42(pid=11100,tid=5887) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 14:47:42(pid=11100,tid=5887) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 14:47:47(pid=11100,tid=5887) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 14:47:47(pid=11100,tid=5887) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 14:47:48(pid=11100,tid=5904) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 14:47:48(pid=11100,tid=5904) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 15:24:56(pid=28009,tid=6144) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 15:24:56(pid=28009,tid=6144) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 15:25:00(pid=28009,tid=6162) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 15:25:00(pid=28009,tid=6162) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 15:25:04(pid=28009,tid=6144) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 15:25:04(pid=28009,tid=6144) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 15:28:25(pid=30694,tid=6321) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 15:28:25(pid=30694,tid=6321) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 15:28:33(pid=30694,tid=6321) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 15:28:33(pid=30694,tid=6321) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 15:28:58(pid=30694,tid=6339) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 15:28:58(pid=30694,tid=6339) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 15:29:11(pid=30694,tid=6321) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 15:29:11(pid=30694,tid=6321) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 15:32:49(pid=30694,tid=6321) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 15:32:49(pid=30694,tid=6321) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 16:00:08(pid=13348,tid=6684) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 16:00:08(pid=13348,tid=6684) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 16:00:12(pid=13348,tid=6701) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 16:00:12(pid=13348,tid=6701) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 16:00:16(pid=13348,tid=6684) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 16:00:16(pid=13348,tid=6684) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 16:00:49(pid=13348,tid=6684) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 16:00:49(pid=13348,tid=6684) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 16:54:53(pid=5104,tid=7059) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 16:54:53(pid=5104,tid=7059) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 16:55:01(pid=5104,tid=7059) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 16:55:01(pid=5104,tid=7059) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 16:55:02(pid=5104,tid=7059) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 16:55:02(pid=5104,tid=7059) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 16:55:10(pid=5104,tid=7059) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 16:55:10(pid=5104,tid=7059) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 16:55:26(pid=5104,tid=7074) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 16:55:26(pid=5104,tid=7074) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 16:55:39(pid=5104,tid=7059) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 16:55:39(pid=5104,tid=7059) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 16:55:48(pid=5104,tid=7059) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 16:55:48(pid=5104,tid=7059) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 16:59:17(pid=5104,tid=7059) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 16:59:17(pid=5104,tid=7059) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 16:59:26(pid=5104,tid=7059) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 16:59:26(pid=5104,tid=7059) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 17:20:55(pid=5104,tid=7059) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 17:20:56(pid=5104,tid=7059) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:NOT_AUTHORIZED_DEVICE, reason:Auth Failed, parameterMap:{SUB_ERROR_CODE=DEVICE_LOSE})
+	at jp.naver.talk.protocol.thriftv1.TalkService$Client.recv_updateNotificationToken(TalkService.java:14627)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 17:20:56(pid=5104,tid=7059) : TalkApi.request (D) : getProfileWithoutHandleException[]
+2015-08-18 17:21:00(pid=5104,tid=7050) : TalkApi.exception (D) : RequestCallback[10](elapseTime=3293ms)
+TalkException(code:NOT_AUTHORIZED_DEVICE, reason:Auth Failed, parameterMap:{SUB_ERROR_CODE=DEVICE_LOSE})
+	at jp.naver.talk.protocol.thriftv1.TalkService$Client.recv_getProfile(TalkService.java:5518)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$2.getResponse(TalkServiceClient.java:2801)
+	at jp.naver.line.android.thrift.client.TalkServiceClient$RequestCallback.success(TalkServiceClient.java:134)
+	at jp.naver.line.android.thrift.LineTTransport$AsyncCallback.complete(LineTTransport.java:471)
+	at jp.naver.line.android.thrift.LineTTransport$1.response(LineTTransport.java:393)
+	at jp.naver.line.android.legy.LegyBaseRequestHandler$1.complete(LegyBaseRequestHandler.java:34)
+	at jp.naver.line.android.legy.LegyRequest$ReceivedCompleteCallback.run(LegyRequest.java:281)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at jp.naver.line.android.util.ExecutorServiceBase$TaskWorker.run(ExecutorServiceBase.java:242)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 17:26:45(pid=16437,tid=7305) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 17:26:45(pid=16437,tid=7305) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 17:26:53(pid=16437,tid=7305) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 17:26:53(pid=16437,tid=7305) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 17:27:18(pid=16437,tid=7321) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 17:27:18(pid=16437,tid=7321) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 17:27:31(pid=16437,tid=7305) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 17:27:31(pid=16437,tid=7305) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 17:31:09(pid=16437,tid=7305) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 17:31:09(pid=16437,tid=7305) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 17:52:47(pid=16437,tid=7305) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 17:52:47(pid=16437,tid=7305) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 18:12:50(pid=24767,tid=7563) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 18:12:50(pid=24767,tid=7563) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 18:12:58(pid=24767,tid=7563) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 18:12:58(pid=24767,tid=7563) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 18:13:23(pid=24767,tid=7581) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 18:13:23(pid=24767,tid=7581) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 18:13:36(pid=24767,tid=7563) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 18:13:36(pid=24767,tid=7563) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 19:07:17(pid=31778,tid=7881) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 19:07:17(pid=31778,tid=7881) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 19:07:21(pid=31778,tid=7898) : TalkApi.request (D) : notifyUpdated[lastRev=16,deviceInfo=DeviceInfo(applicationType:ANDROID_BETA, deviceName:SHV-E300S, systemName:Android OS, systemVersion:4.3, model:SHV-E300S, carrierCode:NOT_SPECIFIED, carrierName:45005)]
+2015-08-18 19:07:21(pid=31778,tid=7898) : TalkApi.exception (D) : notifyUpdated
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.notifyUpdated(TalkServiceClient.java:3941)
+	at jp.naver.line.android.DeviceInfoUpdater$1.run(DeviceInfoUpdater.java:72)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 19:07:26(pid=31778,tid=7881) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 19:07:26(pid=31778,tid=7881) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 19:08:01(pid=31778,tid=7881) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 19:08:01(pid=31778,tid=7881) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 19:08:05(pid=31778,tid=7881) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 19:08:05(pid=31778,tid=7881) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 19:08:09(pid=31778,tid=7881) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 19:08:09(pid=31778,tid=7881) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 19:08:47(pid=31778,tid=7881) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 19:08:47(pid=31778,tid=7881) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 19:11:43(pid=31778,tid=7881) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 19:11:43(pid=31778,tid=7881) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 19:12:25(pid=31778,tid=7881) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 19:12:25(pid=31778,tid=7881) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 19:33:21(pid=31778,tid=7881) : TalkApi.request (D) : updateNotificationToken[type=NHN_NNI,token=nni.naverline.450.7d2b2320-fcde-426f-b567-0f94d62274b9]
+2015-08-18 19:33:21(pid=31778,tid=7881) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
+2015-08-18 19:34:03(pid=31778,tid=7881) : TalkApi.request (D) : updateNotificationToken[type=GOOGLE_GCM,token=APA91bGLLJrjHRLFE3L1baBwzpFilDiNgsMPPOIGUvn5Dku_97PlVDKB2kpr8kfg0i6_Q0kvVLisPrwKec8SDYg7Sy0YuLfm62R15PhkmVTQ_UG0lFuhUtbuhmGJU8UhIBHQY3OMnukqVC1xuQbRwCOGI-D2g7a7Ig]
+2015-08-18 19:34:03(pid=31778,tid=7881) : TalkApi.exception (D) : updateNotificationToken
+TalkException(code:INTERNAL_ERROR, reason:already received auth error., parameterMap:null)
+	at jp.naver.line.android.thrift.client.TalkClient.getClient(TalkClient.java:46)
+	at jp.naver.line.android.thrift.client.TalkServiceClient.updateNotificationToken(TalkServiceClient.java:6193)
+	at jp.naver.line.android.service.push.PushTokenProxy$1.run(PushTokenProxy.java:119)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:390)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:234)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:153)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:267)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
+	at java.lang.Thread.run(Thread.java:841)
+
