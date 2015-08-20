@@ -6,12 +6,18 @@ var util = require('util');
 var mkdirp = require('mkdirp');
 var db = require('../models/db');
 var logSchema = require('../models/insertLog');
+var logHistorySchema = require('../models/receivedLogHistory');
+var paths = require('path');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/batchrun', function(req,res,nex){
+  logSchema.insertLog();
+  res.sendStatus(200);
+});
 
 router.post('/post', function(req, res) {
 
@@ -39,18 +45,19 @@ router.post('/post', function(req, res) {
             //console.log("fileBegin");
             //If file already has been uploaded we return, not saving anything in DB.
             
-            if(fs.existsSync("./public/uploadedLog/"+ name+file.name))
+            if(fs.existsSync("./public/uploadedLog/"+ name+"-"+file.name))
             {
-                var stats = fs.statSync("./public/uploadedLog/"+ name+file.name);
+                var stats = fs.statSync("./public/uploadedLog/"+name+"-"+file.name);
                 var fileSizeInBytes = stats["size"]
                 if(fileSizeHashT[file.name]<=fileSizeInBytes){
                  console.log("file already exists");
+
+                 rmDir("./public/uploadedLog/Temp");
                  return;
                 }
             }
-        	file.path = "./public/uploadedLog/" + name+file.name;
-            
-            path.push(file.path);
+        	file.path = "./public/uploadedLog/" + name+"-"+file.name;
+          logHistorySchema.insertLogHistory(name,file.name);            
          })
         //Received single file
         .on('file', function(field, file) {
@@ -66,7 +73,6 @@ router.post('/post', function(req, res) {
         })
         .on('end',function(req,res){
             console.log('form end:\n\n');
-            logSchema.insertLog(uuid,path);
         });
 
     form.parse(req,function(err){
@@ -76,4 +82,17 @@ router.post('/post', function(req, res) {
 
 });
 
+   rmDir = function(dirPath) {
+      try { var files = fs.readdirSync(dirPath); }
+      catch(e) { return; }
+      if (files.length > 0)
+        for (var i = 0; i < files.length; i++) {
+          var filePath = dirPath + '/' + files[i];
+          if (fs.statSync(filePath).isFile())
+            fs.unlinkSync(filePath);
+          else
+            rmDir(filePath);
+        }
+      //fs.rmdirSync(dirPath);
+    };
 module.exports = router;

@@ -6,15 +6,29 @@ var async = require('async');
 var isPrevious= false;
 var globalArray =[];
 var counter=0;
-exports.insertLog =  function(uuid,path){
+var syncLock = false;
+var ended = true;
+var scheduler;
+var task = [];
+
+exports.insertLog =  function(){
   
-  if(uuid==null||path==null)
-    return;
-  var appendedLog;
+  //if(uuid==null||path==null)
+    //return;
+
+    fs.readdir("./public/uploadedLog/", function (err, files){ 
+      if(files!="Temp"||".DS_Store")
+        task=files;
+      //task.push(files.split('-')[0]); 
+    });
+      task.splice(0,1);
+      task.splice(-1,1);
+      testRecursive(task);
   
+   
+    //testRecursive(task);
     //console.log(path[i]);
-      
-  testRecursive(uuid,path);
+    
 
     /*async.each(path,function(file,callback){
       var lr = new LineByLineReader(file);
@@ -98,20 +112,34 @@ exports.insertLog =  function(uuid,path){
   
 }
 
-var testRecursive = function(uuid,path)
+var testRecursive = function(path)
 {
   if(counter>path.length || path[counter+1]==null)
   {
+    counter = 0;
     return;
   }
+  
+  /*if(syncLock==true){
+    while(ended==false)
+    {
+      console.log("waiting");
+    }
+  }*/
+  
+  var uuid = (path[counter].split("-"))[0];
 
-  lr = new LineByLineReader(path[counter]);
-  counter++;
+  LogHistory.findOne({uuid:uuid,fileName: path[counter],logInserted:false}, function(err,obj) { console.log(obj); });
+  
+
+  lr = new LineByLineReader("./public/uploadedLog/"+path[counter]);
+  
   lr.on('error', function (err) {
       // 'err' contains error object
   });
 
   lr.on('line', function (line) {
+
     var stringArray = line.split(" ");
       if(stringArray[0].indexOf("2015-08")>-1&&isPrevious==true)
       {
@@ -135,6 +163,8 @@ var testRecursive = function(uuid,path)
 
         log.save(function(err){
           if (err) throw err;
+          console.log(log);
+          //console.log(log);
           //console.log(log);
         });
          isPrevious=false;
@@ -151,16 +181,14 @@ var testRecursive = function(uuid,path)
   });
 
   lr.on('end', function () {
-    testRecursive(uuid,path);
-    console.log(counter);
+    if(counter==path.length)
+    {
+      console.log("SAME"+counter+path.length);
+    }
+    console.log("I read line with file number"+counter);
+    counter++;
+    testRecursive(path);
+   
       // All lines are read, file is closed now.
   });
 }
-
-
-
-
-
-
-
-
