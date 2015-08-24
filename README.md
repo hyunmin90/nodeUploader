@@ -5,7 +5,7 @@
 brew install mongodb
 
 ####Use forever npm module to keep node running
-npm install forever -g
+sudo npm install forever -g
 
 ####Use npm to install dependencies
 
