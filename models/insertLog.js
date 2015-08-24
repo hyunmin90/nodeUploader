@@ -11,20 +11,20 @@ var ended = true;
 var scheduler;
 var task = [];
 
-exports.insertLog =  function(){
+exports.insertLog =  function(res){
   
   //if(uuid==null||path==null)
     //return;
-
     fs.readdir("./public/uploadedLog/", function (err, files){ 
-      if(files!="Temp"||".DS_Store")
         task=files;
-      //task.push(files.split('-')[0]); 
+        task.splice(0,1);
+        task.splice(-1,1);
+        console.log(task);
+        testRecursive(task);
+        res.sendStatus(200);
+        res.end();
     });
-      task.splice(0,1);
-      task.splice(-1,1);
-      testRecursive(task);
-  
+      
    
     //testRecursive(task);
     //console.log(path[i]);
@@ -112,13 +112,25 @@ exports.insertLog =  function(){
   
 }
 
+exports.test = function(){
+  console.log("hi");
+
+}
+
 var testRecursive = function(path)
 {
-  if(counter>path.length || path[counter+1]==null)
+  if(counter>path.length || path[counter]==null)
   {
     counter = 0;
     return;
   }
+  var tempArray= path;
+  //Log.LogHistory.findOne({fileName:(tempArray[counter].split("-")).slice(1).join("-"),logInserted:true}, function(err,obj) { 
+   // if(obj!=null){
+    //  console.log(obj);
+     // return;
+    //}
+  //});
   
   /*if(syncLock==true){
     while(ended==false)
@@ -146,27 +158,20 @@ var testRecursive = function(path)
          var dateAndPid = globalArray[1].split("(");
          var pid = (dateAndPid[1].split(","))[0].split("=");
 
+             var log = Log.log({
+                uuid: uuid,
+                logDate: globalArray[0],
+                logTime: dateAndPid[0],
+                logPid: pid[1],
+                logTag: globalArray[3],
+                logLV: globalArray[4],
+                logContent: globalArray.slice(5).join(" ")
+              });
+              log.save(function(err){
+                if (err) throw err;
+                console.log(log);
+              });
 
-
-         var log = Log({
-            uuid: uuid,
-            logDate: globalArray[0],
-            logTime: dateAndPid[0],
-            logPid: pid[1],
-            logTag: globalArray[3],
-            logLV: globalArray[4],
-            logContent: globalArray.slice(5).join(" ")
-        });
-
-
-
-
-        log.save(function(err){
-          if (err) throw err;
-          console.log(log);
-          //console.log(log);
-          //console.log(log);
-        });
          isPrevious=false;
       }
       if(stringArray[0].indexOf("2015-08")>-1&&isPrevious==false)
@@ -185,8 +190,21 @@ var testRecursive = function(path)
     {
       console.log("SAME"+counter+path.length);
     }
+    var conditions = {uuid:uuid, fileName:path[counter]}
+    ,update = { logInserted:true}
+    ,options = { };
+
+    Log.LogHistory.update(conditions, update, options, callback);
+  
+    function callback (err, numAffected) {
+      console.log(numAffected);
+    }
+
+
     console.log("I read line with file number"+counter);
+    fs.unlinkSync("./public/uploadedLog/"+path[counter]);
     counter++;
+
     testRecursive(path);
    
       // All lines are read, file is closed now.

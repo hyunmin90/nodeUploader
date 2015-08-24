@@ -1,0 +1,2 @@
+2015-08-24 15:35:22(pid=2715,tid=2527) : TalkApi (D) : [req][id=1115115792] notifyUpdated(lastRev=11, deviceInfo=DeviceInfo(applicationType:ANDROID_RC, deviceName:SM-A5000, systemName:Android OS, systemVersion:4.4.4, model:SM-A5000, carrierCode:NOT_SPECIFIED, carrierName:), callback=jp.naver.line.android.f@42774d80)
+2015-08-24 15:35:22(pid=2715,tid=2523) : TalkApi (D) : [res][id=1115115792] notifyUpdated[elapsed=376ms] result=Callback[a(null)]

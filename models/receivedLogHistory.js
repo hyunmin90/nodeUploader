@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');  
-var LogHistory = require('./db');
+var Log = require('./db');
 var fs = require('fs');
 var LineByLineReader = require('line-by-line');
 var async = require('async');
@@ -15,15 +15,30 @@ var task = [];
 
 exports.insertLogHistory =  function(uuid,filename)
 {
-	var log = LogHistory({
+	Log.LogHistory.findOne({
 		uuid:uuid,
-	    receivedDate:Date.now(),
 		fileName:filename,
 		logInserted:false
-     });
-	log.save(function(err){
-          if (err) throw err;
-          console.log(log);
-     });
+	}, function(err,obj) { 
+		if(obj==null){
+		var log = Log.LogHistory({
+			uuid:uuid,
+		    receivedDate:Date.now(),
+			fileName:filename,
+			logInserted:false
+	     });
+		log.save(function(err){
+	          if (err) throw err;
+	          console.log(log);
+	     });
+		}
+	});
 
+}
+exports.findOneHistory = function(name)
+{
+   Log.LogHistory.findOne({fileName:name},function(err,obj){
+    if(obj!=null)
+      return true;
+   });
 }

@@ -15,8 +15,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/batchrun', function(req,res,nex){
-  logSchema.insertLog();
-  res.sendStatus(200);
+  logSchema.insertLog(res);
 });
 
 router.post('/post', function(req, res) {
@@ -30,7 +29,7 @@ router.post('/post', function(req, res) {
 
   form
         .on('error', function(err) {
-            console.log('err');
+            console.log(err);
             throw err;
         })
 
@@ -41,28 +40,44 @@ router.post('/post', function(req, res) {
         })
 
         .on ('fileBegin', function(name, file){
-            //console.log(name);
+                      //console.log(name);
             //console.log("fileBegin");
             //If file already has been uploaded we return, not saving anything in DB.
             
-            if(fs.existsSync("./public/uploadedLog/"+ name+"-"+file.name))
+            /*if(fs.existsSync("./public/uploadedLog/"+ name+"-"+file.name))
             {
                 var stats = fs.statSync("./public/uploadedLog/"+name+"-"+file.name);
                 var fileSizeInBytes = stats["size"]
                 if(fileSizeHashT[file.name]<=fileSizeInBytes){
                  console.log("file already exists");
-
                  rmDir("./public/uploadedLog/Temp");
                  return;
                 }
-            }
-        	file.path = "./public/uploadedLog/" + name+"-"+file.name;
-          logHistorySchema.insertLogHistory(name,file.name);            
+            }*/
+            var date = new Date().getTime();
+        	file.path = "./public/uploadedLog/"+name+"-"+date+"-"+file.name;
+          logHistorySchema.insertLogHistory(name,name+"-"+date+"-"+file.name);    
          })
+
         //Received single file
         .on('file', function(field, file) {
+          console.log(field);
+           /*db.LogHistory.findOne({uuid:field, fileName:file.name, logInserted:true},function(err,obj){
+            if(obj!=null){
+              console.log(obj);
+              console.log(field);
+              console.log("file already exists");
+              fs.unlinkSync("./public/uploadedLog/"+field+"-"+file.name);
+              rmDir("./public/uploadedLog/Temp");
+            }
+            else if(obj==null)
+            {
+              logHistorySchema.insertLogHistory(field,file.name);
+            }
+           
+           });*/
+            
             uuid=field;
-                             
         })
         .on('progress', function(bytesReceived, bytesExpected) {
             //console.log("Byte expected!"+bytesExpected);
@@ -79,7 +94,7 @@ router.post('/post', function(req, res) {
         //res.redirect('/');
         console.log('form parse :\n\n');
     });
-
+    res.sendStatus(200);
 });
 
    rmDir = function(dirPath) {

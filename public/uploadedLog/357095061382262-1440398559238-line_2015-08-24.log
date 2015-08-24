@@ -1,0 +1,280 @@
+2015-08-24 15:34:46(pid=2715,tid=1) : LExecutorService (D) : execute : dit
+2015-08-24 15:34:46(pid=2715,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.ak
+2015-08-24 15:34:46(pid=2715,tid=1) : LExecutorService (D) : execute : dit
+2015-08-24 15:34:46(pid=2715,tid=2510) : LExecutorService (V) : worker start (1) : [LINE] #1 
+2015-08-24 15:34:46(pid=2715,tid=2510) : LExecutorService (D) : run : FWorker
+2015-08-24 15:34:46(pid=2715,tid=2510) : LExecutorService (V) : f worker start (1) : [LINE] #1 FWorker 
+2015-08-24 15:34:46(pid=2715,tid=2510) : LExecutorService (D) : run : dit
+2015-08-24 15:34:46(pid=2715,tid=2510) : LExecutorService (D) : run : dit
+2015-08-24 15:34:46(pid=2715,tid=2510) : LExecutorService (V) : f worker end (0) : [LINE] #1 FWorker 
+2015-08-24 15:34:46(pid=2715,tid=2510) : LExecutorService (V) : worker wait (1,1) : [LINE] #1 
+2015-08-24 15:34:46(pid=2715,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.m
+2015-08-24 15:34:46(pid=2715,tid=2510) : LExecutorService (V) : worker awake (1,0) : [LINE] #1 
+2015-08-24 15:34:46(pid=2715,tid=2510) : LExecutorService (D) : run : jp.naver.line.android.m
+2015-08-24 15:34:46(pid=2715,tid=1) : db.main (D) : onConfigure set secure_delete : true
+2015-08-24 15:34:46(pid=2715,tid=1) : db.main (D) : onOpen [start] : name=naver_line
+2015-08-24 15:34:46(pid=2715,tid=1) : db.main (D) : onOpen [ end ] : name=naver_line, elapsedTime=0ms
+2015-08-24 15:34:46(pid=2715,tid=1) : FTS (D) : start
+2015-08-24 15:34:46(pid=2715,tid=1) : LExecutorService (D) : execute : elx
+2015-08-24 15:34:46(pid=2715,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.ak
+2015-08-24 15:34:46(pid=2715,tid=1) : FTS (D) : onForeground
+2015-08-24 15:34:46(pid=2715,tid=1) : LExecutorService (D) : execute : dyj
+2015-08-24 15:34:46(pid=2715,tid=2515) : LExecutorService (V) : worker start (3) : [LINE] #2 
+2015-08-24 15:34:46(pid=2715,tid=2515) : LExecutorService (D) : run : FWorker
+2015-08-24 15:34:46(pid=2715,tid=2515) : LExecutorService (V) : f worker start (1) : [LINE] #2 FWorker 
+2015-08-24 15:34:46(pid=2715,tid=2515) : LExecutorService (D) : run : elx
+2015-08-24 15:34:46(pid=2715,tid=2516) : LExecutorService (V) : worker start (3) : [LINE] #3 
+2015-08-24 15:34:46(pid=2715,tid=2516) : LExecutorService (D) : run : dyj
+2015-08-24 15:34:46(pid=2715,tid=2516) : FTS (D) : buildFTSDatabase:false at /data/data/jp.naver.line.android/databases/search.sqlite
+2015-08-24 15:34:46(pid=2715,tid=2516) : LExecutorService (D) : execute : dyr
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (D) : run : dyr
+2015-08-24 15:34:47(pid=2715,tid=2515) : LExecutorService (V) : f worker end (0) : [LINE] #2 FWorker 
+2015-08-24 15:34:47(pid=2715,tid=2515) : LExecutorService (V) : worker wait (4,1) : [LINE] #2 
+2015-08-24 15:34:47(pid=2715,tid=2517) : LExecutorService (V) : worker start (4) : [LINE] #4 
+2015-08-24 15:34:47(pid=2715,tid=2517) : LExecutorService (V) : worker wait (4,2) : [LINE] #4 
+2015-08-24 15:34:47(pid=2715,tid=1) : LExecutorService (D) : execute : brz
+2015-08-24 15:34:47(pid=2715,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.ak
+2015-08-24 15:34:47(pid=2715,tid=2515) : LExecutorService (V) : worker awake (4,1) : [LINE] #2 
+2015-08-24 15:34:47(pid=2715,tid=2515) : LExecutorService (D) : run : FWorker
+2015-08-24 15:34:47(pid=2715,tid=2515) : LExecutorService (V) : f worker start (1) : [LINE] #2 FWorker 
+2015-08-24 15:34:47(pid=2715,tid=2515) : LExecutorService (D) : run : brz
+2015-08-24 15:34:47(pid=2715,tid=2515) : LExecutorService (V) : f worker end (0) : [LINE] #2 FWorker 
+2015-08-24 15:34:47(pid=2715,tid=2515) : LExecutorService (V) : worker wait (4,2) : [LINE] #2 
+2015-08-24 15:34:47(pid=2715,tid=2516) : FTS (D) : buildIndexTable
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (D) : execute : dyv
+2015-08-24 15:34:47(pid=2715,tid=1) : LExecutorService (D) : schedule : jp.naver.line.android.service.push.k
+2015-08-24 15:34:47(pid=2715,tid=1) : LExecutorService (D) : execute : dcy
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (D) : run : dyv
+2015-08-24 15:34:47(pid=2715,tid=2517) : LExecutorService (V) : worker awake (4,0) : [LINE] #4 
+2015-08-24 15:34:47(pid=2715,tid=2517) : LExecutorService (D) : run : dcy
+2015-08-24 15:34:47(pid=2715,tid=2515) : LExecutorService (V) : worker awake (4,0) : [LINE] #2 
+2015-08-24 15:34:47(pid=2715,tid=2515) : LExecutorService (V) : worker wait (4,1) : [LINE] #2 
+2015-08-24 15:34:47(pid=2715,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.bd
+2015-08-24 15:34:47(pid=2715,tid=2515) : LExecutorService (V) : worker awake (4,0) : [LINE] #2 
+2015-08-24 15:34:47(pid=2715,tid=2515) : LExecutorService (D) : run : SWorker
+2015-08-24 15:34:47(pid=2715,tid=2515) : LExecutorService (V) : s worker start (1) : [LINE] #2 SWorker 
+2015-08-24 15:34:47(pid=2715,tid=2516) : FTS (D) : buildIndexTable: no more messages to be indexed: 0 messages in 0 ms
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (V) : worker wait (4,1) : [LINE] #3 
+2015-08-24 15:34:47(pid=2715,tid=2517) : LExecutorService (V) : worker wait (4,2) : [LINE] #4 
+2015-08-24 15:34:47(pid=2715,tid=2510) : LExecutorService (D) : execute : dzz
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (V) : worker awake (4,1) : [LINE] #3 
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (D) : run : dzz
+2015-08-24 15:34:47(pid=2715,tid=2510) : LExecutorService (D) : execute : dzz
+2015-08-24 15:34:47(pid=2715,tid=2517) : LExecutorService (V) : worker awake (4,0) : [LINE] #4 
+2015-08-24 15:34:47(pid=2715,tid=2517) : LExecutorService (D) : run : dzz
+2015-08-24 15:34:47(pid=2715,tid=2510) : LExecutorService (D) : execute : jp.naver.line.android.k
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (D) : run : jp.naver.line.android.k
+2015-08-24 15:34:47(pid=2715,tid=2517) : LExecutorService (V) : worker wait (5,1) : [LINE] #4 
+2015-08-24 15:34:47(pid=2715,tid=2523) : LExecutorService (V) : worker start (5) : [LINE] #5 
+2015-08-24 15:34:47(pid=2715,tid=2523) : LExecutorService (V) : worker wait (5,2) : [LINE] #5 
+2015-08-24 15:34:47(pid=2715,tid=2510) : LExecutorService (D) : execute : cul
+2015-08-24 15:34:47(pid=2715,tid=2517) : LExecutorService (V) : worker awake (5,1) : [LINE] #4 
+2015-08-24 15:34:47(pid=2715,tid=2517) : LExecutorService (D) : run : cul
+2015-08-24 15:34:47(pid=2715,tid=2510) : LExecutorService (D) : execute : cul
+2015-08-24 15:34:47(pid=2715,tid=2523) : LExecutorService (V) : worker awake (5,0) : [LINE] #5 
+2015-08-24 15:34:47(pid=2715,tid=2523) : LExecutorService (D) : run : cul
+2015-08-24 15:34:47(pid=2715,tid=2510) : LExecutorService (D) : execute : cul
+2015-08-24 15:34:47(pid=2715,tid=2517) : db.privatechat (D) : onOpen [start] : name=naver_line_private_chat
+2015-08-24 15:34:47(pid=2715,tid=2517) : db.privatechat (D) : onOpen [ end ] : name=naver_line_private_chat, elapsedTime=0ms
+2015-08-24 15:34:47(pid=2715,tid=2517) : LExecutorService (D) : run : cul
+2015-08-24 15:34:47(pid=2715,tid=2523) : db.pushhistory (D) : onOpen [start] : name=naver_line_push_history
+2015-08-24 15:34:47(pid=2715,tid=2523) : db.pushhistory (D) : onOpen [ end ] : name=naver_line_push_history, elapsedTime=0ms
+2015-08-24 15:34:47(pid=2715,tid=2523) : LExecutorService (V) : worker wait (6,1) : [LINE] #5 
+2015-08-24 15:34:47(pid=2715,tid=2510) : LExecutorService (D) : execute : cul
+2015-08-24 15:34:47(pid=2715,tid=2523) : LExecutorService (V) : worker awake (6,0) : [LINE] #5 
+2015-08-24 15:34:47(pid=2715,tid=2523) : LExecutorService (D) : run : cul
+2015-08-24 15:34:47(pid=2715,tid=2510) : LExecutorService (D) : execute : cul
+2015-08-24 15:34:47(pid=2715,tid=2526) : LExecutorService (V) : worker start (7) : [LINE] #6 
+2015-08-24 15:34:47(pid=2715,tid=2526) : LExecutorService (D) : run : cul
+2015-08-24 15:34:47(pid=2715,tid=2527) : LExecutorService (V) : worker start (7) : [LINE] #7 
+2015-08-24 15:34:47(pid=2715,tid=2527) : LExecutorService (V) : worker wait (7,1) : [LINE] #7 
+2015-08-24 15:34:47(pid=2715,tid=2510) : LExecutorService (D) : execute : cul
+2015-08-24 15:34:47(pid=2715,tid=2510) : LExecutorService (D) : execute : cul
+2015-08-24 15:34:47(pid=2715,tid=2527) : LExecutorService (V) : worker awake (7,0) : [LINE] #7 
+2015-08-24 15:34:47(pid=2715,tid=2527) : LExecutorService (D) : run : cul
+2015-08-24 15:34:47(pid=2715,tid=2523) : db.autosuggest (D) : onOpen [start] : name=as_dic
+2015-08-24 15:34:47(pid=2715,tid=2523) : db.autosuggest (D) : onOpen [ end ] : name=as_dic, elapsedTime=0ms
+2015-08-24 15:34:47(pid=2715,tid=2523) : LExecutorService (D) : run : cul
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (D) : execute : ddz
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (D) : execute : jp.naver.line.android.util.ak
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (D) : execute : ddz
+2015-08-24 15:34:47(pid=2715,tid=2528) : LExecutorService (V) : worker start (9) : [LINE] #8 
+2015-08-24 15:34:47(pid=2715,tid=2528) : LExecutorService (D) : run : FWorker
+2015-08-24 15:34:47(pid=2715,tid=2528) : LExecutorService (V) : f worker start (1) : [LINE] #8 FWorker 
+2015-08-24 15:34:47(pid=2715,tid=2528) : LExecutorService (D) : run : ddz
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (D) : execute : ddz
+2015-08-24 15:34:47(pid=2715,tid=2528) : LExecutorService (D) : run : ddz
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (D) : execute : dcy
+2015-08-24 15:34:47(pid=2715,tid=2528) : LExecutorService (V) : f worker end (0) : [LINE] #8 FWorker 
+2015-08-24 15:34:47(pid=2715,tid=2528) : LExecutorService (D) : run : dcy
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (D) : execute : jp.naver.line.android.util.ak
+2015-08-24 15:34:47(pid=2715,tid=2529) : LExecutorService (V) : worker start (11) : [LINE] #9 
+2015-08-24 15:34:47(pid=2715,tid=2529) : LExecutorService (D) : run : FWorker
+2015-08-24 15:34:47(pid=2715,tid=2529) : LExecutorService (V) : f worker start (1) : [LINE] #9 FWorker 
+2015-08-24 15:34:47(pid=2715,tid=2529) : LExecutorService (D) : run : ddz
+2015-08-24 15:34:47(pid=2715,tid=2531) : LExecutorService (V) : worker start (11) : [LINE] #11 
+2015-08-24 15:34:47(pid=2715,tid=2531) : LExecutorService (V) : worker end (10) : [LINE] #11 
+2015-08-24 15:34:47(pid=2715,tid=2523) : db.callhistory (D) : onOpen [start] : name=call_history
+2015-08-24 15:34:47(pid=2715,tid=2523) : db.callhistory (D) : onOpen [ end ] : name=call_history, elapsedTime=0ms
+2015-08-24 15:34:47(pid=2715,tid=2523) : LExecutorService (V) : worker wait (10,1) : [LINE] #5 
+2015-08-24 15:34:47(pid=2715,tid=2517) : db.generalkv (D) : onOpen [start] : name=line_general_key_value
+2015-08-24 15:34:47(pid=2715,tid=2517) : db.generalkv (D) : onOpen [ end ] : name=line_general_key_value, elapsedTime=0ms
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (V) : worker wait (10,2) : [LINE] #3 
+2015-08-24 15:34:47(pid=2715,tid=2526) : db.readnotification (D) : onOpen [start] : name=read_notification
+2015-08-24 15:34:47(pid=2715,tid=2526) : db.readnotification (D) : onOpen [ end ] : name=read_notification, elapsedTime=0ms
+2015-08-24 15:34:47(pid=2715,tid=2529) : LExecutorService (V) : f worker end (0) : [LINE] #9 FWorker 
+2015-08-24 15:34:47(pid=2715,tid=2529) : LExecutorService (V) : worker wait (10,3) : [LINE] #9 
+2015-08-24 15:34:47(pid=2715,tid=2517) : LExecutorService (V) : worker wait (10,4) : [LINE] #4 
+2015-08-24 15:34:47(pid=2715,tid=2530) : LExecutorService (V) : worker start (10) : [LINE] #10 
+2015-08-24 15:34:47(pid=2715,tid=2530) : LExecutorService (V) : worker wait (10,5) : [LINE] #10 
+2015-08-24 15:34:47(pid=2715,tid=2527) : db.e2ee (D) : onOpen [start] : name=e2ee
+2015-08-24 15:34:47(pid=2715,tid=2527) : db.e2ee (D) : onOpen [ end ] : name=e2ee, elapsedTime=0ms
+2015-08-24 15:34:47(pid=2715,tid=2527) : LExecutorService (V) : worker wait (10,6) : [LINE] #7 
+2015-08-24 15:34:47(pid=2715,tid=2526) : LExecutorService (V) : worker wait (10,7) : [LINE] #6 
+2015-08-24 15:34:47(pid=2715,tid=2510) : LExecutorService (D) : execute : ccn
+2015-08-24 15:34:47(pid=2715,tid=2523) : LExecutorService (V) : worker awake (10,6) : [LINE] #5 
+2015-08-24 15:34:47(pid=2715,tid=2523) : LExecutorService (D) : run : ccn
+2015-08-24 15:34:47(pid=2715,tid=2523) : LExecutorService (V) : worker wait (10,7) : [LINE] #5 
+2015-08-24 15:34:47(pid=2715,tid=2528) : LExecutorService (V) : worker wait (10,8) : [LINE] #8 
+2015-08-24 15:34:47(pid=2715,tid=2510) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.b
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (V) : worker awake (10,7) : [LINE] #3 
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.b
+2015-08-24 15:34:47(pid=2715,tid=2516) : LExecutorService (V) : worker wait (10,8) : [LINE] #3 
+2015-08-24 15:34:48(pid=2715,tid=2515) : LExecutorService (D) : run : jp.naver.line.android.service.push.k
+2015-08-24 15:34:48(pid=2715,tid=2515) : LExecutorService (D) : execute : jp.naver.line.android.service.push.j
+2015-08-24 15:34:48(pid=2715,tid=2529) : LExecutorService (V) : worker awake (10,7) : [LINE] #9 
+2015-08-24 15:34:48(pid=2715,tid=2529) : LExecutorService (D) : run : jp.naver.line.android.service.push.j
+2015-08-24 15:34:48(pid=2715,tid=2515) : LExecutorService (V) : s worker end (0) : [LINE] #2 SWorker 
+2015-08-24 15:34:48(pid=2715,tid=2515) : LExecutorService (V) : worker wait (10,8) : [LINE] #2 
+2015-08-24 15:34:48(pid=2715,tid=2529) : LExecutorService (D) : schedule : jp.naver.line.android.service.push.z
+2015-08-24 15:34:48(pid=2715,tid=2529) : LExecutorService (D) : execute : jp.naver.line.android.util.bd
+2015-08-24 15:34:48(pid=2715,tid=2517) : LExecutorService (V) : worker awake (10,7) : [LINE] #4 
+2015-08-24 15:34:48(pid=2715,tid=2517) : LExecutorService (D) : run : SWorker
+2015-08-24 15:34:48(pid=2715,tid=2517) : LExecutorService (V) : s worker start (1) : [LINE] #4 SWorker 
+2015-08-24 15:34:48(pid=2715,tid=2529) : LExecutorService (V) : worker wait (10,8) : [LINE] #9 
+2015-08-24 15:34:48(pid=2715,tid=2517) : LExecutorService (D) : run : jp.naver.line.android.service.push.z
+2015-08-24 15:34:48(pid=2715,tid=2517) : LExecutorService (V) : s worker end (0) : [LINE] #4 SWorker 
+2015-08-24 15:34:48(pid=2715,tid=2517) : LExecutorService (V) : worker wait (10,9) : [LINE] #4 
+2015-08-24 15:34:49(pid=2715,tid=2510) : LExecutorService (D) : execute : cgg
+2015-08-24 15:34:49(pid=2715,tid=2510) : LExecutorService (D) : execute : jp.naver.line.android.util.ak
+2015-08-24 15:34:49(pid=2715,tid=2530) : LExecutorService (V) : worker awake (10,8) : [LINE] #10 
+2015-08-24 15:34:49(pid=2715,tid=2530) : LExecutorService (D) : run : FWorker
+2015-08-24 15:34:49(pid=2715,tid=2530) : LExecutorService (V) : f worker start (1) : [LINE] #10 FWorker 
+2015-08-24 15:34:49(pid=2715,tid=2530) : LExecutorService (D) : run : cgg
+2015-08-24 15:34:49(pid=2715,tid=2530) : LExecutorService (V) : f worker end (0) : [LINE] #10 FWorker 
+2015-08-24 15:34:49(pid=2715,tid=2530) : LExecutorService (V) : worker wait (10,9) : [LINE] #10 
+2015-08-24 15:34:52(pid=2715,tid=2510) : LExecutorService (D) : schedule : jp.naver.line.android.e
+2015-08-24 15:34:52(pid=2715,tid=2510) : LExecutorService (D) : execute : jp.naver.line.android.util.bd
+2015-08-24 15:34:52(pid=2715,tid=2527) : LExecutorService (V) : worker awake (10,8) : [LINE] #7 
+2015-08-24 15:34:52(pid=2715,tid=2527) : LExecutorService (D) : run : SWorker
+2015-08-24 15:34:52(pid=2715,tid=2527) : LExecutorService (V) : s worker start (1) : [LINE] #7 SWorker 
+2015-08-24 15:34:52(pid=2715,tid=2510) : LExecutorService (V) : worker wait (10,9) : [LINE] #1 
+2015-08-24 15:35:22(pid=2715,tid=2527) : LExecutorService (D) : run : jp.naver.line.android.e
+2015-08-24 15:35:22(pid=2715,tid=2527) : accessToken.Manager (D) : clear cached token. key=OBS_ENCRYPTED_ACCESS_TOKEN
+2015-08-24 15:35:22(pid=2715,tid=2527) : accessToken.Accessor (D) : clearCachedAccessToken.(type=OBS_GENERAL)
+2015-08-24 15:35:22(pid=2715,tid=2527) : record.request (D) : {
+    "data": "LegyRequestData [byteArray=giEBDW5vdGlmeVVwZGF0ZWQmFhwYCFNNLUE1MDAwGApBbmRyb2lkIE9TGAU0LjQuNBgIU00tQTUwMDBlABgAlUIAAA==]",
+    "headerFields": {
+        "x-lal": "en_US",
+        "User-Agent": "Line\/5.4.0",
+        "X-Line-Access": "ue4c192ef18b988f28b7d697f1b06e815:aWF0OiAxNDQwMzk4MTIyNTE3Cg==..SfSqPv+JLefRlNeLPMJ+R6c8cYI=",
+        "Content-Type": "application\/x-thrift",
+        "Accept": "application\/x-thrift",
+        "X-Line-Application": "ANDROID_RC\t5.4.0\tAndroid OS\t4.4.4"
+    },
+    "commandURL": "http:\/S4",
+    "legyApiType": null,
+    "httpMethod": "POST",
+    "option": {
+        "secure": false,
+        "connectSync": false
+    },
+    "destination": "talk"
+}
+2015-08-24 15:35:22(pid=2715,tid=2527) : record.request (D) : ,
+2015-08-24 15:35:22(pid=2715,tid=2527) : LExecutorService (D) : execute : dki
+2015-08-24 15:35:22(pid=2715,tid=2527) : LExecutorService (D) : execute : jp.naver.line.android.util.ak
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (V) : worker awake (10,8) : [LINE] #6 
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (D) : run : FWorker
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (D) : execute : dcy
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (V) : f worker start (1) : [LINE] #6 FWorker 
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (D) : run : dki
+2015-08-24 15:35:22(pid=2715,tid=2523) : LExecutorService (V) : worker awake (10,7) : [LINE] #5 
+2015-08-24 15:35:22(pid=2715,tid=2523) : LExecutorService (D) : run : dcy
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (D) : execute : dkk
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (D) : execute : jp.naver.line.android.util.ak
+2015-08-24 15:35:22(pid=2715,tid=2527) : LExecutorService (V) : s worker end (0) : [LINE] #7 SWorker 
+2015-08-24 15:35:22(pid=2715,tid=2527) : LExecutorService (D) : run : FWorker
+2015-08-24 15:35:22(pid=2715,tid=2527) : LExecutorService (V) : f worker start (1) : [LINE] #7 FWorker 
+2015-08-24 15:35:22(pid=2715,tid=2528) : LExecutorService (V) : worker awake (10,6) : [LINE] #8 
+2015-08-24 15:35:22(pid=2715,tid=2528) : LExecutorService (V) : worker wait (10,7) : [LINE] #8 
+2015-08-24 15:35:22(pid=2715,tid=2527) : LExecutorService (D) : run : dkk
+2015-08-24 15:35:22(pid=2715,tid=2527) : LExecutorService (V) : f worker end (0) : [LINE] #7 FWorker 
+2015-08-24 15:35:22(pid=2715,tid=2527) : LExecutorService (V) : worker wait (10,8) : [LINE] #7 
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (D) : execute : dcs
+2015-08-24 15:35:22(pid=2715,tid=2516) : LExecutorService (V) : worker awake (10,7) : [LINE] #3 
+2015-08-24 15:35:22(pid=2715,tid=2516) : LExecutorService (D) : run : dcs
+2015-08-24 15:35:22(pid=2715,tid=2516) : LExecutorService (V) : worker wait (10,8) : [LINE] #3 
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (D) : execute : dlp
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (D) : execute : jp.naver.line.android.util.ak
+2015-08-24 15:35:22(pid=2715,tid=2515) : LExecutorService (V) : worker awake (10,7) : [LINE] #2 
+2015-08-24 15:35:22(pid=2715,tid=2515) : LExecutorService (D) : run : FWorker
+2015-08-24 15:35:22(pid=2715,tid=2515) : LExecutorService (V) : f worker start (1) : [LINE] #2 FWorker 
+2015-08-24 15:35:22(pid=2715,tid=2515) : LExecutorService (D) : run : dlp
+2015-08-24 15:35:22(pid=2715,tid=2515) : LExecutorService (V) : f worker end (0) : [LINE] #2 FWorker 
+2015-08-24 15:35:22(pid=2715,tid=2515) : LExecutorService (V) : worker wait (10,8) : [LINE] #2 
+2015-08-24 15:35:22(pid=2715,tid=2523) : LExecutorService (V) : worker wait (10,9) : [LINE] #5 
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (D) : execute : dcs
+2015-08-24 15:35:22(pid=2715,tid=2529) : LExecutorService (V) : worker awake (10,8) : [LINE] #9 
+2015-08-24 15:35:22(pid=2715,tid=2529) : LExecutorService (D) : run : dcs
+2015-08-24 15:35:22(pid=2715,tid=2529) : LExecutorService (V) : worker wait (10,9) : [LINE] #9 
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (D) : schedule : dmj
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (D) : execute : jp.naver.line.android.util.bd
+2015-08-24 15:35:22(pid=2715,tid=2517) : LExecutorService (V) : worker awake (10,8) : [LINE] #4 
+2015-08-24 15:35:22(pid=2715,tid=2517) : LExecutorService (D) : run : SWorker
+2015-08-24 15:35:22(pid=2715,tid=2517) : LExecutorService (V) : s worker start (1) : [LINE] #4 SWorker 
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (D) : execute : dcs
+2015-08-24 15:35:22(pid=2715,tid=2530) : LExecutorService (V) : worker awake (10,7) : [LINE] #10 
+2015-08-24 15:35:22(pid=2715,tid=2530) : LExecutorService (D) : run : dcs
+2015-08-24 15:35:22(pid=2715,tid=2530) : LExecutorService (V) : worker wait (10,8) : [LINE] #10 
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (V) : f worker end (0) : [LINE] #6 FWorker 
+2015-08-24 15:35:22(pid=2715,tid=2526) : LExecutorService (V) : worker wait (10,9) : [LINE] #6 
+2015-08-24 15:35:22(pid=2715,tid=2540) : LExecutorService (D) : execute : dmw
+2015-08-24 15:35:22(pid=2715,tid=2540) : LExecutorService (D) : execute : jp.naver.line.android.util.ak
+2015-08-24 15:35:22(pid=2715,tid=2510) : LExecutorService (V) : worker awake (10,8) : [LINE] #1 
+2015-08-24 15:35:22(pid=2715,tid=2510) : LExecutorService (D) : run : FWorker
+2015-08-24 15:35:22(pid=2715,tid=2510) : LExecutorService (V) : f worker start (1) : [LINE] #1 FWorker 
+2015-08-24 15:35:22(pid=2715,tid=2510) : LExecutorService (D) : run : dmw
+2015-08-24 15:35:22(pid=2715,tid=2510) : LExecutorService (V) : f worker end (0) : [LINE] #1 FWorker 
+2015-08-24 15:35:22(pid=2715,tid=2510) : LExecutorService (V) : worker wait (10,9) : [LINE] #1 
+2015-08-24 15:35:22(pid=2715,tid=2540) : LExecutorService (D) : execute : dmw
+2015-08-24 15:35:22(pid=2715,tid=2540) : LExecutorService (D) : execute : jp.naver.line.android.util.ak
+2015-08-24 15:35:22(pid=2715,tid=2528) : LExecutorService (V) : worker awake (10,8) : [LINE] #8 
+2015-08-24 15:35:22(pid=2715,tid=2528) : LExecutorService (D) : run : FWorker
+2015-08-24 15:35:22(pid=2715,tid=2528) : LExecutorService (V) : f worker start (1) : [LINE] #8 FWorker 
+2015-08-24 15:35:22(pid=2715,tid=2528) : LExecutorService (D) : run : dmw
+2015-08-24 15:35:22(pid=2715,tid=2528) : LExecutorService (D) : execute : dcy
+2015-08-24 15:35:22(pid=2715,tid=2528) : LExecutorService (V) : f worker end (0) : [LINE] #8 FWorker 
+2015-08-24 15:35:22(pid=2715,tid=2528) : LExecutorService (D) : run : dcy
+2015-08-24 15:35:22(pid=2715,tid=2527) : LExecutorService (V) : worker awake (10,7) : [LINE] #7 
+2015-08-24 15:35:22(pid=2715,tid=2527) : LExecutorService (V) : worker wait (10,8) : [LINE] #7 
+2015-08-24 15:35:22(pid=2715,tid=2540) : LExecutorService (D) : execute : dmw
+2015-08-24 15:35:22(pid=2715,tid=2540) : LExecutorService (D) : execute : jp.naver.line.android.util.ak
+2015-08-24 15:35:22(pid=2715,tid=2516) : LExecutorService (V) : worker awake (10,7) : [LINE] #3 
+2015-08-24 15:35:22(pid=2715,tid=2516) : LExecutorService (D) : run : FWorker
+2015-08-24 15:35:22(pid=2715,tid=2516) : LExecutorService (V) : f worker start (1) : [LINE] #3 FWorker 
+2015-08-24 15:35:22(pid=2715,tid=2516) : LExecutorService (D) : run : dmw
+2015-08-24 15:35:22(pid=2715,tid=2516) : LExecutorService (V) : f worker end (0) : [LINE] #3 FWorker 
+2015-08-24 15:35:22(pid=2715,tid=2516) : LExecutorService (V) : worker wait (10,8) : [LINE] #3 
+2015-08-24 15:35:22(pid=2715,tid=2540) : LExecutorService (D) : execute : dcs
+2015-08-24 15:35:22(pid=2715,tid=2515) : LExecutorService (V) : worker awake (10,7) : [LINE] #2 
+2015-08-24 15:35:22(pid=2715,tid=2515) : LExecutorService (D) : run : dcs
+2015-08-24 15:35:22(pid=2715,tid=2515) : LExecutorService (V) : worker wait (10,8) : [LINE] #2 
+2015-08-24 15:35:22(pid=2715,tid=2540) : LExecutorService (D) : execute : djn
+2015-08-24 15:35:22(pid=2715,tid=2540) : LExecutorService (D) : execute : jp.naver.line.android.util.ak
+2015-08-24 15:35:22(pid=2715,tid=2523) : LExecutorService (V) : worker awake (10,7) : [LINE] #5 
+2015-08-24 15:35:22(pid=2715,tid=2523) : LExecutorService (D) : run : FWorker
+2015-08-24 15:35:22(pid=2715,tid=2523) : LExecutorService (V) : f worker start (1) : [LINE] #5 FWorker 
+2015-08-24 15:35:22(pid=2715,tid=2523) : LExecutorService (D) : run : djn
+2015-08-24 15:35:22(pid=2715,tid=2523) : LExecutorService (V) : f worker end (0) : [LINE] #5 FWorker 
+2015-08-24 15:35:22(pid=2715,tid=2523) : LExecutorService (V) : worker wait (10,8) : [LINE] #5 
