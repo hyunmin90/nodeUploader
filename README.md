@@ -1,13 +1,13 @@
 # nodeUploader
 
-##Use brew install
+######Use brew install
 
 brew install mongodb
 
-## use npm to install dependencies
+######Use npm to install dependencies
 
 npm install
 
-##Run
+######Run
 
 ./bin/www
