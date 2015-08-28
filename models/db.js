@@ -1,6 +1,7 @@
 var mongoose = require('mongoose');  
 var logSchema = new mongoose.Schema({  
   uuid: String,
+  fileName:String,
   logDate: String,
   logTime: String,
   logPid: String,

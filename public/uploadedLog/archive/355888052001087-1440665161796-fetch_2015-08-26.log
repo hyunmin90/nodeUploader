@@ -1,0 +1,94 @@
+2015-08-26 21:17:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=20:57:27, lastDisconnectedTime=null, currentTime=21:17:23
+2015-08-26 21:17:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 21:17:25(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=21:17:23, lastDisconnectedTime=null, currentTime=21:17:25
+2015-08-26 21:17:25(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 21:17:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=21:17:25, lastDisconnectedTime=null, currentTime=21:17:26
+2015-08-26 21:17:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 21:17:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=21:17:26, lastDisconnectedTime=null, currentTime=21:17:27
+2015-08-26 21:17:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 21:17:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=21:17:27, lastDisconnectedTime=null, currentTime=21:17:27
+2015-08-26 21:17:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 21:37:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=21:17:27, lastDisconnectedTime=null, currentTime=21:37:23
+2015-08-26 21:37:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 21:37:24(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=21:37:23, lastDisconnectedTime=null, currentTime=21:37:24
+2015-08-26 21:37:24(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 21:37:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=21:37:24, lastDisconnectedTime=null, currentTime=21:37:26
+2015-08-26 21:37:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 21:37:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=21:37:26, lastDisconnectedTime=null, currentTime=21:37:27
+2015-08-26 21:37:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 21:37:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=21:37:27, lastDisconnectedTime=null, currentTime=21:37:27
+2015-08-26 21:37:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 21:52:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=21:37:27, lastDisconnectedTime=null, currentTime=21:52:23
+2015-08-26 21:52:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 21:52:24(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=21:52:23, lastDisconnectedTime=null, currentTime=21:52:24
+2015-08-26 21:52:24(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 21:52:25(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=21:52:24, lastDisconnectedTime=null, currentTime=21:52:25
+2015-08-26 21:52:25(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 21:52:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=21:52:25, lastDisconnectedTime=null, currentTime=21:52:26
+2015-08-26 21:52:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 21:52:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=21:52:26, lastDisconnectedTime=null, currentTime=21:52:27
+2015-08-26 21:52:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 22:12:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=21:52:27, lastDisconnectedTime=null, currentTime=22:12:23
+2015-08-26 22:12:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 22:12:24(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=22:12:23, lastDisconnectedTime=null, currentTime=22:12:24
+2015-08-26 22:12:24(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 22:12:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=22:12:24, lastDisconnectedTime=null, currentTime=22:12:26
+2015-08-26 22:12:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 22:12:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=22:12:26, lastDisconnectedTime=null, currentTime=22:12:26
+2015-08-26 22:12:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 22:12:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=22:12:26, lastDisconnectedTime=null, currentTime=22:12:27
+2015-08-26 22:12:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 22:32:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=22:12:27, lastDisconnectedTime=null, currentTime=22:32:23
+2015-08-26 22:32:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 22:32:25(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=22:32:23, lastDisconnectedTime=null, currentTime=22:32:25
+2015-08-26 22:32:25(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 22:32:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=22:32:25, lastDisconnectedTime=null, currentTime=22:32:26
+2015-08-26 22:32:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 22:32:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=22:32:26, lastDisconnectedTime=null, currentTime=22:32:26
+2015-08-26 22:32:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 22:32:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=22:32:26, lastDisconnectedTime=null, currentTime=22:32:27
+2015-08-26 22:32:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 22:52:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=22:32:27, lastDisconnectedTime=null, currentTime=22:52:23
+2015-08-26 22:52:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 22:52:25(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=22:52:23, lastDisconnectedTime=null, currentTime=22:52:25
+2015-08-26 22:52:25(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 22:52:25(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=22:52:25, lastDisconnectedTime=null, currentTime=22:52:25
+2015-08-26 22:52:25(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 22:52:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=22:52:25, lastDisconnectedTime=null, currentTime=22:52:27
+2015-08-26 22:52:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 22:52:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=22:52:27, lastDisconnectedTime=null, currentTime=22:52:27
+2015-08-26 22:52:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:07:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=22:52:27, lastDisconnectedTime=null, currentTime=23:07:23
+2015-08-26 23:07:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:07:24(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:07:23, lastDisconnectedTime=null, currentTime=23:07:24
+2015-08-26 23:07:24(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:07:28(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:07:24, lastDisconnectedTime=null, currentTime=23:07:28
+2015-08-26 23:07:28(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:07:28(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:07:28, lastDisconnectedTime=null, currentTime=23:07:28
+2015-08-26 23:07:28(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:07:29(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:07:28, lastDisconnectedTime=null, currentTime=23:07:29
+2015-08-26 23:07:29(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:17:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:07:29, lastDisconnectedTime=null, currentTime=23:17:23
+2015-08-26 23:17:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:17:24(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:17:23, lastDisconnectedTime=null, currentTime=23:17:24
+2015-08-26 23:17:24(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:17:28(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:17:24, lastDisconnectedTime=null, currentTime=23:17:28
+2015-08-26 23:17:28(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:17:29(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:17:28, lastDisconnectedTime=null, currentTime=23:17:29
+2015-08-26 23:17:29(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:17:30(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:17:29, lastDisconnectedTime=null, currentTime=23:17:30
+2015-08-26 23:17:30(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:32:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:17:30, lastDisconnectedTime=null, currentTime=23:32:23
+2015-08-26 23:32:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:32:24(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:32:23, lastDisconnectedTime=null, currentTime=23:32:24
+2015-08-26 23:32:24(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:32:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:32:24, lastDisconnectedTime=null, currentTime=23:32:26
+2015-08-26 23:32:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:32:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:32:26, lastDisconnectedTime=null, currentTime=23:32:26
+2015-08-26 23:32:26(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:32:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:32:26, lastDisconnectedTime=null, currentTime=23:32:27
+2015-08-26 23:32:27(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:52:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:32:27, lastDisconnectedTime=null, currentTime=23:52:23
+2015-08-26 23:52:23(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.
+2015-08-26 23:52:24(pid=5705,tid=1) : FetchOp.Scheduler (D) : [# onConnected] lastConnectedTime=23:52:23, lastDisconnectedTime=null, currentTime=23:52:24
+2015-08-26 23:52:24(pid=5705,tid=1) : FetchOp.Scheduler (D) : FetchOp was not available.

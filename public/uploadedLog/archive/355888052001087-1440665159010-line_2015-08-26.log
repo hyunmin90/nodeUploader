@@ -1,0 +1,294 @@
+2015-08-26 20:57:27(pid=5705,tid=29502) : LExecutorService (V) : worker wait (8,8) : [LINE] #7 
+2015-08-26 21:17:23(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:17:23(pid=5705,tid=29497) : LExecutorService (V) : worker awake (8,7) : [LINE] #4 
+2015-08-26 21:17:23(pid=5705,tid=29497) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:17:23(pid=5705,tid=29497) : LExecutorService (V) : worker wait (8,8) : [LINE] #4 
+2015-08-26 21:17:25(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:17:25(pid=5705,tid=29498) : LExecutorService (V) : worker awake (8,7) : [LINE] #5 
+2015-08-26 21:17:25(pid=5705,tid=29498) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:17:25(pid=5705,tid=29498) : LExecutorService (V) : worker wait (8,8) : [LINE] #5 
+2015-08-26 21:17:26(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:17:26(pid=5705,tid=29503) : LExecutorService (V) : worker awake (8,7) : [LINE] #8 
+2015-08-26 21:17:26(pid=5705,tid=29503) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:17:26(pid=5705,tid=29503) : LExecutorService (V) : worker wait (8,8) : [LINE] #8 
+2015-08-26 21:17:27(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:17:27(pid=5705,tid=29490) : LExecutorService (V) : worker awake (8,7) : [LINE] #1 
+2015-08-26 21:17:27(pid=5705,tid=29490) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:17:27(pid=5705,tid=29490) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 21:17:27(pid=5705,tid=29490) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 21:17:27(pid=5705,tid=29500) : LExecutorService (V) : worker awake (8,6) : [LINE] #6 
+2015-08-26 21:17:27(pid=5705,tid=29500) : LExecutorService (V) : worker wait (8,7) : [LINE] #6 
+2015-08-26 21:17:27(pid=5705,tid=29490) : LExecutorService (V) : worker wait (8,8) : [LINE] #1 
+2015-08-26 21:17:27(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:17:27(pid=5705,tid=29496) : LExecutorService (V) : worker awake (8,7) : [LINE] #3 
+2015-08-26 21:17:27(pid=5705,tid=29496) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:17:27(pid=5705,tid=29496) : LExecutorService (V) : worker wait (8,8) : [LINE] #3 
+2015-08-26 21:37:23(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:37:23(pid=5705,tid=29495) : LExecutorService (V) : worker awake (8,7) : [LINE] #2 
+2015-08-26 21:37:23(pid=5705,tid=29495) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:37:23(pid=5705,tid=29495) : LExecutorService (V) : worker wait (8,8) : [LINE] #2 
+2015-08-26 21:37:23(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.thrift.client.AuthErrorChecker$1
+2015-08-26 21:37:23(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-26 21:37:23(pid=5705,tid=29502) : LExecutorService (V) : worker awake (8,7) : [LINE] #7 
+2015-08-26 21:37:23(pid=5705,tid=29502) : LExecutorService (D) : run : FWorker
+2015-08-26 21:37:23(pid=5705,tid=29502) : LExecutorService (V) : f worker start (1) : [LINE] #7 FWorker 
+2015-08-26 21:37:23(pid=5705,tid=29502) : LExecutorService (D) : run : jp.naver.line.android.thrift.client.AuthErrorChecker$1
+2015-08-26 21:37:23(pid=5705,tid=29502) : LExecutorService (V) : f worker end (0) : [LINE] #7 FWorker 
+2015-08-26 21:37:23(pid=5705,tid=29502) : LExecutorService (V) : worker wait (8,8) : [LINE] #7 
+2015-08-26 21:37:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:37:24(pid=5705,tid=29497) : LExecutorService (V) : worker awake (8,7) : [LINE] #4 
+2015-08-26 21:37:24(pid=5705,tid=29497) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:37:24(pid=5705,tid=29497) : LExecutorService (V) : worker wait (8,8) : [LINE] #4 
+2015-08-26 21:37:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 21:37:24(pid=5705,tid=29498) : LExecutorService (V) : worker awake (8,7) : [LINE] #5 
+2015-08-26 21:37:24(pid=5705,tid=29498) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 21:37:24(pid=5705,tid=29498) : LExecutorService (V) : worker wait (8,8) : [LINE] #5 
+2015-08-26 21:37:26(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:37:26(pid=5705,tid=29503) : LExecutorService (V) : worker awake (8,7) : [LINE] #8 
+2015-08-26 21:37:26(pid=5705,tid=29503) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:37:26(pid=5705,tid=29503) : LExecutorService (V) : worker wait (8,8) : [LINE] #8 
+2015-08-26 21:37:27(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:37:27(pid=5705,tid=29500) : LExecutorService (V) : worker awake (8,7) : [LINE] #6 
+2015-08-26 21:37:27(pid=5705,tid=29500) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:37:27(pid=5705,tid=29500) : LExecutorService (V) : worker wait (8,8) : [LINE] #6 
+2015-08-26 21:37:27(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:37:27(pid=5705,tid=29490) : LExecutorService (V) : worker awake (8,7) : [LINE] #1 
+2015-08-26 21:37:27(pid=5705,tid=29490) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:37:27(pid=5705,tid=29490) : LExecutorService (V) : worker wait (8,8) : [LINE] #1 
+2015-08-26 21:52:23(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:52:23(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 21:52:23(pid=5705,tid=29496) : LExecutorService (V) : worker awake (8,7) : [LINE] #3 
+2015-08-26 21:52:23(pid=5705,tid=29496) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 21:52:23(pid=5705,tid=29495) : LExecutorService (V) : worker awake (8,6) : [LINE] #2 
+2015-08-26 21:52:23(pid=5705,tid=29495) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:52:23(pid=5705,tid=29495) : LExecutorService (V) : worker wait (8,7) : [LINE] #2 
+2015-08-26 21:52:23(pid=5705,tid=29496) : LExecutorService (V) : worker wait (8,8) : [LINE] #3 
+2015-08-26 21:52:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:52:24(pid=5705,tid=29502) : LExecutorService (V) : worker awake (8,7) : [LINE] #7 
+2015-08-26 21:52:24(pid=5705,tid=29502) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:52:24(pid=5705,tid=29502) : LExecutorService (V) : worker wait (8,8) : [LINE] #7 
+2015-08-26 21:52:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.LineExecutorFutureTask
+2015-08-26 21:52:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-26 21:52:24(pid=5705,tid=29497) : LExecutorService (V) : worker awake (8,7) : [LINE] #4 
+2015-08-26 21:52:24(pid=5705,tid=29497) : LExecutorService (D) : run : FWorker
+2015-08-26 21:52:24(pid=5705,tid=29497) : LExecutorService (V) : f worker start (1) : [LINE] #4 FWorker 
+2015-08-26 21:52:24(pid=5705,tid=29497) : LExecutorService (D) : run : jp.naver.line.android.analytics.AnalyticsLogWriter$1
+2015-08-26 21:52:24(pid=5705,tid=29497) : LExecutorService (D) : execute : jp.naver.line.android.analytics.AnalyticsLogWriter$DeleteFileTask
+2015-08-26 21:52:24(pid=5705,tid=29497) : LExecutorService (D) : run : jp.naver.line.android.analytics.AnalyticsLogWriter$DeleteFileTask
+2015-08-26 21:52:24(pid=5705,tid=29497) : LExecutorService (V) : f worker end (0) : [LINE] #4 FWorker 
+2015-08-26 21:52:24(pid=5705,tid=29497) : LExecutorService (V) : worker wait (8,8) : [LINE] #4 
+2015-08-26 21:52:25(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:52:25(pid=5705,tid=29498) : LExecutorService (V) : worker awake (8,7) : [LINE] #5 
+2015-08-26 21:52:25(pid=5705,tid=29498) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:52:25(pid=5705,tid=29498) : LExecutorService (V) : worker wait (8,8) : [LINE] #5 
+2015-08-26 21:52:26(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:52:26(pid=5705,tid=29503) : LExecutorService (V) : worker awake (8,7) : [LINE] #8 
+2015-08-26 21:52:26(pid=5705,tid=29503) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:52:26(pid=5705,tid=29503) : LExecutorService (V) : worker wait (8,8) : [LINE] #8 
+2015-08-26 21:52:26(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 21:52:26(pid=5705,tid=29500) : LExecutorService (V) : worker awake (8,7) : [LINE] #6 
+2015-08-26 21:52:26(pid=5705,tid=29500) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 21:52:26(pid=5705,tid=29500) : LExecutorService (V) : worker wait (8,8) : [LINE] #6 
+2015-08-26 21:52:27(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:52:27(pid=5705,tid=29490) : LExecutorService (V) : worker awake (8,7) : [LINE] #1 
+2015-08-26 21:52:27(pid=5705,tid=29490) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 21:52:27(pid=5705,tid=29490) : LExecutorService (V) : worker wait (8,8) : [LINE] #1 
+2015-08-26 22:12:23(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:12:23(pid=5705,tid=29495) : LExecutorService (V) : worker awake (8,7) : [LINE] #2 
+2015-08-26 22:12:23(pid=5705,tid=29495) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:12:23(pid=5705,tid=29495) : LExecutorService (V) : worker wait (8,8) : [LINE] #2 
+2015-08-26 22:12:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:12:24(pid=5705,tid=29496) : LExecutorService (V) : worker awake (8,7) : [LINE] #3 
+2015-08-26 22:12:24(pid=5705,tid=29496) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:12:24(pid=5705,tid=29496) : LExecutorService (V) : worker wait (8,8) : [LINE] #3 
+2015-08-26 22:12:26(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:12:26(pid=5705,tid=29502) : LExecutorService (V) : worker awake (8,7) : [LINE] #7 
+2015-08-26 22:12:26(pid=5705,tid=29502) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 22:12:26(pid=5705,tid=29502) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:12:26(pid=5705,tid=29502) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 22:12:26(pid=5705,tid=29497) : LExecutorService (V) : worker awake (8,6) : [LINE] #4 
+2015-08-26 22:12:26(pid=5705,tid=29497) : LExecutorService (V) : worker wait (8,7) : [LINE] #4 
+2015-08-26 22:12:26(pid=5705,tid=29502) : LExecutorService (V) : worker wait (8,8) : [LINE] #7 
+2015-08-26 22:12:26(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:12:26(pid=5705,tid=29498) : LExecutorService (V) : worker awake (8,7) : [LINE] #5 
+2015-08-26 22:12:26(pid=5705,tid=29498) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:12:26(pid=5705,tid=29498) : LExecutorService (V) : worker wait (8,8) : [LINE] #5 
+2015-08-26 22:12:27(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:12:27(pid=5705,tid=29503) : LExecutorService (V) : worker awake (8,7) : [LINE] #8 
+2015-08-26 22:12:27(pid=5705,tid=29503) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:12:27(pid=5705,tid=29503) : LExecutorService (V) : worker wait (8,8) : [LINE] #8 
+2015-08-26 22:32:23(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:32:23(pid=5705,tid=29500) : LExecutorService (V) : worker awake (8,7) : [LINE] #6 
+2015-08-26 22:32:23(pid=5705,tid=29500) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:32:23(pid=5705,tid=29500) : LExecutorService (V) : worker wait (8,8) : [LINE] #6 
+2015-08-26 22:32:25(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:32:25(pid=5705,tid=29490) : LExecutorService (V) : worker awake (8,7) : [LINE] #1 
+2015-08-26 22:32:25(pid=5705,tid=29490) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:32:25(pid=5705,tid=29490) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 22:32:25(pid=5705,tid=29490) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 22:32:25(pid=5705,tid=29495) : LExecutorService (V) : worker awake (8,6) : [LINE] #2 
+2015-08-26 22:32:25(pid=5705,tid=29495) : LExecutorService (V) : worker wait (8,7) : [LINE] #2 
+2015-08-26 22:32:25(pid=5705,tid=29490) : LExecutorService (V) : worker wait (8,8) : [LINE] #1 
+2015-08-26 22:32:26(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:32:26(pid=5705,tid=29496) : LExecutorService (V) : worker awake (8,7) : [LINE] #3 
+2015-08-26 22:32:26(pid=5705,tid=29496) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:32:26(pid=5705,tid=29496) : LExecutorService (V) : worker wait (8,8) : [LINE] #3 
+2015-08-26 22:32:26(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:32:26(pid=5705,tid=29497) : LExecutorService (V) : worker awake (8,7) : [LINE] #4 
+2015-08-26 22:32:26(pid=5705,tid=29497) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:32:26(pid=5705,tid=29497) : LExecutorService (V) : worker wait (8,8) : [LINE] #4 
+2015-08-26 22:32:27(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:32:27(pid=5705,tid=29502) : LExecutorService (V) : worker awake (8,7) : [LINE] #7 
+2015-08-26 22:32:27(pid=5705,tid=29502) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:32:27(pid=5705,tid=29502) : LExecutorService (V) : worker wait (8,8) : [LINE] #7 
+2015-08-26 22:52:23(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:52:23(pid=5705,tid=29498) : LExecutorService (V) : worker awake (8,7) : [LINE] #5 
+2015-08-26 22:52:23(pid=5705,tid=29498) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:52:23(pid=5705,tid=29498) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 22:52:23(pid=5705,tid=29503) : LExecutorService (V) : worker awake (8,6) : [LINE] #8 
+2015-08-26 22:52:23(pid=5705,tid=29498) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 22:52:23(pid=5705,tid=29503) : LExecutorService (V) : worker wait (8,7) : [LINE] #8 
+2015-08-26 22:52:23(pid=5705,tid=29498) : LExecutorService (V) : worker wait (8,8) : [LINE] #5 
+2015-08-26 22:52:25(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:52:25(pid=5705,tid=29500) : LExecutorService (V) : worker awake (8,7) : [LINE] #6 
+2015-08-26 22:52:25(pid=5705,tid=29500) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:52:25(pid=5705,tid=29500) : LExecutorService (V) : worker wait (8,8) : [LINE] #6 
+2015-08-26 22:52:25(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:52:25(pid=5705,tid=29495) : LExecutorService (V) : worker awake (8,7) : [LINE] #2 
+2015-08-26 22:52:25(pid=5705,tid=29495) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:52:25(pid=5705,tid=29495) : LExecutorService (V) : worker wait (8,8) : [LINE] #2 
+2015-08-26 22:52:27(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:52:27(pid=5705,tid=29490) : LExecutorService (V) : worker awake (8,7) : [LINE] #1 
+2015-08-26 22:52:27(pid=5705,tid=29490) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:52:27(pid=5705,tid=29490) : LExecutorService (V) : worker wait (8,8) : [LINE] #1 
+2015-08-26 22:52:27(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:52:27(pid=5705,tid=29496) : LExecutorService (V) : worker awake (8,7) : [LINE] #3 
+2015-08-26 22:52:27(pid=5705,tid=29496) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 22:52:27(pid=5705,tid=29496) : LExecutorService (V) : worker wait (8,8) : [LINE] #3 
+2015-08-26 22:52:27(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 22:52:27(pid=5705,tid=29497) : LExecutorService (V) : worker awake (8,7) : [LINE] #4 
+2015-08-26 22:52:27(pid=5705,tid=29497) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 22:52:27(pid=5705,tid=29497) : LExecutorService (V) : worker wait (8,8) : [LINE] #4 
+2015-08-26 23:07:23(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:07:23(pid=5705,tid=29502) : LExecutorService (V) : worker awake (8,7) : [LINE] #7 
+2015-08-26 23:07:23(pid=5705,tid=29502) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:07:23(pid=5705,tid=29502) : LExecutorService (V) : worker wait (8,8) : [LINE] #7 
+2015-08-26 23:07:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:07:24(pid=5705,tid=29503) : LExecutorService (V) : worker awake (8,7) : [LINE] #8 
+2015-08-26 23:07:24(pid=5705,tid=29503) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:07:24(pid=5705,tid=29503) : LExecutorService (V) : worker wait (8,8) : [LINE] #8 
+2015-08-26 23:07:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.thrift.client.AuthErrorChecker$1
+2015-08-26 23:07:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-26 23:07:24(pid=5705,tid=29498) : LExecutorService (V) : worker awake (8,7) : [LINE] #5 
+2015-08-26 23:07:24(pid=5705,tid=29498) : LExecutorService (D) : run : FWorker
+2015-08-26 23:07:24(pid=5705,tid=29498) : LExecutorService (V) : f worker start (1) : [LINE] #5 FWorker 
+2015-08-26 23:07:24(pid=5705,tid=29498) : LExecutorService (D) : run : jp.naver.line.android.thrift.client.AuthErrorChecker$1
+2015-08-26 23:07:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.status.UserStatusManager$1
+2015-08-26 23:07:24(pid=5705,tid=29498) : LExecutorService (V) : f worker end (0) : [LINE] #5 FWorker 
+2015-08-26 23:07:24(pid=5705,tid=29498) : LExecutorService (D) : run : jp.naver.line.android.status.UserStatusManager$1
+2015-08-26 23:07:24(pid=5705,tid=29500) : LExecutorService (V) : worker awake (8,6) : [LINE] #6 
+2015-08-26 23:07:24(pid=5705,tid=29500) : LExecutorService (V) : worker wait (8,7) : [LINE] #6 
+2015-08-26 23:07:24(pid=5705,tid=29498) : LExecutorService (V) : worker wait (8,8) : [LINE] #5 
+2015-08-26 23:07:28(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:07:28(pid=5705,tid=29495) : LExecutorService (V) : worker awake (8,7) : [LINE] #2 
+2015-08-26 23:07:28(pid=5705,tid=29495) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 23:07:28(pid=5705,tid=29490) : LExecutorService (V) : worker awake (8,6) : [LINE] #1 
+2015-08-26 23:07:28(pid=5705,tid=29495) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:07:28(pid=5705,tid=29490) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 23:07:28(pid=5705,tid=29495) : LExecutorService (V) : worker wait (8,7) : [LINE] #2 
+2015-08-26 23:07:28(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.LineExecutorFutureTask
+2015-08-26 23:07:28(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.util.FixedThreadPoolDecorator$FWorker
+2015-08-26 23:07:28(pid=5705,tid=29496) : LExecutorService (V) : worker awake (8,6) : [LINE] #3 
+2015-08-26 23:07:28(pid=5705,tid=29496) : LExecutorService (D) : run : FWorker
+2015-08-26 23:07:28(pid=5705,tid=29496) : LExecutorService (V) : f worker start (1) : [LINE] #3 FWorker 
+2015-08-26 23:07:28(pid=5705,tid=29496) : LExecutorService (D) : run : jp.naver.line.android.analytics.AnalyticsLogWriter$1
+2015-08-26 23:07:28(pid=5705,tid=29496) : LExecutorService (V) : f worker end (0) : [LINE] #3 FWorker 
+2015-08-26 23:07:28(pid=5705,tid=29496) : LExecutorService (V) : worker wait (8,7) : [LINE] #3 
+2015-08-26 23:07:28(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.status.UserStatusManager$1
+2015-08-26 23:07:28(pid=5705,tid=29497) : LExecutorService (V) : worker awake (8,6) : [LINE] #4 
+2015-08-26 23:07:28(pid=5705,tid=29497) : LExecutorService (D) : run : jp.naver.line.android.status.UserStatusManager$1
+2015-08-26 23:07:28(pid=5705,tid=29497) : LExecutorService (V) : worker wait (8,7) : [LINE] #4 
+2015-08-26 23:07:28(pid=5705,tid=29490) : LExecutorService (V) : worker wait (8,8) : [LINE] #1 
+2015-08-26 23:07:28(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:07:28(pid=5705,tid=29502) : LExecutorService (V) : worker awake (8,7) : [LINE] #7 
+2015-08-26 23:07:28(pid=5705,tid=29502) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:07:28(pid=5705,tid=29502) : LExecutorService (V) : worker wait (8,8) : [LINE] #7 
+2015-08-26 23:07:29(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:07:29(pid=5705,tid=29503) : LExecutorService (V) : worker awake (8,7) : [LINE] #8 
+2015-08-26 23:07:29(pid=5705,tid=29503) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:07:29(pid=5705,tid=29503) : LExecutorService (V) : worker wait (8,8) : [LINE] #8 
+2015-08-26 23:17:23(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:17:23(pid=5705,tid=29500) : LExecutorService (V) : worker awake (8,7) : [LINE] #6 
+2015-08-26 23:17:23(pid=5705,tid=29500) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:17:23(pid=5705,tid=29500) : LExecutorService (V) : worker wait (8,8) : [LINE] #6 
+2015-08-26 23:17:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:17:24(pid=5705,tid=29498) : LExecutorService (V) : worker awake (8,7) : [LINE] #5 
+2015-08-26 23:17:24(pid=5705,tid=29498) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:17:24(pid=5705,tid=29498) : LExecutorService (V) : worker wait (8,8) : [LINE] #5 
+2015-08-26 23:17:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 23:17:24(pid=5705,tid=29495) : LExecutorService (V) : worker awake (8,7) : [LINE] #2 
+2015-08-26 23:17:24(pid=5705,tid=29495) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 23:17:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.status.UserStatusManager$1
+2015-08-26 23:17:24(pid=5705,tid=29496) : LExecutorService (V) : worker awake (8,6) : [LINE] #3 
+2015-08-26 23:17:24(pid=5705,tid=29496) : LExecutorService (D) : run : jp.naver.line.android.status.UserStatusManager$1
+2015-08-26 23:17:24(pid=5705,tid=29496) : LExecutorService (V) : worker wait (8,7) : [LINE] #3 
+2015-08-26 23:17:24(pid=5705,tid=29495) : LExecutorService (V) : worker wait (8,8) : [LINE] #2 
+2015-08-26 23:17:28(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:17:28(pid=5705,tid=29497) : LExecutorService (V) : worker awake (8,7) : [LINE] #4 
+2015-08-26 23:17:28(pid=5705,tid=29497) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:17:28(pid=5705,tid=29497) : LExecutorService (V) : worker wait (8,8) : [LINE] #4 
+2015-08-26 23:17:28(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.status.UserStatusManager$1
+2015-08-26 23:17:28(pid=5705,tid=29490) : LExecutorService (V) : worker awake (8,7) : [LINE] #1 
+2015-08-26 23:17:28(pid=5705,tid=29490) : LExecutorService (D) : run : jp.naver.line.android.status.UserStatusManager$1
+2015-08-26 23:17:28(pid=5705,tid=29490) : LExecutorService (V) : worker wait (8,8) : [LINE] #1 
+2015-08-26 23:17:29(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:17:29(pid=5705,tid=29502) : LExecutorService (V) : worker awake (8,7) : [LINE] #7 
+2015-08-26 23:17:29(pid=5705,tid=29502) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:17:29(pid=5705,tid=29502) : LExecutorService (V) : worker wait (8,8) : [LINE] #7 
+2015-08-26 23:17:30(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:17:30(pid=5705,tid=29503) : LExecutorService (V) : worker awake (8,7) : [LINE] #8 
+2015-08-26 23:17:30(pid=5705,tid=29503) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:17:30(pid=5705,tid=29503) : LExecutorService (V) : worker wait (8,8) : [LINE] #8 
+2015-08-26 23:17:31(pid=5705,tid=29548) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 23:17:31(pid=5705,tid=29500) : LExecutorService (V) : worker awake (8,7) : [LINE] #6 
+2015-08-26 23:17:31(pid=5705,tid=29500) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 23:17:31(pid=5705,tid=29500) : LExecutorService (V) : worker wait (8,8) : [LINE] #6 
+2015-08-26 23:32:23(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:32:23(pid=5705,tid=29498) : LExecutorService (V) : worker awake (8,7) : [LINE] #5 
+2015-08-26 23:32:23(pid=5705,tid=29498) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:32:23(pid=5705,tid=29498) : LExecutorService (V) : worker wait (8,8) : [LINE] #5 
+2015-08-26 23:32:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:32:24(pid=5705,tid=29496) : LExecutorService (V) : worker awake (8,7) : [LINE] #3 
+2015-08-26 23:32:24(pid=5705,tid=29496) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:32:24(pid=5705,tid=29496) : LExecutorService (V) : worker wait (8,8) : [LINE] #3 
+2015-08-26 23:32:26(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:32:26(pid=5705,tid=29495) : LExecutorService (V) : worker awake (8,7) : [LINE] #2 
+2015-08-26 23:32:26(pid=5705,tid=29495) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:32:26(pid=5705,tid=29495) : LExecutorService (V) : worker wait (8,8) : [LINE] #2 
+2015-08-26 23:32:26(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:32:26(pid=5705,tid=29497) : LExecutorService (V) : worker awake (8,7) : [LINE] #4 
+2015-08-26 23:32:26(pid=5705,tid=29497) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:32:26(pid=5705,tid=29497) : LExecutorService (V) : worker wait (8,8) : [LINE] #4 
+2015-08-26 23:32:26(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 23:32:26(pid=5705,tid=29490) : LExecutorService (V) : worker awake (8,7) : [LINE] #1 
+2015-08-26 23:32:26(pid=5705,tid=29490) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 23:32:26(pid=5705,tid=29490) : LExecutorService (V) : worker wait (8,8) : [LINE] #1 
+2015-08-26 23:32:27(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:32:27(pid=5705,tid=29502) : LExecutorService (V) : worker awake (8,7) : [LINE] #7 
+2015-08-26 23:32:27(pid=5705,tid=29502) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:32:27(pid=5705,tid=29502) : LExecutorService (V) : worker wait (8,8) : [LINE] #7 
+2015-08-26 23:52:23(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:52:23(pid=5705,tid=29503) : LExecutorService (V) : worker awake (8,7) : [LINE] #8 
+2015-08-26 23:52:23(pid=5705,tid=29503) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:52:23(pid=5705,tid=29503) : LExecutorService (V) : worker wait (8,8) : [LINE] #8 
+2015-08-26 23:52:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:52:24(pid=5705,tid=29500) : LExecutorService (V) : worker awake (8,7) : [LINE] #6 
+2015-08-26 23:52:24(pid=5705,tid=29500) : LExecutorService (D) : run : jp.naver.line.android.activity.chathistory.ChatCheckedQueue$1
+2015-08-26 23:52:24(pid=5705,tid=29500) : LExecutorService (V) : worker wait (8,8) : [LINE] #6 
+2015-08-26 23:52:24(pid=5705,tid=1) : LExecutorService (D) : execute : jp.naver.line.android.status.UserStatusManager$1
+2015-08-26 23:52:24(pid=5705,tid=29498) : LExecutorService (V) : worker awake (8,7) : [LINE] #5 
+2015-08-26 23:52:24(pid=5705,tid=29498) : LExecutorService (D) : run : jp.naver.line.android.status.UserStatusManager$1
+2015-08-26 23:52:24(pid=5705,tid=29498) : LExecutorService (V) : worker wait (8,8) : [LINE] #5 
+2015-08-26 23:52:25(pid=5705,tid=29548) : LExecutorService (D) : execute : jp.naver.line.android.debug.LineLogger$FileLogTask
+2015-08-26 23:52:25(pid=5705,tid=29496) : LExecutorService (V) : worker awake (8,7) : [LINE] #3 
+2015-08-26 23:52:25(pid=5705,tid=29496) : LExecutorService (D) : run : jp.naver.line.android.debug.LineLogger$FileLogTask

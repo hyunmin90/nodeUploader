@@ -160,6 +160,7 @@ var testRecursive = function(path)
 
              var log = Log.log({
                 uuid: uuid,
+                fileName:path[counter],
                 logDate: globalArray[0],
                 logTime: dateAndPid[0],
                 logPid: pid[1],
@@ -200,8 +201,11 @@ var testRecursive = function(path)
       console.log(numAffected);
     }
 
-
-    console.log("I read line with file number"+counter);
+    var source = fs.createReadStream("./public/uploadedLog/"+path[counter]);
+    var dest = fs.createWriteStream("./public/uploadedLog/archive/"+path[counter]);
+    source.pipe(dest);
+    source.on('end', function() { /* copied */ });
+    source.on('error', function(err) { /* error */ });
     fs.unlinkSync("./public/uploadedLog/"+path[counter]);
     counter++;
 

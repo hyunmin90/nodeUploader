@@ -1,0 +1,291 @@
+2015-08-26 20:57:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 20:57:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 20:57:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 20:57:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:17:23(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 21:17:23(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:17:23(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:17:23(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:17:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:17:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:17:25(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 21:17:25(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:17:25(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 21:17:25(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:17:26(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 21:17:26(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:17:26(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:17:26(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:17:26(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:17:26(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:17:27(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 21:17:27(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:17:27(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=DISCONNECTED	 /subType=LTE
+2015-08-26 21:17:27(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:17:27(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:17:27(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:17:27(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 21:17:27(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:17:27(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:17:27(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:17:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:17:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:17:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:17:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:37:23(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 21:37:23(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:37:23(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:37:23(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:37:24(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 21:37:24(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:37:24(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 21:37:24(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:37:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:37:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:37:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:37:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:37:26(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 21:37:26(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:37:26(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:37:26(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:37:27(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 21:37:27(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:37:27(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=DISCONNECTED	 /subType=LTE
+2015-08-26 21:37:27(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:37:27(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:37:27(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:37:27(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 21:37:27(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:37:27(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:37:27(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:37:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:37:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:37:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:37:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:52:23(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 21:52:23(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:52:23(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:52:23(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:52:24(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 21:52:24(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:52:24(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 21:52:24(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:52:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:52:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:52:25(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 21:52:25(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:52:25(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:52:25(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:52:26(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:52:26(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:52:26(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 21:52:26(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:52:26(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=DISCONNECTED	 /subType=LTE
+2015-08-26 21:52:26(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:52:27(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:52:27(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:52:27(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 21:52:27(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:52:27(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:52:27(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 21:52:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:52:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:52:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 21:52:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:12:23(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 22:12:23(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:12:23(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:12:23(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:12:24(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 22:12:24(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:12:24(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 22:12:24(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:12:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:12:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:12:26(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 22:12:26(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:12:26(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:12:26(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:12:26(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:12:26(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:12:26(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 22:12:26(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:12:26(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=DISCONNECTED	 /subType=LTE
+2015-08-26 22:12:26(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:12:27(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 22:12:27(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:12:27(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:12:27(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:12:27(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:12:27(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:12:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:12:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:12:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:12:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:32:23(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 22:32:23(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:32:23(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:32:23(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:32:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:32:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:32:25(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 22:32:25(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:32:25(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 22:32:25(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:32:26(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 22:32:26(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:32:26(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:32:26(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:32:26(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:32:26(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:32:26(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 22:32:26(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:32:26(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=DISCONNECTED	 /subType=LTE
+2015-08-26 22:32:26(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:32:27(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 22:32:27(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:32:27(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:32:27(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:32:27(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:32:27(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:32:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:32:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:32:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:32:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:52:23(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 22:52:23(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:52:23(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:52:23(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:52:25(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 22:52:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:52:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:52:25(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:52:25(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 22:52:25(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:52:25(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 22:52:25(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:52:25(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:52:25(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:52:26(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:52:26(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:52:27(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 22:52:27(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:52:27(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=DISCONNECTED	 /subType=LTE
+2015-08-26 22:52:27(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:52:27(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:52:27(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:52:27(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 22:52:27(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:52:27(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:52:27(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 22:52:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:52:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:52:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 22:52:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:07:23(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:07:23(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:07:23(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: , BSSID: null, Supplicant state: SCANNING, RSSI: -200, Link speed: -1, Net ID: -1, Metered hint: false, mFrequency: -1
+2015-08-26 23:07:23(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 23:07:24(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:07:24(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:07:24(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 23:07:24(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 23:07:24(pid=5705,tid=1) : LineNotification (D) : #cc# @@ CHANGED @@ .networkInfo = NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 23:07:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:07:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:07:26(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:07:26(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:07:28(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:07:28(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 23:07:28(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:07:28(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:07:28(pid=5705,tid=1) : LineNotification (D) : #cc# @@ CHANGED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:07:28(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:07:28(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:07:28(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=DISCONNECTED	 /subType=LTE
+2015-08-26 23:07:28(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:07:29(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:07:29(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:07:29(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:07:29(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:07:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:07:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:07:30(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:07:30(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:07:30(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:07:30(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:17:23(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:17:23(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:17:23(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: , BSSID: null, Supplicant state: SCANNING, RSSI: -200, Link speed: -1, Net ID: -1, Metered hint: false, mFrequency: -1
+2015-08-26 23:17:23(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 23:17:24(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:17:24(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:17:24(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 23:17:24(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 23:17:24(pid=5705,tid=1) : LineNotification (D) : #cc# @@ CHANGED @@ .networkInfo = NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 23:17:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:17:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:17:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:17:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:17:28(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:17:28(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 23:17:28(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:17:28(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:17:28(pid=5705,tid=1) : LineNotification (D) : #cc# @@ CHANGED @@ .networkInfo = NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:17:29(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:17:29(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:17:29(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=DISCONNECTED	 /subType=LTE
+2015-08-26 23:17:29(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:17:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:17:29(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:17:30(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:17:30(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:17:30(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:17:30(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:17:30(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:17:30(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:17:31(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:17:31(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:32:23(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:32:23(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:32:23(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:32:23(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:32:24(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:32:24(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:32:24(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 23:32:24(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:32:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:32:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:32:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:32:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:32:26(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:32:26(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:32:26(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:32:26(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:32:26(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:32:26(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:32:26(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=DISCONNECTED	 /subType=LTE
+2015-08-26 23:32:26(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:32:27(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:32:27(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:32:27(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:32:27(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:32:27(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:32:27(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:32:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:32:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:32:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:32:28(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:52:23(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:52:23(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:52:23(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_WIFI	 /networkState=DISCONNECTED	 /subType=WIFI	 /wifiInfo.SSID: , BSSID: null, Supplicant state: SCANNING, RSSI: -200, Link speed: -1, Net ID: -1, Metered hint: false, mFrequency: -1
+2015-08-26 23:52:23(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 23:52:24(pid=5705,tid=1) : LineNotification (D) :    # System.onReceive.action=android.net.conn.CONNECTIVITY_CHANGE
+2015-08-26 23:52:24(pid=5705,tid=1) : LineNotification (D) : #cc#  current   : NETWORK_WIFI	 /networkState=CONNECTED	 /subType=WIFI	 /wifiInfo.SSID: "LinePlusui-iMac-76", BSSID: 7c:c3:a1:a7:5b:7b, Supplicant state: COMPLETED, RSSI: -200, Link speed: -1, Net ID: 3, Metered hint: false, mFrequency: 2462
+2015-08-26 23:52:24(pid=5705,tid=1) : LineNotification (D) : #cc#  - receive : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 23:52:24(pid=5705,tid=1) : LineNotification (D) : #cc#  -- active : NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 23:52:24(pid=5705,tid=1) : LineNotification (D) : #cc# @@ CHANGED @@ .networkInfo = NETWORK_4G	 /networkState=CONNECTED	 /subType=LTE
+2015-08-26 23:52:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:52:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:52:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
+2015-08-26 23:52:25(pid=5705,tid=29548) : PushManager (D) : @_@ checkNeedReigster.true - status = READY
