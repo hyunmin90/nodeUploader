@@ -47,4 +47,9 @@ This is straight from the log file. My server will save DATES, PID, Tid, Process
 , and content of this log. This will be acheived through log parsing logic implemented.
 
 
-Take a look at https://github.com/hyunmin90/androidLineLogCollector for Android app t
+Take a look at https://github.com/hyunmin90/androidLineLogCollector for Android app that upload all of the log it possess at the directory given.
+
+#### Notice
+
+This is at very early stage of development.
+Bug reporting and feedback will be appreciated.
