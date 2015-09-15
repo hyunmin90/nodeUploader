@@ -14,3 +14,6 @@ npm install
 ####Run
 
 ./bin/www
+
+
+####What this is about? 
